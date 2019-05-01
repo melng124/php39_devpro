@@ -1,0 +1,345 @@
+/*include file css*/
+@import url('normalize.css');
+
+/*CSS for BT2*/
+.bt2 {
+    background: #d8da3d;
+    color: #800080;
+    padding: 10px;
+}
+
+.bt2 a {
+    text-decoration: none;
+}
+
+/*CSS for BT3*/
+.bt3 {
+    padding: 10px;
+}
+
+.bt3 a {
+    color: #654d99;
+}
+
+.bt3 input {
+    margin-bottom: 8px;
+}
+
+.bt3 p {
+    margin-bottom: 5px;
+}
+
+.bt3 input[type='submit'] {
+    background: #c2c2c2;
+}
+
+/*CSS for BT4*/
+.bt4 #main-content {
+    background: #ccccff;
+    padding: 20px;
+    max-width: 40%;
+    margin: auto;
+}
+
+.bt4 h1 {
+    margin: 0;
+}
+
+.bt4 .element {
+    text-indent: 25px;
+}
+
+.bt4 .bold {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bt4 .color1 {
+    color: #590500;
+}
+
+.bt4 .color2 {
+    color: #00006c;
+}
+
+.bt4 .description {
+    display: block;
+    text-indent: 50px;
+}
+
+.bt4 .border {
+    border: 3px dashed #000;
+    padding: 10px;
+}
+
+/*CSS for BT6*/
+.bt6 {
+    padding: 10px;
+}
+
+.bt6 .shadow {
+    text-shadow: -3px -4px 4px #000;
+    font-family: monospace;
+    color: #bc3112;
+    font-size: 40px;
+}
+
+/*CSS for BT7*/
+.bt8 thead tr {
+    background: #cccccc;
+}
+
+.bt8 .old {
+    background: #a7dd15;
+}
+
+/*CSS for BT9*/
+.bt9 .bold {
+    font-weight: bold;
+}
+
+.bt9 .color-bold {
+    color: #234d97;
+}
+
+.bt9 .color-normal {
+    color: #6a90c1;
+}
+
+.bt9 .background {
+    background: #eaeaea;
+}
+
+/*CSS fot BT11*/
+.bt11 #main {
+    background: #a9d8d2;
+    padding: 10px;
+}
+
+.bt11 .center {
+    text-align: center;
+}
+
+.bt11 form {
+    width: 70%;
+    margin: auto;
+}
+.bt11 table{
+    width: 100%;
+}
+.bt11 table, .bt11 select{
+    color: #928e8e;
+}
+.bt11 table{
+    background: #fff;
+    padding: 30px 15px;
+}
+.bt11 .right{
+    text-align: right;
+}
+.bt11 td{
+    width: 50%;
+}
+.bt11 input, .bt11 select{
+    padding: 4px;
+    border: 1px solid #c5bfbf;
+}
+.bt11 input[type=text]{
+    width: 70%;
+}
+.bt11 input[type=radio], .bt11 input[type=checkbox]{
+    margin-bottom: 5px;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+.bt11 input[type=submit]{
+    background: #59ace0;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*CSS for BT12*/
+.bt12 .col3{
+    width: 33.33%;
+    float: left;
+}
+.bt12 .row{
+    display: table;
+    padding: 30px;
+}
+.bt12 p{
+    padding: 0 20px;
+}
+
+/*CSS for BT13*/
+.bt13 .fixed{
+    position: fixed;
+    bottom: 0;
+    background: red;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+}
+/*CSS for BT14*/
+.bt14 button{
+    background: #418bca;
+    padding: 15px 40px;;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 15px;
+    border: 1px solid #fff;
+}
+
+/*CSS for BT15*/
+.bt15 img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+/*CSS for BT16*/
+.bt16 .menu{
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+    background: #008000;
+}
+.bt16 .menu li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.bt16 .active{
+    position: relative;
+}
+.bt16 .menu li a{
+    color: #fff;
+    text-decoration: none;
+}
+.bt16 .hide{
+    display: none;
+    position: absolute;
+    left: -10px;
+    padding: 15px 0;
+}
+.bt16 .hide li{
+    margin-top: 15px;
+}
+.bt16 .menu li.active:hover .hide{
+    display: block;
+}
+.bt16 .menu li.active:hover .text-active{
+    color: #fca200;
+}
+
+/*CSS for BT17*/
+.bt17 .full-container{
+    max-width: 80%;
+    margin: auto;
+}
+.bt17 #banner{
+    background: #333333;
+    padding: 5px 0;
+}
+.bt17 #banner img{
+    vertical-align: middle;
+}
+.bt17 #navigation ul{
+    list-style: none;
+    background: #666666;
+    margin: 0;
+    padding-left: 0;
+}
+.bt17 #navigation ul li{
+    display: inline-block;
+    border-right: 1px solid #333333;
+    padding: 10px 15px;
+}
+.bt17 #navigation ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.bt17 .main-left{
+    width: 70%;
+    float: left;
+}
+.bt17 .main-right{
+     width: 30%;
+     float: left;
+ }
+.bt17 .content-wrap{
+    padding: 20px;
+}
+.bt17 .wrap-avatar{
+    display: table-cell;
+    padding-right: 20px;
+}
+.bt17 .content-heading{
+    font-size: 26px;
+    margin: 0;
+}
+.bt17 .content-description{
+    line-height: 1.5;
+    margin-top: 5px;
+    color: #7b7777;
+}
+.bt17 .color{
+    color: #ee883f;
+    font-size: 14px;
+    font-weight: bold;
+}
+.bt17 .content-readmore{
+    text-decoration: none;
+}
+.bt17 .content-item{
+    display: table;
+}
+.bt17 .content-post{
+    vertical-align: top;
+    display: table-cell;
+}
+.bt17 hr{
+    margin: 40px 0;
+    border-top: 1px solid #efe6e6;
+}
+.bt17 #main{
+    display: table;
+    width: 100%;
+}
+.bt17 .main-left, .bt17 .main-right{
+    padding-top: 20px;
+}
+.bt17 .main-right{
+    background: #e5e5e5;
+    min-height: 600px;
+}
+.bt17 .mainright-wrap{
+    padding: 0 15px;
+}
+.bt17 .mainright-wrap h2{
+    border-bottom: 1px solid #d0c5c5;
+    padding-bottom: 15px;
+}
+a{
+    text-decoration: none;
+}
+.bt17 .mainright-wrap ul {
+    padding-left: 10px;
+    list-style: none;
+}
+.bt17 .mainright-wrap ul li
+{
+    margin-bottom: 8px;
+}
+.bt17 .mainright-wrap ul li a{
+    font-weight: normal;
+}
+.bt17 #footer{
+    padding: 10px;
+    background: #333333;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
