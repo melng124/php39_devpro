@@ -1,0 +1,12 @@
+table{
+    border: 1px solid;
+}
+b{
+    color: #6e9ac2;
+}
+.a{
+    color: #4196da;
+}
+.b>b{
+    color: #477bca;
+  }

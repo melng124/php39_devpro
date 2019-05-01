@@ -1,0 +1,31 @@
+div{
+    background: #ccccff;
+    padding: 20px;
+    margin: 50px 300px;
+}
+.class0{
+    font-size: 50px;
+    font-family: "Arial Black";
+}
+.class1{
+    color:#550000;
+    font-size: 25px;
+    font-weight: bold;
+}
+.class2{
+    color:#000055;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.class3{
+    color:#000055;
+    font-size: 25px;
+    font-weight: bold;
+}
+.class4{
+    color:#550000;
+    font-size: 20px;
+    margin-left: 50px;
+}
+div div
+{margin-left:0px; margin-right:0px; border-style: dashed}

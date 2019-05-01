@@ -1,0 +1,7 @@
+#main-content {
+    display: grid;
+    /*3 lan 400px tuong trung cho 3 cot, moi cot co do rong la 400px*/
+    grid-template-columns: 400px 400px 400px;
+    /*Khoang cach giua cac noi dung*/
+    grid-gap: 3em;
+}

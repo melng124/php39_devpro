@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài số 17</title>
+    <style type="text/css">
+        #div1 { background: #333333;
+            height: 80px;
+            width: 1520px;
+
+        }
+        #div2 {
+            padding-top: 25px ;
+            padding-left: 20px;
+            color: white;
+            font-size: 30px;
+            font-family: sans-serif;
+            font-weight: bold;
+            float: left;
+        }
+        #div3 {color: #f68326;
+            font-family: sans-serif;
+            font-size: 50px;
+            font-weight: bold;
+            margin-top: 14px;
+            display: inline-block;
+        }
+        #div4 { width: 1520px;
+            height: 45px;
+            background: #666666;
+
+        }
+         a {
+             font-family: sans-serif;
+             font-size: 18px;
+             width: 80px;
+             height: 40px;
+             padding-left: 20px;
+             padding-top: 12px;
+             text-decoration: none;
+             color: white;
+             display: inline-block;
+         }
+         a:hover {
+            color: #e6832a;}
+
+        #content {background: #ffffff;
+            height:650px;
+            width: 1200px;
+            display: inline-block;
+            float: left;
+        }
+        #conten1 {
+            height: 160px;
+            width: 200px;
+            background: #dddddd;
+            margin-top: 40px;
+            margin-left: 10px;
+            float: left;
+                }
+        #conten2 {
+            font-family: sans-serif;
+            height: 160px;
+            width: 81%;
+            background: white;
+            margin-top: 40px;
+            margin-left: 10px;
+            float: left;
+                }
+
+        #sidbar {background: #dddddd;
+            height:730px;
+            width: 320px;
+            text-align: justify-all;
+            display: inline-block;
+            position: relative;
+            left: 0px;
+            right: 0px;
+        }
+
+        #sidbar a {
+            font-family: sans-serif;
+            font-size: 18px;
+            width: 80px;
+            height: 25px;
+            padding-left: 20px;
+            padding-top: 12px;
+            text-decoration: none;
+            color: #e6832a;
+
+        }
+
+        p {font-family: sans-serif;
+            padding-left: 15px;
+            line-height: 20px;
+        }
+
+        #footer {
+            background: #333333;
+            height: 45px;
+            width: 1520px;
+            font-size: 16px;
+            color: white;
+            font-family: sans-serif;
+            margin-top: -35px;
+
+        }
+        .clearfix:after {
+            content: ".";
+            visibility: hidden;
+            display: block;
+            clear: both;
+        }
+
+    </style>
+</head>
+
+<body>
+<div class="clearfix">
+    <!-- Đây là phần header-->
+    <div id="div1">
+        <div id="div2">  HTML</div>
+        <div id="div3">5</div>
+    </div>
+    <div id="div4">
+                <a href=" ">Link 1</a>
+                <a href=" ">Link 2</a>
+                <a href=" ">Link 3</a>
+                <a href=" ">Link 4</a>
+                <a href=" ">Link 5</a>
+    </div>
+    <!-- Đây là phần content-->
+    <div id="content">
+        <div id="conten1"> </div>
+        <div class="clearfix">
+        <div id="conten2">
+            <p style="font-weight: bold; font-size: 30px"> This is a Lorem Ipsum Heading </p>
+            <p >
+                Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti cociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo.
+            </p>
+            <a href=" " style="color: #efa664; font-weight: bold; font-size: 15px; padding-top: 0">Read more</a>
+        </div>
+        </div>
+        <hr width="95%" style="margin-left: 10px" />
+        <div id="conten1"> </div>
+        <div class="clearfix">
+        <div id="conten2">
+            <p style="font-weight: bold; font-size: 30px"> This is a Lorem Ipsum Heading </p>
+            <p >
+                Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti cociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo.
+            </p>
+            <a href=" " style="color: #efa664; font-weight: bold; font-size: 15px; padding-top: 0">Read more</a>
+        </div>
+        </div>
+        <hr width="95%" style="margin-left: 10px" />
+
+        <div id="conten1"> </div>
+        <div class="clearfix">
+            <div id="conten2">
+                <p style="font-weight: bold; font-size: 30px"> This is a Lorem Ipsum Heading </p>
+                <p >
+                    Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti cociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo.
+                </p>
+                <a href=" " style="color: #efa664; font-weight: bold; font-size: 15px; padding-top: 0">Read more</a>
+            </div>
+        </div>
+        <hr width="95%" style="margin-left: 10px" />
+
+
+    </div>
+    <!-- Đây là phần Sidbar-->
+    <div id="sidbar">
+        <p style="font-weight: bold; font-size: 22px; font-family: sans-serif"> Sidbar Links</p>
+        <hr width="95%" style="margin-left: 10px" />
+        <a href=" ">Link 1</a> <br/>
+        <a href=" ">Link 2</a> <br/>
+        <a href=" ">Link 3</a> <br/>
+        <a href=" ">Link 4</a> <br/> <br/>
+        <p style="font-weight: bold; font-size: 22px; font-family: sans-serif"> Other Widgets</p>
+        <hr width="95%" style="margin-left: 10px" />
+
+        <p> This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittit sem nibh id elit</p>
+        <br/>
+        <p> Duis sed odio sit amet nibh vulputate cursus a sit a met mauris</p>
+    </div>
+</div>
+<!-- Đây là phần Footer-->
+<div id="footer">
+    <p style="margin-left: 38%; padding-top: 12px"> Copyright <span style="color: #f68326"> YourSite.</span>  All rights reserved </p>
+</div>
+</body>
+</html>
+

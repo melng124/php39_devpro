@@ -1,0 +1,35 @@
+.wall{
+    background-color: #ccccff;
+    width: 550px;
+    height: 400px;
+}
+#banner{
+    padding-left: 10px;
+}
+.conten{
+    margin-left: 20px;
+    padding-left: 10px;
+}
+.conten1{
+    padding-left: 30px;
+}
+p{
+    padding-left: 30px;
+    font-size: 17px;
+}
+.conten>b{
+    color: #634681;
+}
+.conten1>b{
+    color: #5895f6;
+}
+.conten1>p{
+    color: #4a559a;
+}
+.wall>div:nth-child(4){
+    border: 2px;
+    border-style: dashed;
+    width: 480px;
+    height: 70px;
+
+}

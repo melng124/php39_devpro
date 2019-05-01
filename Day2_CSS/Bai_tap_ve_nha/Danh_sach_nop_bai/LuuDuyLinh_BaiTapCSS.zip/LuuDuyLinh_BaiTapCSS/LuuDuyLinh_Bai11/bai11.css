@@ -1,0 +1,63 @@
+#left{
+    float: left;
+    width: 50%;
+    height: 850px;
+
+    text-align: right;
+}
+#conten{
+    width: 800px;
+    height: 1000px;
+    background-color: #fafafa;
+}
+#wall{
+    width: 900px;
+    height: 1100px;
+    background-color: #a9d7d1;
+    margin: 0 auto;
+}
+#right{
+    float: left;
+    width: 50%;
+    height: 850px;
+
+    text-align: left;
+
+}
+#left>p{
+    padding-right: 10px;
+}
+#right>form>p{
+    padding-left: 10px;
+}
+#age{
+    margin-top: 20px;
+}
+#email{
+    margin-top: 20px;
+}
+select{
+    width: 130px;
+    height: 28px;
+}
+#how{
+    padding-top: 12px;
+}
+#what{
+    padding-top: 10px;
+}
+#any{
+    margin-top: 393px;
+}
+#footer{
+    padding-top: 20px;
+    height: 100px;
+    clear: both;
+}
+#footer>input{
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: #fafafa;
+    border-radius: 10px;
+}

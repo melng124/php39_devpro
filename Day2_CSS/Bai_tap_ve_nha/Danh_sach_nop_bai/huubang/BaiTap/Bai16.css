@@ -1,0 +1,29 @@
+ul.menu li
+{
+    display: inline-block;
+    background-color: #008000;
+    height: 30px;
+    padding: 0px 10px;
+    margin: 0px;
+    vertical-align: middle;
+}
+ul.menu li ul
+{
+    display: none;
+    padding: 0;
+}
+ul.menu li li
+{
+    display: block;
+    background-color: #008000;
+}
+ul.menu li:hover ul
+{
+    display: block;
+}
+a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}

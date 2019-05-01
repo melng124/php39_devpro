@@ -1,0 +1,10 @@
+#wall{
+    width: 50%;
+}
+#footer{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: red;
+    width: 100%;
+}

@@ -1,0 +1,19 @@
+table {
+    border-collapse: collapse;
+}
+
+td,th {
+    padding: 5px;
+}
+
+.xanhdam{
+    color: #1f568f;
+}
+
+.xanhnhat{
+    color: #5186d4;
+}
+
+.bgxam{
+    background-color: #eaeaea;
+}

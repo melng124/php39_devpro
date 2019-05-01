@@ -1,0 +1,14 @@
+#main-content {
+    text-align: center;
+}
+
+#sub {
+    font-size: 35px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    background-color: #4489cc;
+    color: white;
+    width: 400px;
+    height: 80px;
+}

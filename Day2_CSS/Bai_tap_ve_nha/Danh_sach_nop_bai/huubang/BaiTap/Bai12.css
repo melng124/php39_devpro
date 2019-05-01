@@ -1,0 +1,45 @@
+#menu{
+
+    width: 1000px;
+
+    font-size: 14px;
+
+    font-family: "Times New Roman";
+
+    margin-top: 30px;
+
+
+
+}
+
+#menu #p1{
+
+    float: left;
+
+    width: 300px;
+
+    margin-left: 30px;
+
+;
+
+}
+
+#menu #p2{
+
+    float: left;
+
+    width: 300px;
+
+    margin-left: 30px;
+
+}
+
+#menu #p3{
+
+    float: left;
+
+    width: 300px;
+
+    margin-left: 30px;
+
+}

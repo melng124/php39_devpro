@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai 10</title>
+</head>
+<body>
+<h1>Travel reservation form</h1>
+<h3>* denotes mandotory</h3>
+<form action="#" name="form1">
+    <table>
+        <tr>
+            <td>
+                Full name*:<br/><input type="text" name="txt_name" placeholder="FirsName LastName" value=""/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Email address*:<br/><input type="text" name="txt_email" value=""/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Select Tour Package*:<br/>
+                <select name="txt_tour">
+                    <option value="0">Goa</option>
+                    <option value="1">Milk</option>
+                    <option value="2">Tea</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Arrival date*:<br/><input type="date" name="dt_date" value=""/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Number of persons*:<br/>
+                <input type="text" name="txt_person" value=""/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                What would you want to avail?*
+                <br/>Boarding<input type="checkbox" name="ck_avail" value="0">
+                <br/>Fooding<input type="checkbox" name="ck_avail" value="1">
+                <br/>Sight seeing<input type="checkbox" name="ck_avail" value="2">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Discount Coupon code:<br/>
+                <input type="text" name="txt_dis" value=""/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Terms and conditions*<br/>
+                <input type="radio" name="rd_term" value="0"/>I agree
+                <input type="radio" name="rd_term" value="1"/>I disagree
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" name="bt_submit" value="Complete reveration"/>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

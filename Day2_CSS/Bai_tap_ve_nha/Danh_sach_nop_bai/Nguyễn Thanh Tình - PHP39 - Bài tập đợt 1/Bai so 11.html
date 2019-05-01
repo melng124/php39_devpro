@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài số 11</title>
+    <style type="text/css">
+        body {
+            background: #a9d7d1;
+            width: 500px;
+            height: 500px%;
+            position: center;
+            margin-top: 50px;
+            margin-left: 350px;
+        }
+        td {
+            font-family: sans-serif;
+            font-size: 12px;
+            text-align: right;
+            vertical-align: top ;
+        }
+    </style>
+</head>
+<body>
+<p style="font-size: 25px; font-weight: bold; font-family: Arial; margin-left: 170px; line-height: 10px"> Survey Form</p>
+<form>
+<table border="0" align="center" ; style="background: white">
+        <tr>
+        <td> Name </td>
+        <td style="text-align: left"> <input type="text" name="name" value=" Enter your name"/> </td>
+    </tr>
+    <tr>
+        <td>Email </td>
+        <td style="text-align: left"> <input type="email" name="email" value="Enter your email"/> </td>
+    </tr>
+    <tr>
+        <td> Age </td>
+        <td style="text-align: left"> <input type="number" name="number" value="Age"/> </td>
+    </tr>
+    <tr>
+        <td> Which option best describes your current role?</td>
+        <td style="text-align: left">
+            <select>
+                <option value="1">Student</option>
+                <option value="2">Student 1</option>
+                <option value="3">Student 2</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            How likely is that you would recommend <br/>
+            freeCodeCamp to a friend?
+        </td>
+        <td style="text-align: left">
+            <input type="radio" name="radio"/> Definitely <br/>
+            <input type="radio" name="radio"/> May be <br/>
+            <input type="radio" name="radio"/> Not sure
+        </td>
+    </tr>
+    <tr>
+        <td> What do you like most in FCC</td>
+        <td style="text-align: left">
+            <select>
+                <option value="1">Select an opion</option>
+                <option value="2">Select an opion 1</option>
+                <option value="3">Select an opion 2</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Things that should be improved in the future <br/>
+            (Check all that apply)
+        </td>
+        <td style="text-align: left">
+            <input type="checkbox" name="checkbox"/>Font-end Projects<br/>
+            <input type="checkbox" name="checkbox"/>Back-end Projects<br/>
+            <input type="checkbox" name="checkbox"/>Data Visualization<br/>
+            <input type="checkbox" name="checkbox"/>Challenges<br/>
+            <input type="checkbox" name="checkbox"/>Open Soure Community<br/>
+            <input type="checkbox" name="checkbox"/>Gitter help rooms<br/>
+            <input type="checkbox" name="checkbox"/>Videos<br/>
+            <input type="checkbox" name="checkbox"/>City Meetups <br/>
+            <input type="checkbox" name="checkbox"/>Wiki<br/>
+            <input type="checkbox" name="checkbox"/>Forum<br/>
+            <input type="checkbox" name="checkbox"/>Atditional Courses<br/>
+        </td>
+    </tr>
+    <tr>
+        <td> Any Comments or Suggestions?</td>
+        <td style="text-align: left"> <textarea rows="2" cols="16"> Enter your comment here...</textarea></td>
+    </tr>
+    <tr >
+        <td colspan="2" style="text-align: center"> <input type="submit" name="submit" value="Submit" style="background: #59ace0; color: white"/> </td>
+    </tr>
+
+</table>
+</form>
+</body>
+</html>

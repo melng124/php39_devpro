@@ -1,0 +1,14 @@
+body{
+    color: #810c7f;
+    background-color: #d9da3e;
+}
+
+a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#footer{
+    font-style: italic;
+    line-height: 1.5px;
+}

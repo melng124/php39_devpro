@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai 11</title>
+</head>
+<body>
+<style type="text/css">
+    #div1{
+        margin-top: -35px;
+        background-color: #abe113;
+        width: 784px;
+        height: 847px;
+        margin-left: 291px;
+    }
+    table{
+        background-color: white;
+        width: 737px;
+    }
+    tr,td{
+        border: 9px solid white;
+    }
+    .row{
+        text-align: right;
+        display: block;
+    }
+    input[type=text]{
+        width: 225px;
+    }
+    input[type=submit]{
+        background-color: #59ace0;
+        color: white;
+        padding: 8px 20px;
+        border: none;
+        border-radius: 4px;
+    }
+</style>
+<div id="div1">
+    <p align="center" style="font-size: 35px;padding-top: 15px;">Survey Form</p>
+    <form action="#" name="form1">
+        <table align="center">
+            <tr>
+                <td colspan="2" align="center">Let us know how we can improve freeCodeCamp</td>
+            </tr>
+            <tr>
+                <td class="row">*Name</td>
+                <td><input type="text" name="txt_name" placeholder="Enter your name" value=""/></td>
+            </tr>
+            <tr>
+                <td class="row">*Email</td>
+                <td><input type="text" name="txt_email" placeholder="Enter your email" value=""/></td>
+            </tr>
+            <tr>
+                <td class="row">*Age</td>
+                <td><input type="text" name="txt_age" placeholder="Age" value=""/></td>
+            </tr>
+            <tr>
+                <td class="row">Which option best describes your current role?</td>
+                <td>
+                    <select name="txt_select">
+                        <option value="">Select an option</option>
+                        <option value="1" selected>Student</option>
+                        <option value="2">Teacher</option>
+                        <option value="3">Worker</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="row">*How likely is that you would recommend <br/>freeCodeCamp to a friend?</td>
+                <td>
+                    <input type="radio" name="rd" value="0"/>Definitely
+                    <br/><input type="radio" name="rd" value="1"/>Maybe
+                    <br/><input type="radio" name="rd" value="2"/>Not sure
+                </td>
+            </tr>
+            <tr>
+                <td class="row">What do you like most in FCC</td>
+                <td>
+                    <select name="txt_select1">
+                        <option value="">Select an option</option>
+                        <option value="1">Nice</option>
+                        <option value="2">Not Nice</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="row">Thing that should be improved in the feture <br/>(Check all that apply):</td>
+                <td>
+                    <input type="checkbox" name="ck" value="0"/>Front-end Projects
+                    <br/><input type="checkbox" name="ck" value="1"/>Back-end Project
+                    <br/><input type="checkbox" name="ck" value="2"/>Data Visualization
+                    <br/><input type="checkbox" name="ck" value="3"/>Challenges
+                    <br/><input type="checkbox" name="ck" value="4"/>Open Source Community
+                    <br/><input type="checkbox" name="ck" value="5"/>Gitter help rooms
+                    <br/><input type="checkbox" name="ck" value="6"/>Videos
+                    <br/><input type="checkbox" name="ck" value="7"/>City Meetups
+                    <br/><input type="checkbox" name="ck" value="8"/>Wiki
+                    <br/><input type="checkbox" name="ck" value="9"/>Forum
+                    <br/><input type="checkbox" name="ck" value="10"/>Additional Courses
+                </td>
+            </tr>
+            <tr>
+                <td class="row">Any Comments or Suggestions?</td>
+                <td>
+                    <textarea name="txt_cmt" cols="30" rows="3"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="submit" name="bt_submit" value="Submit"/></td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>

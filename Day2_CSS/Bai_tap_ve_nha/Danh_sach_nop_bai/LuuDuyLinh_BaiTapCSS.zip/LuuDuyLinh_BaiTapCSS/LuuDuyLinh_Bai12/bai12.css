@@ -1,0 +1,29 @@
+.conten1{
+    width: 500px;
+    float: left;
+
+    height: 150px;
+    margin-top: 20px;
+}
+.conten2{
+    width: 500px;
+    float: left;
+
+    height: 150px;
+    margin-top: 20px;
+
+
+}
+.conten3{
+    width: 500px;
+    float: left;
+
+    height: 150px;
+    margin-top: 20px;
+}
+.conten2>p{
+    padding-left: 10px;
+}
+.conten3>p{
+    padding-left: 10px;
+}

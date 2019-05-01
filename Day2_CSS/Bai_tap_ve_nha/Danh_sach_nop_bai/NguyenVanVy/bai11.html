@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 11</title>
+    <style>
+        body{background-color: lightskyblue}
+        #p1{text-align: center;
+        font-family: "Yu Gothic";
+        font-size: 30px;
+        font-weight: bold}
+        table, td {
+            background-color: white;
+            border: 3px;
+            border-style: solid;
+            border-color: white;
+        }
+        .text{
+            text-align: center;
+        }
+        .text1{
+            text-align: right
+        }
+        .button{
+            background-color: deepskyblue;
+            height: 30px;
+            width: 70px;
+            line-height: 25px;
+            color: white;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<p id="p1">Survey Form</p>
+<table align="center" width="1000px" >
+    <tr>
+        <td colspan="2" class="text">Let us know how we can improve freeCodeCamp</td>
+    </tr>
+    <tr>
+        <td class="text1">*Name:</td>
+        <td><input type="text" placeholder="Enter your name"></td>
+    </tr>
+    <tr>
+        <td class="text1">*Email:</td>
+        <td><input type="text" placeholder="Enter your email"> </td>
+    </tr>
+    <tr>
+        <td class="text1">*Age:</td>
+        <td><input type="text" placeholder="Age"></td>
+    </tr>
+    <tr>
+        <td class="text1">Which option best describe your current role?</td>
+        <td><select size="1">
+            <option>Student</option>
+            <option>employer</option>
+            <option>Nothing</option>
+        </select></td>
+    </tr>
+    <tr>
+        <td class="text1">How likely iss that your would recommend<br>freeCodeCamp to a friend?</td>
+        <td><input type="radio" name="chose">Definitely<br>
+            <input type="radio" name="chose">Maybe<br>
+            <input type="radio" name="chose">Not sure</td>
+    </tr>
+    <tr>
+        <td class="text1">What do you like most in FCC?</td>
+        <td><select size="1">
+            <option>Select an option</option>
+        </select> </td>
+    </tr>
+    <tr>
+        <td class="text1">Things that should be improve in the future<br>(Check all that apply)</td>
+        <td><input type="checkbox">Front-end Project<br>
+            <input type="checkbox">Back-end Project<br>
+            <input type="checkbox">Data Visualization<br>
+            <input type="checkbox">Challenges<br>
+            <input type="checkbox">Open Source Community<br>
+            <input type="checkbox">Gitter help rooms<br>
+            <input type="checkbox">Videos<br>
+            <input type="checkbox">City Meetups<br>
+            <input type="checkbox">Wiki<br>
+            <input type="checkbox">Forum<br>
+            <input type="checkbox">Additional Courses</td>
+    </tr>
+    <tr>
+        <td class="text1">Any commend or suggestions?</td>
+        <td><textarea cols="35" rows="3"></textarea> </td>
+    </tr>
+    <tr>
+        <td colspan="2" class="text"><button type="button" class="button">Submit</button></td>
+    </tr>
+</table>
+</body>
+</html>
