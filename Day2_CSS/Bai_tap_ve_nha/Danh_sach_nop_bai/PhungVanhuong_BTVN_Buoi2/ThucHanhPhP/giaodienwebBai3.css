@@ -1,0 +1,15 @@
+body{
+    width: 1000px;
+    margin: 0px auto;
+}
+#tieude{
+    width: 1000px;
+    height: 50px;
+}
+#menu{
+    width: 1000px;
+}
+#footer{
+    width: 1000px;
+    height: 30px;
+}
