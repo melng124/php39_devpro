@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "Roboto";
+	font-size: 16px;
+	font-weight: bold;
+}
+#container{
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	margin-left: 50px;
+}
+.ingredients {
+	margin-left: 30px;
+}
+.ingredients ul li a{
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+.Intruction {
+	margin-left: 30px;
+}
+.Intruction ol li a{
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+#footer{
+	clear: both;
+	margin-left: 30px;
+	background:#F6F7F7;
+	height: 40px;
+	width: 100%;
+	padding-top: 10px;
+	border: 1px solid gray;
+	border-radius: 15px;
+}
+#footer a{
+	color: #713F9D;
+}
+.content-heading{
+	padding-bottom: 20px;
+	line-height: 40px;
+}
+

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bai 10</title>
+	<meta charset="utf-8" />
+	<style type="text/css">
+		form{
+			border-top: 1px solid black;
+			border-bottom: 1px solid black;
+			width: 400px;
+			height: 600px;
+			margin: auto;
+			font-family: "Roboto";
+			font-size: 18px;
+		}
+		#container div{
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+<body>
+	
+	<form action="#">
+		<div id="container">
+			<h1>Travel reservation form</h1>
+			<h2>*denotes mandotory</h2>
+			<div  id="fsname">
+				<label for="name">Full name*</label><br>
+				<input type="text" name="txtname" placeholder="FỉrstName LastName">
+			</div>
+			<div id="lsname">
+				<label for="email">Email address*</label><br>
+				<input type="text" name="txtemail" placeholder="Nhập email">
+
+			</div>
+			<div id="tour">
+				<label for="tour">Select Tour Package</label><br>
+				<select size="1">
+				<option value="Goa">Goa</option>
+			</select>
+			</div>
+			<div id="date">
+				<label for="date">Arrival date*</label><br>
+				<input type="date" name="txtdate" placeholder="m/d/y">
+			</div>
+			<div id="number">
+				<label for="number">Number of person*</label><br>
+				<input type="text" name="txtnumber">
+			</div>
+			<div id="avail">
+				<label for="avail">What would you want to avail?*</label><br>
+				Boarding<input type="checkbox" name="ck1">
+				<br>
+				Fooding<input type="checkbox" name="ck2">
+				<br>
+				Sight seeing<input type="checkbox" name="ck3">
+			</div>
+			<div id="tc">
+				<label for="tc">Terms and conditions*</label><br>
+				<input type="radio" name="rd1" value="i-agree">I agree
+				<input type="radio" name="rd1" value="i-disagree">I disagree
+			</div>
+			<div id="button">
+				<input type="submit" name="" value="Complete reservation">
+			</div>
+		</div>
+	</form>
+</body>
+</html>
