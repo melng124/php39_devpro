@@ -14,7 +14,9 @@ body{
     font-family: 'Arial', sans-serif;
     font-size: 14px;
 }
-
+a{
+    text-decoration: none;
+}
 .container{
     max-width: 80%;
     margin: auto;
@@ -27,6 +29,9 @@ body{
     font-family: 'QlassikBold_TB', sans-serif;
     padding: 30px 0;
 }
+#main{
+    position: relative;
+}
 #main-top{
     background: #523d30;
     height: 180px;
@@ -34,4 +39,15 @@ body{
 #main-bottom{
     background: #b1a38d;
     min-height: 600px;
+}
+#main-content{
+    position: absolute;
+    top: 30px;
+    background: #fefae8;
+    right: 0;
+    left: 0;
+    padding: 20px;
+}
+.header-menu li{
+    display: inline-block;
 }
