@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: sans-serif;
+	font-weight: 300px;
+	color: black;
+	line-height: 1.5;
+}
+#heder{
+
+}
+#menu ul{
+	list-style-type: none;
+}
+#menu ul li{
+	display: inline-block;
+	margin-right: 40px;
+	margin-left: 40px;
+	line-height: 36px;\
+	height: 36px;
+	padding-right: 10px;
+	position: relative;
+	float: right;
+}
+
+#menu ul li a{
+	text-decoration: none;
+	transition: all o.5em;
+	color: black;
+	display: block;
+}
+#menu ul li a:hover{
+	color: red;
+}
+/*#menu ul li:nth-child(4){
+	float: right;
+}*/
+#logo img{
+	width: 92%;
+	height: 300px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+.content{
+	margin-top: 100px;
+	width: 1024px;
+	line-height: 20px;
+}
+.content-heading{
+	padding-bottom: 0px;
+
+}
+.content-discripsion{
+	margin-top: 20px;
+	
+}
+.container{
+	margin:auto;
+	position: relative;
+	left: 0;
+	width: 1000px;
+	
+}
+/*chia cot website*/
+.row{
+	width:100%;
+	margin:20px 0 20px 0;
+	height: 100%;
+    display: inline-block;
+}
+
+.row .col {
+    float: left;
+    width: 47%;
+    display: inline-block;
+    padding: 8px;
+    min-height:300px;
+    margin:10px 0 50px 0;
+    
+}
+.row .col h2{
+	margin:10px 0 10px 0;
+	font-family: "Roboto";
+	font-weight:normal;
+}
+.row .col p{
+	color:gray;
+	font-size:14px;
+}
+.row .col#box2{
+	float: right;
+}
+
+.row .col img{
+	width:100%;
+	height:220px;
+	object-fit:cover;
+}
+
+/**form-contact**/
+.form-contact {
+    background: #f0f0f0;
+    padding: 80px 0 80px 0;
+    text-align: center;
+}
+.form-contact h2 {
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 33px;
+}
+
+input.input-email-focus {
+    width:100%;
+    height: 35px;
+    background: transparent;
+    border:none;
+    box-shadow: unset;
+    border-bottom:1px solid #ddd;
+}
+.form-contact .form__content{
+ 	width: 345px;
+    margin: auto;
+    margin-top: 20px;
+}
+#button{
+	margin-left: 606px;
+}
+#button input{
+	height: 40px;
+	width: 150px;
+	border-radius: 10px;
+	font-family: "Roboto";
+	font-size: 16px;
+	display: block;
+}
+#button input:hover{
+	color: red;
+	background: yellow;
+	cursor: pointer;
+}
+span img{
+	float: right;
+	 margin-top: -24px;
+}

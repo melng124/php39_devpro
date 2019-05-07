@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: QlassikBold_TB;
+    src: url("../fonts/QlassikBold_TB.otf");
+}
+
+#heading {
+    font-family: QlassikBold_TB;
+    background-color: #daeaeb;
+    color: #3a6669;
+    height: 60px;
+    padding-left: 22%;
+}
+
+#layout1-color {
+    background-color: #564034;
+    height: 120px;
+}
+
+#footer {
+    background-color: #b1a38d;
+    height: 550px;
+    padding-left: 22%;
+}
+
+#footer ul {
+    position: absolute;
+    bottom: -100px;
+}
+
+#footer ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+#footer ul a {
+    font-family: Arial;
+    text-decoration: none;
+    color: #4f3e32;
+    border-right: 1px solid #4f3e32;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#full-content {
+    z-index: 1;
+}
+
+.layout-1 {
+    z-index: 2;
+}
+
+.layout-2 {
+    z-index: 3;
+    position: absolute;
+    top: 95px;
+    left: 21%;
+    width: 60%;
+    height: 580px;
+    background-color: #fefae8;
+}
+
+#main-content ul li {
+    width: 19.57%;
+    height: 22px;
+    text-align: center;
+    background-color: #83a737;
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 5px;
+}
+
+#main-content ul li:hover {
+    background-color: #fefae8;
+}
+
+#main-content ul a:hover {
+    color: black;
+}
+
+#main-content ul a {
+    font-family: Arial;
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    width: 95%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#quote {
+    width: 95%;
+    height: 30px;
+    border-top: 1px solid #e3d7c5;
+    border-bottom: 1px solid #e3d7c5;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#quote p {
+    display: inline-block;
+    padding-left: 20px;
+    padding-top: 8px;
+    font-family: Georgia;
+    font-style: italic;
+    font-size: 12px;
+}
+
+#quote a {
+    font-family: Arial;
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+#get-quote {
+    margin-left: 50px;
+    display: inline-block;
+    background-color: #df9b30;
+    border: 1px solid #df9b30;
+    border-radius: 8px;
+    text-align: center;
+    width: 80px;
+    height: 20px;
+}
+
+#left-content {
+    width: 45%;
+    float: left;
+    line-height: 1.6;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.sub-heading {
+    font-family: Arial;
+    font-size: 23px;
+    font-weight: bold;
+    color: #7b9d33;
+}
+
+#right-content {
+    width: 45%;
+    float: right;
+    line-height: 1.6;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.right-heading {
+    font-family: Arial;
+    color: #df9b30;
+}

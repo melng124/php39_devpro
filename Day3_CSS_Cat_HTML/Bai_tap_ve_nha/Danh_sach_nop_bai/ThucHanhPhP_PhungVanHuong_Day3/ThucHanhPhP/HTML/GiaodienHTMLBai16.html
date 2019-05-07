@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GiaoDienHTMLBai16</title>
+    <style>
+
+        body{
+            font-family: "Times New Roman";
+            font-size: 14px;
+        }
+        .menu{
+            text-align: center;
+        }
+        .menu li
+        {
+            background: #008000;
+            width: 150px;
+            height: 40px;
+            border: 0px solid;
+            display: inline-block;
+            position: relative;
+            line-height: 40px;
+            list-style: none;
+            vertical-align: middle;
+        }
+        .menu li ul{
+            display: none;
+            position: absolute;
+            padding: 0px;
+        }
+       .menu li li{
+           display: block;
+       }
+
+        .menu li:hover ul{display: block;}
+        a{text-decoration: none; color: white}
+        .menu li a:hover{
+            color: #ff9d00;
+        }
+    </style>
+</head>
+<body>
+    <ul class="menu">
+        <li><a href="#">Home</a> </li>
+        <li><a href="#">About</a> </li>
+        <li><a href="#">Products</a>
+            <ul>
+                <li><a href="#">Engineering</a> </li>
+                <li><a href="#">Telecom</a> </li>
+                <li><a href="#">Energy</a> </li>
+                <li><a href="#">Finance</a> </li>
+                <li><a href="#">Consultancy</a> </li>
+            </ul>
+        </li>
+        <li><a href="#">Servies</a> </li>
+        <li><a href="#">Contact</a> </li>
+    </ul>
+</body>
+</html>

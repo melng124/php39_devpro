@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#banner {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    background: #181818;
+    height: 55px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.number {
+    font-size: 55px;
+    position: absolute;
+    top: -2px;
+}
+
+.color-common {
+    color: #dd7d27;
+}
+
+#menu ul li {
+    display: inline-block;
+    border-right: 1px solid #181818;
+    padding: 10px;
+}
+
+#menu ul {
+    background: #666666;
+}
+
+#menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#main-left {
+    float: left;
+    width: 68%;
+    margin-left: 10px;
+}
+
+#main-right {
+    float: right;
+    width: 30%;
+}
+
+.left-content {
+    display: table;
+
+}
+
+.image {
+    display: table-cell;
+}
+
+.content {
+    display: table-cell;
+    vertical-align: top;
+    padding-left: 15px;
+}
+
+.left {
+    padding: 10px;
+}
+
+.content-heading {
+    margin-bottom: 10px;
+}
+
+.content-descpiption {
+    line-height: 1.5;
+}
+
+.content-readmore {
+    margin: 15px 0;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#main-right {
+    background-color: #e5e5e5;
+    height: 600px;
+
+}
+
+#Sidbar-link {
+    margin: 20px 10px;
+}
+
+.sidbar {
+    height: 40px;
+    line-height: 30px;
+}
+
+.sidbar-ul {
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.sidbar-ul li {
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+.sidbar-ul li a {
+    text-decoration: none;
+}
+
+#other-widget {
+    margin: 20px 10px;
+}
+
+.content-description2 {
+    margin-top: 10px;
+}
+
+#footer {
+    clear: both;
+    background-color: #181818;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+}

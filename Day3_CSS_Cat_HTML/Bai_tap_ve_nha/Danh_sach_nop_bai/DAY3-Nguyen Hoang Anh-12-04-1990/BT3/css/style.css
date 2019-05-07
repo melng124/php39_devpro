@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+@font-face {
+    font-family: Inconsolata-Regular;
+    src: url("../fonts/Inconsolata-Regular.ttf");
+}
+
+@font-face {
+    font-family: PlayfairDisplay-Regular;
+    src: url("../fonts/PlayfairDisplay-Regular.ttf");
+}
+
+@font-face {
+    font-family: Ubuntu-Light;
+    src: url("../fonts/Ubuntu-Light.ttf");
+}
+
+#full-content {
+    width: 100%;
+}
+
+#main-content-1 {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+#heading {
+    display: inline-block;
+    font-family: Inconsolata-Regular;
+    font-weight: lighter;
+    margin-left: 90px;
+}
+
+#menu {
+    font-family: PlayfairDisplay-Regular;
+    margin-left: 29%;
+}
+
+#menu, #menu li {
+    display: inline-block;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #959595;
+    padding-right: 100px;
+}
+
+#header-pic {
+    margin-top: 5%;
+    margin-left: 108px;
+}
+
+#wrap-1 {
+    width: 90%;
+    padding-left: 45px;
+    margin-top: 70px;
+}
+
+.nav {
+    font-family: Ubuntu-Light;
+    color: #959595;
+    margin-bottom: 20px;
+}
+
+.heading-wrap {
+    font-family: PlayfairDisplay-Regular;
+    color: #626262;
+    margin-bottom: 20px;
+}
+
+.content-post {
+    font-family: PlayfairDisplay-Regular;
+    color: #626262;
+    margin-bottom: 25px;
+}
+
+#comment a {
+    text-decoration: none;
+    color: #959595;
+}
+
+#wrap-2 {
+    width: 90%;
+    padding-left: 45px;
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-column-gap: 150px;
+}
+
+#wrap-2 .content-post {
+    width: 80%;
+}
+
+#sign-up {
+    font-family: PlayfairDisplay-Regular;
+    margin-top: 150px;
+    width: 100%;
+    height: 200px;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding-top: 80px;
+}
+
+#sign-up hr {
+    width: 35%;
+    margin: 15px auto;
+}
+
+#submit {
+    display: none;
+}
+
+#main-content-2 #form #email {
+    font-family: PlayfairDisplay-Regular;
+    color: #959595;
+    display: inline-block;
+}
+
+#main-content-2 #form #submit-button {
+    display: inline-block;
+    margin-left: 210px;
+}
+
+#email-holder {
+    position: absolute;
+    margin-left: 0px;
+    display: none;
+}
+
+#email-holder:hover {
+    display: inline-block;
+}
+
+#wrap-3 {
+    width: 90%;
+    margin: 100px auto;
+    padding-left: 45px;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-column-gap: 150px;
+}
+
+#wrap-3 .content-post {
+    width: 70%;
+}
+
+#more {
+    width: 12%;
+    height: 40px;
+    border: 1px solid #959595;
+    margin: auto;
+}
+
+#more a {
+    text-decoration: none;
+    color: #959595;
+    font-family: PlayfairDisplay-Regular;
+    font-size: 25px;
+    padding-left: 15px;
+}
+
+#footer {
+    font-family: PlayfairDisplay-Regular;
+    font-weight: bold;
+    color: #626262;
+    margin-top: 300px;
+    background-color: #f0f0f0;
+    height: 70px;
+}
+
+.list-footer a {
+    text-decoration: none;
+    color: #626262;
+}
+
+#left-footer {
+    padding-top: 22px;
+    margin-left: 45px;
+    display: inline-block;
+}
+
+#right-footer {
+    margin-left: 650px;
+    display: inline-block;
+}
+
+.wrap-footer li {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+
+
+

@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    width: 90%;
+    margin:0px 50px 0px 65px;
+}
+@font-face {
+    font-family: 'Inconsolata';
+    src: url("../fonts/Inconsolata-Regular.ttf");
+}
+@font-face {
+    font-family: 'PlayfairDisplay';
+    src: url("../fonts/PlayfairDisplay-Regular.ttf");
+}
+@font-face {
+    font-family: 'ubuntu light';
+    src: url("../fonts/ubuntu.light.ttf");
+}
+.fonts1{
+    font-family: PlayfairDisplay;
+    margin:0px 95px 25px 75px ;
+}
+.fonts{
+    font-family: ubuntu light;
+    color: #b4ad9e;
+    margin:0px 0px 15px 80px;
+}
+.p2{
+    font-size: 14pt;
+}
+#menu-logo h3 {
+    font-family: Inconsolata;
+    float: left;
+    font-size: 50px;
+    padding-top: 50px;
+}
+#menu-content ul{
+    float: right;
+    padding-top: 60px;
+    margin-right: -35px;
+}
+#menu-content li{
+    display: inline-block;
+    padding-right: 45px;
+}
+#menu-content a{
+    color: #626262;
+    text-decoration: none;
+    font-size: 14pt;
+}
+.banner-img{
+    margin-top: 40px;
+}
+.banner-img img{
+    margin-bottom: 15px;
+}
+.h3{
+    margin:0px 0px 25px 80px ;
+    font-size: 25pt;
+}
+.content-left{
+     width: 50%;
+     float: left;
+ }
+.content-left img{
+    margin:0px 0px 25px 80px ;
+}
+#sent{
+    padding: 40px;
+    background-color: #f0f0f0;
+    margin-bottom: 25px;
+}
+.input{
+    border: none;
+    width: 371px;
+    margin:0px 0px 0px 98px;
+    height: 60px;
+    background-color: #f0f0f0;
+    font-size: 14pt;
+}
+#loadmore {
+    margin: 75px 0px 0px 45%;
+}
+#loadmore input{
+    width: 120px;
+    height: 45px;
+    background-color: #fff;
+    border: 1px solid;
+}

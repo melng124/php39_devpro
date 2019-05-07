@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#banner{
+	text-transform: uppercase;/*chu hoa*/
+	font-size: 30px;
+	font-family: sans-serif;
+	font-weight: bold;
+	background: #333333;
+	padding: 15px;
+	color: #fff;
+}
+.banner-number{
+	font-size: 34px;
+	position: absolute; /*Dùng để thiết lập vị trí của một phần tử nhưng nó sẽ luôn nằm trong một phần tử mẹ đang là relative.*/
+    top: 16px;
+}
+.color-common{
+	color: #de7a20;
+}
+/*css menu*/
+#menu ul{
+	background: #666666;
+}
+#menu li{
+	display: inline-block;
+}
+#menu ul li{
+	padding: 15px;
+	border-right: 1px solid #333333;
+}
+#menu ul li a{
+	text-decoration: none;
+	color: #fff;
+
+}
+/*css main*/
+#main-left{
+	width: 70%;
+	float: left;
+	/*border-right: 1px solid #333333;*/
+	/*border:1px solid #0098db;*/
+
+}
+.left-content{
+	display: table;
+	padding: 15px;
+}
+.wrap-avatar, .wrap-content {
+    display: table-cell;
+}
+.wrap-content{
+	vertical-align: top;
+	padding-left: 20px;
+}
+.content-heading{
+	margin-bottom: 10px;
+}
+.content-description{
+	line-height: 21px;
+}
+.content-readmore{
+	margin: 15px 0;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 13px; 
+	font-weight: bold;
+}
+.left-content-wrap{
+	padding: 15px;
+}
+#main-right{
+	width: 30%;
+	float: left;
+	/*border:1px solid #0098db;*/
+	background: #E5E5E5;
+	height: 600px;
+}
+.sidebar-ul li{
+	list-style-type: none;
+}
+#sidebar-link ul{
+	display: block;
+}
+#sidebar-link ul li{
+	padding-top: 10px;
+	padding-left: 38px;
+}
+#sidebar-link ul li a{
+	text-decoration: none;
+}
+.sidebar-heading{
+	padding: 35px;
+	border-bottom: 1px solid  #333333;
+}
+.other-description{
+	padding-top: 15px;
+	margin-bottom: 10px;
+}
+#footer{
+	background: #666666;
+	/*position: absolute;*/
+	width: 100%;
+	margin-top:0px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	border:none;
+	color:white;
+	cursor:pointer;/*con tro chuot dang pointer*/
+}

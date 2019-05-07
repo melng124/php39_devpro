@@ -1,0 +1,19 @@
+body{
+    font-family: "Times New Roman";
+    font-size: 14px;
+    width: 1000px;
+    margin: 0px auto;
+}
+#hearder{
+    width: 1000px;
+}
+#menu{
+    background: #ffffff;
+    width: 1000px;
+
+}
+#footer{
+    background: #f4f5f4;
+    width: 1000px;
+    height: 30px;
+}

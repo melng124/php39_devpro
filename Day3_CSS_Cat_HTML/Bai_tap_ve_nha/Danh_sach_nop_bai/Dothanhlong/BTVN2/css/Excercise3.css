@@ -1,0 +1,157 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+@font-face {
+    font-family: 'inconsolata';
+    src: url("../fonts/Inconsolata/Inconsolata.otf");
+}
+@font-face {
+    font-family: 'playfairdisplay';
+    src: url("../fonts/playfair-display/PlayfairDisplay-Regular.otf");
+}
+@font-face {
+    font-family: 'ubuntu';
+    src: url("../fonts/ubuntu/Ubuntu-L.ttf");
+}
+#container{
+    width: 1200px;
+    height: 5030px;
+}
+.header{
+    position: relative;
+}
+.banner{
+    font-family: inconsolata;
+    font-size: 30px;
+    margin-top: 70px;
+    margin-left: 70px;
+    width: 150px;
+}
+.options ul{
+    display: inline-block;
+    position: absolute;
+    margin-left: 540px;
+    margin-top: -20px;
+
+
+
+}
+.options ul li{
+    display: inline-block;
+
+    margin-right: 70px;
+
+    margin-top: -20px;
+
+
+}
+.options ul li a{
+    font-family: playfairdisplay;
+    color: #626262;
+    text-decoration: none;
+}
+.spotlight-image{
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.description-light{
+    font-family: ubuntu;
+    font-size: 14px;
+    color: #d9d6ce;
+}
+.description-heading{
+    font-family: playfairdisplay;
+    font-size: 30px;
+    color: #626262;
+}
+.description-text{
+    font-family: playfairdisplay;
+    font-size: 14px;
+    color: #a1a1a1;
+}
+.description-top{
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 100px;
+}
+.description{
+    padding-bottom: 20px;
+}
+.description-light-comment{
+    text-decoration: none;
+    color: #d9d6ce;
+}
+.description-wrapper{
+    display: table;
+}
+.description-left, .description-right{
+    display: table-cell;
+    width: 50%;
+
+
+}
+.description-left{
+    padding-left: 150px;
+    padding-right: 20px;
+}
+.description-right{
+    padding-right: 170px;
+}
+.mail{
+    padding: 150px;
+    background-color: #f0f0f0;
+}
+.mail-noti{
+    text-align: center;
+}
+.mail-input input{
+    margin-left: 265px;
+    width: 400px;
+    outline: none;
+}
+.loadmore {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border: 1px solid #626262;
+    width: 165px;
+    margin: auto;
+
+
+}
+.loadmore a{
+    color: #626262;
+    text-decoration: none;
+}
+.footer{
+    margin-top: 200%;
+    padding: 25px;
+    background-color: #f0f0f0;
+}
+.footer-wrapper{
+    display: table;
+}
+.footer-left, .footer-right{
+    display: table-cell;
+}
+.footer-left ul{
+    margin-left: 150px;
+}
+.footer-right ul {
+    margin-left: 650px;
+}
+.footer-left ul li{
+    display: inline-block;
+    padding-right:20px ;
+    font-family: playfairdisplay;
+    font-size: 14px;
+    font-weight: bold;
+}
+.footer-right ul li{
+    display: inline-block;
+    font-family: playfairdisplay;
+    font-size: 14px;
+    font-weight: bold;
+}
+
