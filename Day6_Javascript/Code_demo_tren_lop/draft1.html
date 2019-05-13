@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript</title>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+    <a href="#" onclick="abc()" >Click vào đây để show popup</a>
+    <a href="#" onclick="document.getElementById('abc').innerHTML = Date()">Click để show ra date</a>
+<p id="abc"></p>
+
+<script type="text/javascript">
+    document.write("Hello, World");
+    //comment 1 dòng
+    /*
+    comment dong 1
+    comment dong 1
+     */
+    document.getElementById("abc").innerText = '<Nội-dung-hiển-thị><p style="color: red">aaaaaaaaaa</p>';
+    // confirm("Are you delete?");
+    // document.write('<Nôi-dung>');
+    // alert('message');
+    // var a = prompt("Nhập số thứ nhất: ");
+    // document.write(a);
+
+    // var name; //khai báo 1 biến
+    // var name, age; //khai báo nhiều biến
+    // var name = 'Manh'; //khai báo và gán giá trị luôn cho biến
+    // document.write("name = " + name);
+    // document.write("age = " + age);
+
+    var name;
+    var Name;
+    // var 123bien;
+    var _123bien;
+    const age$$$$ = 12;
+    //nếu cố tình gán lại biến sẽ báo lỗi
+    // age = 34;
+    // document.write("Hang = " + abcd);
+
+    //bien toan cuc va bien cuc bo
+    //khai bao bien global
+    var myGlobal = 'Global';
+    function checkScope() {
+        var myLocal = 'Local';
+        document.write(myLocal);
+    }
+    document.write(myGlobal + "<br />");
+    checkScope();
+
+    function $45a(){
+        //code Javacsript
+    }
+</script>
+</body>
+
+</html>
