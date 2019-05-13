@@ -6,8 +6,8 @@
     <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
-    <a href="#" onclick="abc()" >Click vào đây để show popup</a>
-    <a href="#" onclick="document.getElementById('abc').innerHTML = Date()">Click để show ra date</a>
+<a href="#" onclick="abc()">Click vào đây để show popup</a>
+<a href="#" onclick="document.getElementById('abc').innerHTML = Date()">Click để show ra date</a>
 <p id="abc"></p>
 
 <script type="text/javascript">
@@ -42,16 +42,29 @@
     //bien toan cuc va bien cuc bo
     //khai bao bien global
     var myGlobal = 'Global';
+
     function checkScope() {
         var myLocal = 'Local';
         document.write(myLocal);
     }
+
     document.write(myGlobal + "<br />");
     checkScope();
 
-    function $45a(){
+    function $45a() {
         //code Javacsript
     }
+
+    function sum(a, b) {
+        return a + b;
+    }
+    document.write("Tổng của 2 vs 5 = " + sum(2, 5));
+
+    function sum(a = 1, b = 4) {
+        return a + b;
+    }
+    document.write("Tổng của 2 so = " + sum());
+
 </script>
 </body>
 
