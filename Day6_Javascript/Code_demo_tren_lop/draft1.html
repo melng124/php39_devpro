@@ -65,7 +65,116 @@
     }
     document.write("Tổng của 2 so = " + sum());
 
+    function demoOnClick() {
+        document.getElementById('show-result').innerHTML = 'Demo click';
+    }
+
+    function demoOnDbClick() {
+        document.getElementById('show-result').innerHTML = 'Demo double click';
+    }
+
+    function demoOnChange() {
+        var a = 0;
+        alert(document.getElementById('field1').value);
+        a++;
+    }
+
+    function demoOnMouseOver() {
+        document.getElementById('onmouseover').style = "background: red";
+    }
+
+    function demoOnMouseLeave() {
+        document.getElementById('onmouseover').style = "background: none";
+    }
+
+    function demoOnKeyDown() {
+        console.log(document.getElementById('demoOnKeyDown').value);
+    }
+
+    function demoOnKeyUp() {
+        console.log(document.getElementById('demoOnKeyUp').value);
+    }
+
+    function demoOnKeyPress() {
+        console.log(document.getElementById('demoOnKeyPress').value);
+    }
+
+    function demoOnBlur() {
+        console.log(document.getElementsByClassName("aaa"));
+        console.log(document.getElementById('demoOnBlur').value);
+        // document.getElementsByClassName("aaa").style = "background: red";
+    }
+    
+    function demoOnSubmit() {
+        console.log("abc");
+    }
+
+    function demoOnload() {
+        console.log("ok");
+    }
+
+
+    <!--kieu du lieu-->
+    var x =1.23;
+    console.log(typeof x);
+
+    var string1 = 'string1';
+    var string2 = 'string2';
+    var string3 = 'string3';
+    var string = string1 + string2 + string3;
+    console.log(typeof string);
+
+    var x2 = true;
+    var y2 = false;
+    console.log(typeof x2);
+    console.log(typeof y2);
+
+
+    var x3 = null;
+    console.log(typeof x3);
+
+    var x4;
+    console.log(typeof x4);
+
+    var x5 = [1, 2, 3, 'a'];
+    console.log(typeof x5);
+
+    var person = {
+        name: 'Manh',
+        age: 29
+    };
+    console.log(typeof person);
 </script>
+
+<a href="#" onclick="demoOnClick()" >Demo click</a>
+
+<a href="#" ondblclick="demoOnDbClick()">Demo double click</a>
+
+<a href="#" onchange="demoOnChange()">Demo onchange</a>
+<input type="text" onchange="demoOnChange()" id="field1" value="" />
+
+<!--<select onchange="demoOnChange()" id="field2">-->
+    <!--<option>1</option>-->
+    <!--<option>2</option>-->
+    <!--<option>3</option>-->
+<!--</select>-->
+
+<a href="#" onmouseover="demoOnMouseOver()" onmouseleave="demoOnMouseLeave()" id="onmouseover">Demo onmouseover</a>
+<a href="#" onmouseenter="demoOnMouseOver()" onmouseout="demoOnMouseLeave()" id="onmouseover1">Demo onmouseover</a>
+
+demoOnKeyDown: <input type="text" onkeydown="demoOnKeyDown()" id="demoOnKeyDown" />
+demoOnKeyUp: <input type="text" onkeyup="demoOnKeyUp()" id="demoOnKeyUp" />
+demoOnKeyPress: <input type="text" onkeypress="demoOnKeyPress()" id="demoOnKeyPress" />
+demoonblur: <input type="text" onblur="demoOnBlur()" id="demoOnBlur" class="aaa" />
+<form onsubmit="demoOnSubmit()">
+    <input type="submit" value="Submit"/>
+</form>
+
+<a href="#" onload="demoOnload()">Demo onload</a>
+<p id="show-result"></p>
+
+
+
 </body>
 
 </html>
