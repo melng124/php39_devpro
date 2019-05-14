@@ -1,0 +1,45 @@
+.frame{
+    padding :30px;
+    background: #ecf0f1;
+}
+.img{
+    
+    width: 200px;
+    height: 160px;
+}
+.frame1{
+    text-align: center;
+}
+.f1{
+    text-align: center;
+    padding: 20px;
+    margin-left: 300px;
+    
+}
+.sm1{
+    margin-left: 15px;
+    background: #e74c3c;
+    border: none;
+    border-radius: 5px;
+}
+.ip1{
+    background: white;
+    border-radius: 5px;
+}
+.colum1{
+    height: 270px;
+    text-align: center;
+    width: 95%;
+    border: 1px solid #7e8283;
+   
+}
+.img1{
+    padding :20px;
+    width: 150px;
+}
+/* @media (max-width: 425px) {
+    input[type=text], input[type=submit]{
+    width: 100%;
+    
+    }
+} */

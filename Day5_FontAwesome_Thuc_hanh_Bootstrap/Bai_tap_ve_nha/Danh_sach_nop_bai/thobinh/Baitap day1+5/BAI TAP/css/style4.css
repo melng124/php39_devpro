@@ -1,0 +1,49 @@
+/*CSS fot BT11*/
+.bt11 #main {
+    background: #a9d8d2;
+    padding: 10px;
+}
+
+.bt11 .center {
+    text-align: center;
+}
+
+.bt11 form {
+    width: 70%;
+    margin: auto;
+}
+.bt11 table{
+    width: 100%;
+}
+.bt11 table, .bt11 select{
+    color: #928e8e;
+}
+.bt11 table{
+    background: #fff;
+    padding: 30px 15px;
+}
+.bt11 .right{
+    text-align: right;
+}
+.bt11 td{
+    width: 50%;
+}
+.bt11 input, .bt11 select{
+    padding: 4px;
+    border: 1px solid #c5bfbf;
+}
+.bt11 input[type=text]{
+    width: 70%;
+}
+.bt11 input[type=radio], .bt11 input[type=checkbox]{
+    margin-bottom: 5px;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+.bt11 input[type=submit]{
+    background: #59ace0;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}

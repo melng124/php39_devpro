@@ -1,0 +1,271 @@
+@font-face{
+    font-family: titilliumsemibold;
+    src: url(font/TitilliumWeb-SemiBold.ttf);
+}
+@font-face{
+    font-family: titilliumweb;
+    src: url(font/TitilliumWeb-Regular.ttf);
+}
+@font-face{
+    font-family: titilliumweblight;
+    src: url(font/TitilliumWeb-Light.ttf);
+}
+@font-face{
+    font-family: titilliumbold;
+    src: url(font/TitilliumWeb-Bold.ttf);
+}
+@font-face{
+    font-family: myriadregular;
+    src: url(font/MYRIADPRO-REGULAR.woff);
+}
+.header{
+    padding: 30px 80px 120px 80px;
+    background: #87509c;
+}
+
+.menu{
+    display: inline-block;
+    position: absolute;
+    right: 100px;
+}
+.menu li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;    
+}
+.menu li a{
+    color: white;
+}
+.mautrang{
+    color: white;
+    
+}
+.mauden{
+    color: #3c4761;;
+}
+.header-content{
+    text-align: center;
+    padding-top: 50px;
+    font-family: titilliumsemibold;
+}
+.header-buttom{
+    background: #eb7d4b;
+    padding: 10px 30px;
+    border: none;
+    border-bottom: 1px solid #ff5001;
+    margin-top: 50px;
+}
+.main1{
+    background: #17c2a4;
+    padding: 50px 80px 120px 80px;
+}
+.main1-content{
+    text-align: center;
+    font-family: titilliumbold;
+}
+.main1-content1{
+    font-size: 35;
+}
+h6{
+    margin-top:20px;
+    font-family:titilliumbold; 
+}
+.main1-content2{
+    font-family: titilliumweblight;
+    text-align: center;
+    font-size: 16;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.main1-content3{
+    margin-top: 10px;
+    text-align: center;
+}
+.chunho{
+    font-family: titilliumweblight;
+    text-align: center;
+    font-size: 16;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+hr{
+    width: 65px;
+    height: 0px;
+    border-bottom: 3px solid #14a58c ;
+}
+.main2{
+    background: #e7f1f8;
+    padding: 50px 80px 120px 80px;
+}
+.image2{
+    margin-left: 30px;
+}
+.under-image{
+    font-family: titilliumweb;
+    font-size: 14;
+    color: #30bae7;
+    text-align: center;
+}
+.icon{
+    text-align: center;
+}
+.main3{
+    background: #fff;
+    padding: 50px 80px 120px 80px;
+}
+.image3{
+    margin-left: 40px;
+}
+.main4{
+    background: #ffdd99;
+    padding: 50px 80px 120px 80px;
+}
+.button4-1{
+    background: #ebc985;
+    border: none;
+    font-family: titilliumweb;
+    font-size: 16;
+    padding:5px 15px;
+    margin-bottom: 40px;
+}
+.canle{
+    text-align: center;
+}
+.button4{
+    background: #17c2a4;
+    padding:5px 20px;
+    text-align: center;
+    margin-top:20px;
+}
+.main5{
+    padding: 50px 80px 120px 80px;
+    background: #d74680;
+}
+.image5{
+    float: left;
+}
+.image5-right{
+    padding: 10px;
+    float: left;
+}
+.mauvang{
+    font-size: 15;
+    font-family: titilliumweb;
+    color: #ffdd99;
+}
+.main6{
+    background: #3c5499;
+    padding: 50px 200px 120px 200px;
+}
+
+input{
+    border: none;
+    background: #273a71;
+}
+.o1{
+    float: left;
+}
+.o4{
+    with:100%;
+    height: 70px;
+}
+.o3{
+    background: #273a71;
+}
+.o2{
+    float: left;
+}
+
+.pink{
+    display: inline-block;
+    color: pink;
+}
+.submit{
+    text-align: center;
+}
+input[type=submit]{
+    background: #30bae7;
+    padding:10px 20px;
+    font-family: titilliumbold;
+    margin-top: 30px;
+    color:white;
+}
+.footer{
+    border-top: 1px solidn #17c2a4;
+    background: #344b8e;
+    padding: 20px 150px;
+}
+.footer ul li{
+
+    list-style-type: none;
+    background: #344b8e;
+    width: 12%;
+    padding:10px 10px;
+    display: inline-block;
+}
+.footer ul li a{
+    color: white;
+}
+
+@media (max-width: 576px){
+    .header{
+        width: 100%;
+        padding: 0;
+    } 
+    .menu{text-align: center;
+        display: block;
+        padding :0;
+        width: 100%;
+        position: absolute;
+        right: 5px;
+        
+    }
+    .menu li{
+        padding:2px;
+    }
+    .header-content{
+        width: 100%;
+        font-size: 12;
+    }
+    .header-buttom{
+        margin-bottom: 20px;
+    }
+    .main1-content{
+        width: 100%;
+
+    }
+    .img2{
+        padding-top: 20px;
+        text-align: center;
+    }
+    .image4{
+        width: 100%;
+       
+    }
+    .main6, .main5, .main4, .main3,.main2,.main1{
+        width: 100%;
+        padding: 20px 10px;
+    }
+    .image3{
+        text-align: center;
+    }
+    .canle{
+        text-align: center;
+    }
+    .image5{
+        float: none;
+    }
+    .image5-right{
+        float: none;
+    }
+    .o{
+        width: 100%;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    .footer{
+        width: 100%;
+        padding: 5px;
+    }
+   
+}

@@ -1,0 +1,27 @@
+.row{
+    margin-bottom: 2rem;
+    /*margin-left: 3rem;*/
+}
+.col-md-3{
+    border: 1px solid;
+    margin-right: 10px;
+    max-width: 23%;
+    height: fit-content;
+}
+a{
+    background: #cbcbcb;
+    margin: 5px 0;
+}
+img{
+    width: 100%;
+    margin-bottom: 5px;
+}
+@media (max-width: 576px) {
+    .col-md-3{
+        flex: unset;
+        width: 100%;
+        max-width: unset;
+        margin: 10px;
+    }
+    
+}

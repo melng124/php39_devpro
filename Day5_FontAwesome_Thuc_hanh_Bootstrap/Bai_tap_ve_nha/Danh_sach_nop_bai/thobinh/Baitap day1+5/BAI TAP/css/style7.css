@@ -1,0 +1,10 @@
+/*CSS for BT14*/
+.bt14 button{
+    background: #418bca;
+    padding: 15px 40px;;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 15px;
+    border: 1px solid #fff;
+}

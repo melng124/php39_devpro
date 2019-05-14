@@ -1,0 +1,131 @@
+.header-mb{
+    background-color: #00796b;
+}
+.baner-mb{
+    background-color: #009687;
+    height: 150px;
+    padding-top: 50px;
+}
+.tab-menu{
+    padding: 3px 3px 3px 3px;
+}
+.header-mb-2
+{
+    background-color: #ededed;
+    height: 220px;
+}
+.annou{
+    font-size: 34px;
+    text-align: center;
+    color: white;
+    background-color: #009687;
+    height: 70px;
+    margin-top: 40px;
+}
+.text-mb-2{
+    font-size: 28px;
+    margin-left: 20px;
+}
+.avt{
+    padding-top: 30px;
+}
+.buton-1{
+    padding-top: 10px;
+}
+.hahhah{
+    padding-top: 30px;
+    font-size: 36px;
+}
+.icon{
+    font-size: 40px;
+    color: white;
+}
+.header-mb-3
+{
+    height: 180px;
+}
+.footer{
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    font-size: 60px;
+    height: 250px;
+}
+.b1{
+width: 33%;
+    float: left;
+}
+.b2{
+    width: 34%;
+    float: right;
+}
+.tab1{
+    width: 90%;
+    float: left;
+}
+.tab2{
+    width: 10%;
+    float: left;
+}
+.ic1{
+    width: 20%;
+    float: left;
+}
+@media(max-width: 576px){
+    .header-mb{
+        background-color: #00796b;
+    }
+    .baner-mb{
+        background-color: #009687;
+        height: 100px;
+        padding-top: 30px;
+    }
+    .tab-menu{
+        padding: 3px 3px 3px 3px;
+    }
+    .header-mb-2
+    {
+        background-color: #ededed;
+        height: 160px;
+    }
+    .annou{
+        font-size: 24px;
+        text-align: center;
+        color: white;
+        background-color: #009687;
+        height: 50px;
+        margin-top: 25px;
+    }
+    .text-mb-2{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .avt{
+        padding-top: 20px;
+    }
+    .buton-1{
+        padding-top: 10px;
+    }
+    .hahhah{
+        padding-top: 30px;
+        font-size: 28px;
+    }
+    .header-mb-3
+    {
+        height: 140px;
+    }
+    .footer{
+        text-align: center;
+        background-color: #333333;
+        color: white;
+        font-size: 40px;
+        height: 200px;
+    }
+    .icon{
+        font-size: 20px;
+    }
+    .ic1{
+        width: 20%;
+        float: left;
+    }
+}

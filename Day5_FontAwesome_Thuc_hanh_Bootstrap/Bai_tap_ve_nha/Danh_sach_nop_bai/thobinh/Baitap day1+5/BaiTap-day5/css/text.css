@@ -1,0 +1,42 @@
+#header {
+    background: blue;
+    padding: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+#header  a{
+    color: #fff;
+}
+
+#header p{
+    color: #f7eeee;
+}
+
+#header h2{
+    text-transform: uppercase;
+}
+
+#header h2::after{
+    width: 30px;
+    border: 1px solid #cac3c3;
+    content: ' ';
+    display: block;
+    margin: auto;
+}
+
+#main{
+    padding: 50px;
+}
+
+@media(max-width: 576px) {
+    #header {
+        padding: 10px;
+    }
+    #main {
+        padding: 0;
+        padding-top: 15px;
+    }
+}
+
+

@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 2rem 10rem;
+
+}
+span{
+    color: red;
+}
+@media (max-width: 576px) {
+body{
+    height: auto;
+    padding: 1rem 0;
+}
+    h2{
+        font-size: 20px;
+    }
+    h5{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,51 @@
+.full-container{
+    width: 40%;
+    margin: auto;
+}
+.text-red{
+    color: red;
+}
+.contact{
+    padding-bottom: 50px;
+}
+.text-contact{
+    padding-bottom: 20px;
+}
+.text-postion{
+    padding-bottom: 20px;
+}
+.header{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+@media(max-width: 576px){
+    .full-container{
+        width: 70%;
+        margin: auto;
+    }
+    .text-red{
+        color: red;
+    }
+    .text-header{
+        font-size: 12px;
+    }
+    .contact{
+        padding-bottom: 50px;
+    }
+    .text-contact{
+        font-size: 10px;
+        padding-bottom: 5px;
+    }
+    .text-postion{
+        font-size: 8px;
+        padding-bottom: 5px;
+    }
+    .header{
+        font-size: 16px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .mb1{
+        font-size: 8px;
+    }
+}
