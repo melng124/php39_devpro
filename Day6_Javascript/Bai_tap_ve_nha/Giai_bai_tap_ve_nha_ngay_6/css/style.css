@@ -1,0 +1,38 @@
+.bt1 {
+	max-width: 25%;
+}
+
+.bt1 h3{
+	background: #feffed;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	padding: 20px;
+	font-size: 25px;
+}
+.bt1 .wrap-content{
+	border: 1px solid #e6e1e1;
+}
+.bt1  form{
+	padding: 30px;
+	padding-top: 10px;
+
+}
+
+.bt1 button[type='submit'] {
+	background: #ffd662;
+	color: #383434;
+	border: none;
+	width: 100%;
+	font-weight: bold;
+	padding: 10px;
+}
+
+@media(max-width: 576px) {
+	.bt1 {
+		max-width: 100%;
+		padding: 0;
+	}
+	.bt1 form {
+		padding: 15px;
+	}
+}
