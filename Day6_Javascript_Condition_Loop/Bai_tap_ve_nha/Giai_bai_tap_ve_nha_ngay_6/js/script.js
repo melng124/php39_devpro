@@ -10,7 +10,7 @@ function handleSubmit() {
 
     result += "Name: " + name;
     result += "<br />";
-    result += "Email: " + email;
+    result += "Email: "+ email;
     result += "<br />";
     result += "Gender: " + gender;
     result += "<br />";

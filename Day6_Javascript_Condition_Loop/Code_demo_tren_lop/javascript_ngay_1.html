@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>Javascript ngay 1</title>
     <script type="text/javascript" src="js/javascript_1.js"></script>
+    <script type="text/javascript">
+
+    </script>
 </head>
 <body>
 <!--Trình bày cách nhúng Javascript-->
@@ -12,7 +15,11 @@
     Click để show popup
 </a>
 <!--2 - Nhúng trong file HTML-->
-<
+<form onsubmit="return abcd()" action="">
+    <input type="text" id="abc" value="1121" />
+    <input type="text" id="abc1" value="1121" />
+    <input type="submit" value="Submit" />
+</form>
 <script type="text/javascript">
     // alert('Hello Manh - Nhúng trong file HTML');
 </script>
@@ -25,6 +32,11 @@
     //
     <!--in ra dòng text Hello World trên màn hình-->
     document.write("Hello, World");
+
+    function abcd() {
+        document.write(document.getElementById('abc').value);
+        console.log(document.getElementById('abc1').value);
+    }
 
     var name = 'Mạnh';
     // let abc = 1;
