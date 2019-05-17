@@ -11,30 +11,47 @@
 <body>
 <div class="bt1 container">
     <div class="wrap-content">
-        <h3>Thực hành toán tử số học</h3>
+        <h3>Giải phương trình bậc 2 một ẩn<br />
+            ax<span>2</span> + bx + c = 0
+        </h3>
         <form method="post" action="" enctype="multipart/form-data">
             <h5 id="show-error"></h5>
             <div class="form-group">
-                <label for="number-a">Nhập vào số a : </label>
+                <label for="number-a">Nhập vào hệ số a: </label>
                 <input type="text" class="form-control" id="number-a" aria-describedby="nameHelp"
-                       placeholder="">
+                       placeholder="" value="2">
+
             </div>
             <div class="form-group">
-                <label for="number-b">Nhập vào số b : </label>
-                <input type="text" class="form-control" id="number-b" placeholder="">
+                <label for="number-a">Nhập vào hệ số b : </label>
+                <input type="text" class="form-control" id="number-a" aria-describedby="nameHelp"
+                       placeholder="" value="4">
             </div>
-            <a href="#" class="btn btn-primary" onclick="add()" >a + b</a>
-            <a href="#" class="btn btn-success" onclick="sub()">a - b</a>
-            <a href="#" class="btn btn-danger" onclick="multi()">a * b</a>
-            <a href="#" class="btn btn-warning" onclick="divide()">a / b</a>
-            <a href="#" class="btn btn-info" onclick="remain()">a % b</a>
-            <a href="#" class="btn btn-success" onclick="incre_after()">a++</a>
-            <a href="#" class="btn btn-primary" onclick="incre_before()">++a</a>
-            <a href="#" class="btn btn-danger" onclick="decre_after()">a--</a>
-            <a href="#" class="btn btn-warning" onclick="decre_before()" >--a</a>
+            <div class="form-group">
+                <label for="number-a">Nhập vào hệ số c : </label>
+                <input type="text" class="form-control" id="number-a" aria-describedby="nameHelp"
+                       placeholder="" value="-6">
+            </div>
+            <p>Phương trình bậc hai một ẩn của bạn đang có dạng</p>
+            <p id="show-result">2x<span>2</span> + 4x - 6 = 0</p>
+            <!--<div class="form-group">-->
+                <!--<label for="number-b">Nhập vào số b : </label>-->
+                <!--<input type="text" class="form-control" id="number-b" placeholder="">-->
+            <!--</div>-->
+            <a href="#" class="btn btn-primary" onclick="add()" >Tìm x</a>
+            <!--<a href="#" class="btn btn-success" onclick="sub()">a - b</a>-->
+            <!--<a href="#" class="btn btn-danger" onclick="multi()">a * b</a>-->
+            <!--<a href="#" class="btn btn-warning" onclick="divide()">a / b</a>-->
+            <!--<a href="#" class="btn btn-info" onclick="remain()">a % b</a>-->
+            <!--<a href="#" class="btn btn-success" onclick="incre_after()">a++</a>-->
+            <!--<a href="#" class="btn btn-primary" onclick="incre_before()">++a</a>-->
+            <!--<a href="#" class="btn btn-danger" onclick="decre_after()">a&#45;&#45;</a>-->
+            <!--<a href="#" class="btn btn-warning" onclick="decre_before()" >&#45;&#45;a</a>-->
             <br />
-            <button type="reset" class="btn btn-warning">Reset dữ liệu</button>
-            <p id="show-result"></p>
+            <!--<button type="reset" class="btn btn-warning">Reset dữ liệu</button>-->
+            <!--<p id="show-result">12 không nằm trong khoảng 20 - 100 hoặc 5 - 10</p>-->
+            <!--<p id="show-result">12 không nằm trong khoảng 20 - 100 hoặc 5 - 10</p>-->
+            <p style="color: green" id="show-result">x = 1</p>
         </form>
     </div>
 </div>
