@@ -11,34 +11,47 @@
 <body>
 <div class="bt1 container">
     <div class="wrap-content">
-        <h3>Giải phương trình bậc 2 một ẩn<br />
-            ax<span>2</span> + bx + c = 0
+        <h3>Tìm max - min<br />
+            <!--ax<span>2</span> + bx + c = 0-->
         </h3>
         <form method="post" action="" enctype="multipart/form-data">
             <h5 id="show-error"></h5>
             <div class="form-group">
-                <label for="number-a">Nhập vào hệ số a: </label>
+                <label for="number-a">Nhập vào số thứ nhất: </label>
                 <input type="text" class="form-control" id="number-a" aria-describedby="nameHelp"
-                       placeholder="" value="2">
+                       placeholder="" value="523">
 
             </div>
             <div class="form-group">
-                <label for="number-a">Nhập vào hệ số b : </label>
+                <label for="number-a">Nhập vào số thứ hai: </label>
                 <input type="text" class="form-control" id="number-a" aria-describedby="nameHelp"
-                       placeholder="" value="4">
+                       placeholder="" value="-123">
+
             </div>
             <div class="form-group">
-                <label for="number-a">Nhập vào hệ số c : </label>
+                <label for="number-a">Nhập vào số thứ ba: </label>
                 <input type="text" class="form-control" id="number-a" aria-describedby="nameHelp"
-                       placeholder="" value="-6">
+                       placeholder="" value="0">
+
             </div>
-            <p>Phương trình bậc hai một ẩn của bạn đang có dạng</p>
-            <p id="show-result">2x<span>2</span> + 4x - 6 = 0</p>
+            <!--&lt;!&ndash;<div class="form-group">&ndash;&gt;-->
+                <!--&lt;!&ndash;<label for="number-a">Nhập vào hệ số b : </label>&ndash;&gt;-->
+                <!--&lt;!&ndash;<input type="text" class="form-control" id="number-a" aria-describedby="nameHelp"&ndash;&gt;-->
+                       <!--&lt;!&ndash;placeholder="" value="4">&ndash;&gt;-->
+            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+            <!--&lt;!&ndash;<div class="form-group">&ndash;&gt;-->
+                <!--&lt;!&ndash;<label for="number-a">Nhập vào hệ số c : </label>&ndash;&gt;-->
+                <!--&lt;!&ndash;<input type="text" class="form-control" id="number-a" aria-describedby="nameHelp"&ndash;&gt;-->
+                       <!--&lt;!&ndash;placeholder="" value="-6">&ndash;&gt;-->
+            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+            <!--<p>Phương trình bậc hai một ẩn của bạn đang có dạng</p>-->
+            <!--<p id="show-result">2x<span>2</span> + 4x - 6 = 0</p>-->
             <!--<div class="form-group">-->
                 <!--<label for="number-b">Nhập vào số b : </label>-->
                 <!--<input type="text" class="form-control" id="number-b" placeholder="">-->
             <!--</div>-->
-            <a href="#" class="btn btn-primary" onclick="add()" >Tìm x</a>
+            <a href="#" class="btn btn-primary" onclick="add()" >Hiển thị max - min</a>
+            <!--<a href="#" class="btn btn-danger" onclick="add()" >Số nhỏ nhất</a>-->
             <!--<a href="#" class="btn btn-success" onclick="sub()">a - b</a>-->
             <!--<a href="#" class="btn btn-danger" onclick="multi()">a * b</a>-->
             <!--<a href="#" class="btn btn-warning" onclick="divide()">a / b</a>-->
@@ -51,7 +64,7 @@
             <!--<button type="reset" class="btn btn-warning">Reset dữ liệu</button>-->
             <!--<p id="show-result">12 không nằm trong khoảng 20 - 100 hoặc 5 - 10</p>-->
             <!--<p id="show-result">12 không nằm trong khoảng 20 - 100 hoặc 5 - 10</p>-->
-            <p style="color: green" id="show-result">x = 1</p>
+            <p style="color: green" id="show-result">Số lớn nhất <b>523</b> <br /> Số nhỏ nhất: <b>-123</b></p>
         </form>
     </div>
 </div>

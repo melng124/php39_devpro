@@ -16,11 +16,21 @@ function checkValidate(a, b) {
 }
 
 function add() {
-    var a = document.getElementById('number-a').value;
-    var b = document.getElementById('number-b').value;
-    if (checkValidate(a, b)) {
-        document.getElementById('show-result').innerHTML = "a + b = " + (parseInt(a) + parseInt(b));
+    // var a = document.getElementById('number-a').value;
+    // var b = document.getElementById('number-b').value;
+    console.log("a = " + a);
+    var showResult = '123';
+    var showResult = document.getElementById('show-result');
+    if(a > 0) {
+        showResult.innerHTML = "Dsadsa";
     }
+    else {
+        showResult = 'b';
+    }
+    console.log(showResult);
+    // if (checkValidate(a, b)) {
+    //     document.getElementById('show-result').innerHTML = "a + b = " + (parseInt(a) + parseInt(b));
+    // }
 }
 
 function sub() {
@@ -45,6 +55,9 @@ sum -= ++a + --a - 2 + (a++ * 2) + a--;
 
 
 console.log(sum);
-if (checkbox.checked == true) {
-    document.getElementById('showinfo').innerHTML = "Name:" + value1 +"<br/>Email:" +value2 +"<br/>Contact No:"+value3 +"<br/>Gender:"+checkbox.value;
-}
+// if (checkbox.checked == true) {
+//     document.getElementById('showinfo').innerHTML = "Name:" + value1 +"<br/>Email:" +value2 +"<br/>Contact No:"+value3 +"<br/>Gender:"+checkbox.value;
+// }
+
+var string = 'beginer javascript today';
+console.log(string.indexOf('javascript1'));
