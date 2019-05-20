@@ -61,15 +61,40 @@ sum -= ++a + --a - 2 + (a++ * 2) + a--;
 
 // var string = 'beginer javascript today';
 // console.log(string.indexOf('javascript1'));
+//
+// var a = -4;
+// var sum1 = --a + a++ * 2;
+// console.log(sum1)
+// var b = 9;
+// var sum2 = 10;
+// sum2 %= b-- * b++ - 2 + --b % 2;
+// console.log(sum2);
+// var c = 4;
+// var d = c++;
+// var sum3 = c * d++ * 2 - c-- * d++;
+// console.log(sum3);
 
-var a = -4;
-var sum1 = --a + a++ * 2;
-console.log(sum1)
-var b = 9;
-var sum2 = 10;
-sum2 %= b-- * b++ - 2 + --b % 2;
-console.log(sum2);
-var c = 4;
-var d = c++;
-var sum3 = c * d++ * 2 - c-- * d++;
-console.log(sum3);
+// solver(5);
+function solver(number) {
+    for(var i = 0; i <= number; i++){
+        // if (i == number) {
+            document.write(+ i + "x");
+        // }
+    }
+    return false;
+}
+
+// alert("đoan 1");
+// alert("đoan 2");
+// window.onload = function() {
+//     alert("3")
+// }
+// // alert("đoan 3");
+// alert("đoan 4") ;
+console.log("1");
+// console.log("2");
+window.onload = function() {
+    console.log("2");
+}
+console.log("3");
+console.log("4");
