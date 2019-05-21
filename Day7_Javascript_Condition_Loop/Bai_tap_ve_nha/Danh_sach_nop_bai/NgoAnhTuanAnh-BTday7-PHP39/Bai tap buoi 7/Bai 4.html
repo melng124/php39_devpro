@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Giai phương trình bậc 2</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 col-12">
+            <h3>Giải phương trình bậc 2 một ẩn dạng ax<sup>2</sup>+bx+c=0</h3>
+            <form method="post" action="" >
+                <!--Vung nhap su lieu-->
+                <p>Nhap vao so a:</p>
+                    <p><input type="text" name="so1" id="so-thu-1"></p>
+                <p>Nhap vao so b:</p>
+                    <p><input type="text" name="so2" id="so-thu-2"></p>
+                <p>Nhap vao so c:</p>
+                    <p><input type="text" name="so2" id="so-thu-3"></p>
+
+                <!--Hiển thị dạng pt-->
+                <p id="show-result"></p>
+                <!--cac nut chuc nang-->
+                <p>
+                    <button type="button" class="btn btn-primary" onclick="giaipt()">Tìm x</button>
+                </p>
+            </form>
+            <p id="show-result2"></p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    function giaipt() {
+        var a=document.getElementById("so-thu-1").value;
+        var b=document.getElementById("so-thu-2").value;
+        var c=document.getElementById("so-thu-3").value;
+        var a1=parseInt(a);
+        var b1=parseInt(b);
+        var c1=parseInt(c);
+        var delta=(b1*b1-4*a1*c1);
+        document.getElementById("show-result").innerHTML="Phương trình bậc 2 một ẩn của bạn đang có dạng: " +a1+"x<sup>2</sup>+"+b1+"x+"+c1+"=0";
+        if(delta ==0){
+            document.getElementById("show-result2").innerHTML="phuong trinh co nghiem kep: x=" + -b1/(2*a1);
+
+        }
+        else if(delta<0){
+            document.getElementById("show-result2").innerHTML="phuong trinh vo nghiem";
+        }
+        else{
+            document.getElementById("show-result2").innerHTML="phuong trinh co hai nghiem: x1=" +(-b1-Math.sqrt(delta))/(2*a1) +"và x2=" +(-b1+Math.sqrt(delta))/(2*a1);
+        }
+    }
+</script>
+</body>
+</html>

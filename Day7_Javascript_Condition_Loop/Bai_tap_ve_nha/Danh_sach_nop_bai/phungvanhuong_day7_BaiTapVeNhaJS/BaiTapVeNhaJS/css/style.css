@@ -1,0 +1,33 @@
+.container {
+    max-width:25%;
+}
+
+.container h3{
+    background: #feffed;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    font-size: 25px;
+
+}
+.container .col{
+    border: 1px solid #e6e1e1;
+}
+
+.container  form{
+
+    padding-top: 10px;
+
+}
+.container button {
+
+
+    color: #383434;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+}
+.error{
+    color: blue;
+    text-align: center;
+}

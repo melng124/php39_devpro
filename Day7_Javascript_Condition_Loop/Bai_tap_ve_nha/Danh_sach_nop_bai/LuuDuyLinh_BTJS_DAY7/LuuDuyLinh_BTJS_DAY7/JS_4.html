@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BT_JS4</title>
+    <link rel="stylesheet"href="Style/bootstrap.min.css">
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+<body>
+<div class="container">
+    <div id="header">
+        <p id="a">
+            Giải Phương Trình Bậc Nhất<br/>Ax+B=0
+        </p>
+        <p id="ke"></p>
+    </div>
+    <div id="form">
+        <form >
+            <p id="show"></p>
+            <div class="form-group" >
+                <p>Nhập Hệ Số A :</p>
+                <input type="number" class="form-control" id="numbera" >
+            </div>
+            <div class="form-group">
+                <p>Nhập Hệ Số B :</p>
+                <input type="number" class="form-control" id="numberb"><br/>
+            </div>
+            <div class="form-group" id="c">
+                <p>Nhập Hệ Số C :</p>
+                <input type="number" class="form-control" id="numberc"><br/>
+                <small id="pt" class="form-text text-muted">Phương trình nhập vào có dạng :</small>
+                <p id="pt1"></p>
+            </div>
+            <br/>
+            <button onclick="giaiPT()" type="button" class="btn btn-info">Tìm X</button>
+        </form>
+        <br/>
+        <p id="KQ"></p>
+    </div>
+</div>
+<script type="text/javascript">
+    function kiemTraDuLieu() {
+        var a=document.getElementById('numbera').value;
+        var b=document.getElementById('numberb').value;
+        var c=document.getElementById('numberc').value;
+
+
+        if((a==''||b==''||c=='')||(a==''&&b==''&&c==''))
+        {
+            document.getElementById('show').innerHTML="Không được để trống";
+            document.getElementById('pt1').innerHTML ="";
+
+
+        }
+        else
+        {
+            document.getElementById('show').innerHTML="";
+            document.getElementById('pt1').innerHTML=a+"X<sup>2</sup>"+"+"+b+"X"+"+"+c+" = 0"
+
+        }
+
+    }
+    function giaiPT() {
+        kiemTraDuLieu();
+        var a=document.getElementById('numbera').value;
+        var b=document.getElementById('numberb').value;
+        var c=document.getElementById('numberc').value;
+        if(a!=0){
+            var delta=b*b-4*a*c;
+            if(delta>0){
+                document.getElementById('KQ').innerHTML="X<sub>1</sub> ="+((-b+Math.sqrt(delta))/(2*a))+"<br/>X<sub>2</sub> ="+((-b-Math.sqrt(delta))/(2*a))
+            }
+            else if (delta==0)
+            {
+                document.getElementById('KQ').innerHTML="X<sub>1</sub>=X<sub>2</sub>="+-b/2*a;
+            }
+            else {
+                document.getElementById('KQ').innerHTML="Phương Trình Vô Nghiệm";
+            }
+        }
+        else {
+            if(b!=0)
+            {
+                var nghiem=-c/b;
+                document.getElementById('KQ').innerHTML="X="+nghiem;
+            }
+            else
+            {
+                if (c==0)
+                {
+                    document.getElementById('KQ').innerHTML="Phương Trình Vô Số Nghiệm";
+                }
+                else
+                {
+                    document.getElementById('KQ').innerHTML="Phương Trình Vô  Nghiệm";
+                }
+            }
+        }
+    }
+</script>
+</body>
+</html>

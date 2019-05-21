@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BTJS_7</title>
+    <link rel="stylesheet"href="Style/bootstrap.min.css">
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+<body>
+<div class="container">
+    <div id="header">
+        <p id="a">
+            Tìm Max-Min<br/>
+        </p>
+        <p id="ke"></p>
+    </div>
+    <div id="form">
+        <form >
+            <p id="show"></p>
+            <div class="form-group" >
+                <p>Nhập Hệ Số Thứ Nhất :</p>
+                <input type="number" class="form-control" id="numbera" >
+            </div>
+            <div class="form-group">
+                <p>Nhập Hệ Số Thứ 2:</p>
+                <input type="number" class="form-control" id="numberb"><br/>
+            </div>
+            <div class="form-group" id="c">
+                <p>Nhập Hệ Số Thứ 3 :</p>
+                <input type="number" class="form-control" id="numberc"><br/>
+            </div>
+            <br/>
+            <button onclick="show()" type="button" class="btn btn-info">Hiển Thị Max_Min</button>
+        </form>
+        <br/>
+        <p id="Max"></p>
+        <p id="Min"></p>
+    </div>
+</div>
+<script type="text/javascript">
+    function kiemTraDuLieu() {
+
+            var a=document.getElementById('numbera').value;
+            var b=document.getElementById('numberb').value;
+            var c=document.getElementById('numberc').value;
+
+
+            if((a==''||b==''||c=='')||(a==''&&b==''&&c==''))
+            {
+                document.getElementById('show').innerHTML="Không được để trống";
+                document.getElementById('pt1').innerHTML ="";
+
+
+            }
+            else
+            {
+                document.getElementById('show').innerHTML="";
+
+            }
+    }
+    function timMax() {
+        kiemTraDuLieu();
+        var a=document.getElementById('numbera').value;
+        var b=document.getElementById('numberb').value;
+        var c=document.getElementById('numberc').value;
+
+        var max=a;
+        if(max<b){
+            max=b;
+        }
+        if (max<c){
+            max=c;
+        }
+        document.getElementById('Max').innerText="Max="+max;
+    }
+    function timMin() {
+        kiemTraDuLieu();
+        var a=document.getElementById('numbera').value;
+        var b=document.getElementById('numberb').value;
+        var c=document.getElementById('numberc').value;
+
+        var min=a;
+        if(min>b){
+            min=b;
+        }
+        if (min>c){
+            min=c;
+        }
+        document.getElementById('Min').innerText="Min="+min;
+    }
+    function show() {
+        timMax();
+        timMin();
+
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập 5</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .border {
+            margin: 0px auto;
+        }
+
+        .border2 {
+            padding: 5px 20px;
+        }
+
+        .button {
+            margin-left: 20px;
+        }
+        .text {
+            font-size: 24px;
+            text-align: center;
+            background-color: wheat;
+            padding: 30px 15px;
+        }
+        #show-text {
+            color: greenyellow;
+            padding: 20px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+
+        <form class="border">
+            <div class="form-group">
+                <p class="text col-md-12">Kiểm tra số nguyên tố</p>
+            </div>
+            <div class="border2">
+                <div class="form-group">
+                    <label>Nhập số a: </label>
+                    <input type="text" class="form-control" id="number" placeholder="  Nhập vào số a">
+                </div>
+            </div>
+            <button type="button" class="button btn btn-primary" onclick="KT()">Kiểm tra</button>
+            <p id="show-text"></p>
+        </form>
+    </div>
+</div>
+<script type="text/javascript">
+    function KT() {
+        var a = document.getElementById('number').value;
+        var a1 = parseInt(a);
+        var show = document.getElementById('show-text');
+        if (a == '') {
+            alert('Bạn không được để trống a');
+        }
+        else if (isNaN(a1) == true) {
+            alert('Bạn cần nhập dữ liệu là số');
+        }
+        else if (a1 < 2) {
+            show.innerHTML="Số a không phải là số nguyên tố";
+        }
+        else if (a1 == 2) {
+            show.innerHTML="Số a là số nguyên tố";
+        }
+        else if (a1 % 2 == 0) {
+            show.innerHTML="Số a không phải là số nguyên tố";
+        }
+        else {
+            // lặp từ 3 tới n-1 với bước nhảy là 2 (i+=2)
+            for (var i = 3; i < a1-1; i += 2) {
+                if (a1 % i == 0) {
+                    show.innerHTML="Số a không phải là số nguyên tố";
+                    break;
+                }
+                else {
+                    show.innerHTML="Số a là số nguyên tố";
+
+                }
+            }
+        }
+        }
+</script>
+</body>
+</html>

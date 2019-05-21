@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai4</title>
+
+    <script src="../css/bai4.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+
+</head>
+<body>
+<div class="container">
+    <div class="col">
+        <form action="" method="post" enctype="multipart/form-data" onsubmit="return Tinh();">
+        <h3>Giải phương trình bâc nhất ax^2+bx+c=0</h3>
+            <div class="form-group">
+                <span id="error" class="error"></span><br/>
+                <label for="a">Nhập vào số a</label><br/>
+                <input type="text" class="form-control"  placeholder="Mời bạn nhập số a..." id="a" name="a"/><br/></div>
+            <div class="form-group">
+                <label for="b">Nhập vào số b</label><br/>
+                <input type="text" class="form-control" placeholder="Mời bạn nhập số b..." id="b" name="b"><br/></div>
+            <div class="form-group">
+                <label for="c">Nhập vào số c</label><br/>
+                <input type="text" class="form-control" placeholder="Mời bạn nhập số c..." id="c" name="c"/><br/>
+            </div>
+            <div class="form-group">
+                <label>Phương trình có đã cho có dạng bậc nhất</label>
+                <p id="dang"></p>
+            </div>
+            <button type="submit" class="btn btn-primary">Tìm x</button>
+            <p id="show-result"></p>
+        </form>
+    </div>
+</div>
+</body>
+</html>

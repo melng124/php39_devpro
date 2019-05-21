@@ -1,0 +1,17 @@
+#wrapper{
+    padding-right: 30%;
+    padding-left: 30%;
+
+}
+#header{
+    background-color: #feffed;
+}
+#header h2{
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+#main{
+    padding-left: 10%;
+    padding-right: 10%;
+}

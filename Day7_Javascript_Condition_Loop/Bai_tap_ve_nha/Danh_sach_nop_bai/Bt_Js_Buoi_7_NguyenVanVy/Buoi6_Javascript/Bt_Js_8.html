@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập 7</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .border {
+            margin: 0px auto;
+        }
+
+        .border2 {
+            padding: 5px 20px;
+        }
+
+        .text {
+            font-size: 24px;
+            text-align: center;
+            background-color: wheat;
+            padding: 30px 15px;
+        }
+
+        .button {
+            margin-top: 15px;
+        }
+        #show-text{
+            color: deepskyblue;
+            padding: 20px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+
+        <form class="border">
+            <div class="form-group">
+                <p class="text col-md-12">Tìm giá trị lớn nhất nhỏ nhất</p>
+            </div>
+            <div class="border2">
+                <div class="form-group">
+                    <label>Nhập số a: </label>
+                    <input type="text" class="form-control" id="number1Id" placeholder="  Enter a">
+                </div>
+                <div class="form-group">
+                    <label>Nhập số b :</label>
+                    <input type="text" class="form-control" id="number2Id" placeholder="  Enter b">
+                </div>
+                <div class="form-group">
+                    <label>Nhập số c: </label>
+                    <input type="text" class="form-control" id="number3Id" placeholder="  Enter c">
+                </div>
+                <button type="button" class="button btn btn-primary" onclick="Search()">Tìm min max</button>
+
+            </div>
+            <p id="show-text"></p>
+        </form>
+    </div>
+</div>
+<script type="text/javascript">
+    function Search()
+    {
+        var a=document.getElementById('number1Id').value;
+        var b=document.getElementById('number2Id').value;
+        var c=document.getElementById('number3Id').value;
+        var a1=parseInt(a);
+        var b1=parseInt(b);
+        var c1=parseInt(c);
+        var show = document.getElementById('show-text');
+
+
+        if (a==''||b==''){
+            alert('Bạn không được để trống giá trị');
+        }
+        else if ((isNaN(a1) == true)||(isNaN(b1) == true)||(isNaN(c1) == true)){
+            alert('Bạn cần nhập dữ liệu là số');
+        }
+        else {
+            var Max=Math.max(a1,b1,c1);
+            var Min=Math.min(a1,b1,c1);
+            show.innerHTML="Số lớn nhất là: "+Max+"<br>"+"Số nhỏ nhất là: "+Min;
+
+
+        }
+
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 6</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .border {
+            margin: 0px auto;
+        }
+
+        .border2 {
+            padding: 5px 20px;
+        }
+
+        .text {
+            font-size: 24px;
+            text-align: center;
+            background-color: wheat;
+            padding: 30px 15px;
+        }
+
+        .button {
+            margin-top: 15px;
+        }
+        #show-text{
+            color: deepskyblue;
+            padding: 20px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+
+        <form class="border">
+            <div class="form-group">
+                <p class="text col-md-12">Kiểm tra sự tồn tại của chuỗi</p>
+            </div>
+            <div class="border2">
+                <div class="form-group">
+                    <label>Nhập chuỗi ban đầu: </label>
+                    <input type="text" class="form-control" id="mamaString" placeholder=" Nhập">
+                </div>
+                <div class="form-group">
+                    <label>Nhập chuỗi cần kiểm tra:</label>
+                    <input type="text" class="form-control" id="childString" placeholder="  Nhập">
+                </div>
+                <button type="button" class="button btn btn-primary" onclick="Check()">Kiểm tra</button>
+
+            </div>
+            <p id="show-text"></p>
+        </form>
+    </div>
+</div>
+<script type="text/javascript">
+    function Check() {
+        var mama=document.getElementById('mamaString').value;
+        var child=document.getElementById('childString').value;
+        var show=document.getElementById('show-text');
+        var check=mama.includes(child);
+        if (check==true){
+            show.innerHTML="Chuỗi "+"<p style='font-weight: bold'>"+child+"</p>"+" tồn tại trong chuỗi ban đầu"+"<p style='font-weight: bold'>"+mama+"</p>";
+        }
+        else {
+            show.innerHTML="Chuỗi "+"<p style='font-weight: bold'>"+child+"</p>"+" không tồn tại trong chuỗi ban đầu"+"<p style='font-weight: bold'>"+mama+"</p>";
+        }
+    }
+</script>
+</body>
+</html>

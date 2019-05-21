@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 6</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bai6.css"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no"/>
+    <script type="text/javascript" src="js/bai6.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h3>Kiểm tra sự tồn tại của chuỗi</h3>
+    </div>
+    <div class="content">
+        <form onsubmit="return fnc()" name="form1" id="form1" method="get">
+            <div class="form-group">
+                <label for="inputStr1">Nhập chuỗi ban đầu:</label>
+                <input class="form-control" type="text" name="inputStr1" id="inputStr1" value=""/>
+                <label for="inputStr2">Nhập vào chuỗi cần kiểm tra:</label>
+                <input class="form-control" type="text" name="inputStr2" id="inputStr2" value="" />
+            </div>
+            <button type="submit" class="btn btn-primary">Kiểm tra</button>
+        </form>
+    </div>
+    <p id="showResult"></p>
+</div>
+</body>
+</html>

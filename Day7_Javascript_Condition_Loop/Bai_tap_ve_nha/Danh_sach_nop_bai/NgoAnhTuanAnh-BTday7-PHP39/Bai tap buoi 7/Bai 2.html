@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai tap 2</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @media (max-width: 576px) {
+            form{width: 100%;}
+        }
+    </style>
+</head>
+<body>
+<form method="post" action="" >
+    <!--Vung nhap su lieu-->
+    <p>Nhap vao so a:</p>
+    <p><input type="text" name="so1" id="so-thu-1"></p>
+    <p>
+        <button type="button" class="btn btn-primary" onclick="kiemtra()">Kiểm tra</button>
+    </p>
+    </form>
+    <p id="show-result"></p>
+<script type="text/javascript">
+    function kiemtra() {
+        var a= document.getElementById("so-thu-1").value;
+        var a1=parseInt(a);
+        if(1<=a1 && a1<=10){
+            document.getElementById("show-result").innerHTML="nằm trong phạm vi từ  1- 10";
+        }
+        else if(50<=a1 && a1<=100){
+            document.getElementById("show-result").innerHTML="nằm trong phạm vi từ 50 - 100";
+        }
+        else {
+            document.getElementById("show-result").innerHTML="không nằm trong phạm vi cho phép.";
+        }
+    }
+</script>
+</body>
+</html>

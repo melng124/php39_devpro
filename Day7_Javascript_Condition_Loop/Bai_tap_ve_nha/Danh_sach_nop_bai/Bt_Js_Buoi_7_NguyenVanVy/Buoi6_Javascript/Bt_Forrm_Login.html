@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Login 2</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .border {
+            margin: 0px auto;
+        }
+
+        .border2 {
+            padding: 5px 20px;
+        }
+
+        .text {
+            font-size: 24px;
+            text-align: center;
+            background-color: wheat;
+            padding: 30px 0px;
+        }
+
+        .btn-submit {
+            background-color: orange;
+            border: 0px;
+            border-radius: 5px;
+            height: 35px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <form class="border" >
+            <div class="form-group">
+                <p class="text col-md-12">Javascript Onsubmit Event Example</p>
+            </div>
+            <div class="border2">
+                <div class="form-group">
+                    <label>Name :</label>
+                    <input type="text" class="form-control" id="txtname" placeholder="  Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <label>Email :</label>
+                    <input type="email" class="form-control" id="txtemail" placeholder="  Enter Your Email">
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="sex" id="rdb_male" value="Male">Male
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="sex" id="rdb_female" value="Female">Female
+                </div>
+                <div class="form-group">
+                    <label>Contact No :</label>
+                    <input type="text" class="form-control" id="txtcontact" placeholder="  Enter Contact">
+                </div>
+                <div class="form-group">
+
+                    <input type="button" value="Submit" onclick="return GetText()" class="btn-submit col-md-12"/>
+
+                </div>
+            </div>
+            <p id="show-text"></p>
+        </form>
+    </div>
+</div>
+<script type="text/javascript">
+    function GetText() {
+        var name = document.getElementById('txtname').value;
+        var email = document.getElementById('txtemail').value;
+
+        var gender1 = document.getElementById('rdb_male');
+        var gender2 = document.getElementById('rdb_female');
+
+        var contact = document.getElementById('txtcontact').value;
+        var show = document.getElementById('show-text');
+        if(gender1.checked)
+        {
+            var sex1=gender1.value;
+            show.innerHTML="Name: " + name + "<br>"+"Email: " + email + "<br>"+"Gender: " + sex1 + "<br>"+"Contact: " + contact;
+        }
+        else
+        {
+           var sex2=gender2.value;
+            show.innerHTML="Name: " + name + "<br>"+"Email: " + email + "<br>"+"Gender: " + sex2 + "<br>"+"Contact: " + contact;
+
+        }
+        return false;
+    }
+</script>
+</body>
+</html>

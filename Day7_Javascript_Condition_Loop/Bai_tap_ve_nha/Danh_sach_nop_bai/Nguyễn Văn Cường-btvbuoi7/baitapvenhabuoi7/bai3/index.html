@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,
+     initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script type="text/javascript" src="../js/javaScript3.js"></script>
+    <link rel="stylesheet" href="../css/style3.css">
+</head>
+<body>
+<div class="container">
+<h4>Giải phương trình bậc nhất ax+b=0</h4>
+<form name="from" method="get" onsubmit="">
+    <p id="thongBao"></p>
+    <div class="form-group">
+        <label>Nhập vào số a</label>
+        <input onblur="checkA()" type="text" class="form-control" id="number1" placeholder="" name="number1">
+    </div>
+    <div class="form-group">
+        <label>Nhập vào số b</label>
+        <input onblur="test()" type="text" class="form-control" id="number2" placeholder="" name="number2">
+    </div>
+    <label>Phương trình của bạn có dạng:</label>
+    <p id="phuongTrinh"></p>
+    <button onclick="check()" type="button" class="btn btn-primary">Tìm x</button>
+    <button type="submit" class="btn btn-danger">Reset dữ liễu</button>
+
+    <br>
+    <p id="ketqua"></p>
+</form>
+</div>
+</body>
+</html>

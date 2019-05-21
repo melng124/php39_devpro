@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai tap 1</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @media (max-width: 576px) {
+            form{width: 100%;}
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 col-12">
+            <form method="post" action="" >
+                <h3>Thuc hanh toan tu so hoc</h3>
+                <!--Vung nhap su lieu-->
+                <p>Nhap vao so a:</p>
+                <p><input type="text" name="so1" id="so-thu-1"></p>
+                <p>Nhap vao so b:</p>
+                <p><input type="text" name="so2" id="so-thu-2"></p>
+
+                <!--cac nut chuc nang-->
+                <p>
+                    <button type="button" class="btn btn-primary" onclick="conghaiso()">a + b</button>
+                    <button type="button" class="btn btn-success" onclick="truhaiso()">a - b</button>
+                    <button type="button" class="btn btn-danger" onclick="nhanhaiso()">a * b</button>
+                    <button type="button" class="btn btn-warning" onclick="chiahaiso()">a / b</button>
+                    <button type="button" class="btn btn-info" onclick="chiaphandu()">a % b</button>
+                    <button type="button" class="btn btn-success" onclick="function1()">a++</button>
+                </p>
+                <p>
+                    <button type="button" class="btn btn-primary" onclick="function2()">++a</button>
+                    <button type="button" class="btn btn-danger" onclick="function3()">a--</button>
+                    <button type="button" class="btn btn-warning" onclick="function4()">--a</button>
+                </p>
+                <button type="reset" class="btn btn-warning">reset du lieu</button>
+            </form>
+            <p id="show-result"></p>
+        </div>
+    </div>
+</div>
+<!--Javascript xu ly cac chuc nang-->
+<script type="text/javascript">
+    function conghaiso() {
+        var a=document.getElementById("so-thu-1").value;
+        var b=document.getElementById("so-thu-2").value;
+        var a1=parseInt(a);
+        var b1=parseInt(b);
+        var sum=a1+b1;
+        if(a.length==0 || b.length==0){
+            document.getElementById("show-result").innerHTML="Không được để trống dữ liệu.";
+        }
+        else if(isNaN(sum)== true){
+            document.getElementById("show-result").innerHTML="dữ liệu nhập vào phải là số.";
+        }
+        else {
+            document.getElementById("show-result").innerHTML="a+b=" +sum;
+        }
+    }
+    function truhaiso() {
+        var a=document.getElementById("so-thu-1").value;
+        var b=document.getElementById("so-thu-2").value;
+        var a1=parseInt(a);
+        var b1=parseInt(b);
+        var tru=a1-b1;
+        if(a.length==0 || b.length==0){
+            document.getElementById("show-result").innerHTML="Không được để trống dữ liệu.";
+        }
+        else if(isNaN(tru)== true){
+            document.getElementById("show-result").innerHTML="dữ liệu nhập vào phải là số.";
+        }
+        else {
+            document.getElementById("show-result").innerHTML="a-b=" +tru;
+        }
+    }
+    function nhanhaiso() {
+        var a=document.getElementById("so-thu-1").value;
+        var b=document.getElementById("so-thu-2").value;
+        var a1=parseInt(a);
+        var b1=parseInt(b);
+        var nhan=a1*b1;
+        if(a.length==0 || b.length==0){
+            document.getElementById("show-result").innerHTML="Không được để trống dữ liệu.";
+        }
+        else if(isNaN(nhan)== true){
+            document.getElementById("show-result").innerHTML="dữ liệu nhập vào phải là số.";
+        }
+        else {
+            document.getElementById("show-result").innerHTML="a*b=" +nhan;
+        }
+    }
+    function chiahaiso() {
+        var a=document.getElementById("so-thu-1").value;
+        var b=document.getElementById("so-thu-2").value;
+        var a1=parseInt(a);
+        var b1=parseInt(b);
+        var chia=a1/b1;
+        if(a.length==0 || b.length==0){
+            document.getElementById("show-result").innerHTML="Không được để trống dữ liệu.";
+        }
+        else if(isNaN(chia)== true){
+            document.getElementById("show-result").innerHTML="dữ liệu nhập vào phải là số.";
+        }
+        else {
+            document.getElementById("show-result").innerHTML="a/b=" +chia;
+        }
+    }
+    function chiaphandu() {
+        var a=document.getElementById("so-thu-1").value;
+        var b=document.getElementById("so-thu-2").value;
+        var a1=parseInt(a);
+        var b1=parseInt(b);
+        var layphandu=a1 % b1;
+        if(a.length==0 || b.length==0){
+            document.getElementById("show-result").innerHTML="Không được để trống dữ liệu.";
+        }
+        else if(isNaN(layphandu)== true){
+            document.getElementById("show-result").innerHTML="dữ liệu nhập vào phải là số.";
+        }
+        else {
+            document.getElementById("show-result").innerHTML="a%b=" +layphandu;
+        }
+    }
+    function function1() {
+        var a=document.getElementById("so-thu-1").value;
+
+        if(a.length==0){
+            document.getElementById("show-result").innerHTML="Không được để trống dữ liệu.";
+        }
+        else if(isNaN(a)== true){
+            document.getElementById("show-result").innerHTML="dữ liệu nhập vào phải là số.";
+        }
+        else {
+            document.getElementById("show-result").innerHTML="a++: " +a;
+        }
+    }
+    function function2() {
+        var a=document.getElementById("so-thu-1").value;
+        var a1=++a;
+        if(a.length==0){
+            document.getElementById("show-result").innerHTML="Không được để trống dữ liệu.";
+        }
+        else if(isNaN(a)== true){
+            document.getElementById("show-result").innerHTML="dữ liệu nhập vào phải là số.";
+        }
+        else {
+            document.getElementById("show-result").innerHTML="++a: " +(a1);
+        }
+    }
+    function function3() {
+        var a=document.getElementById("so-thu-1").value;
+
+        if(a.length==0){
+            document.getElementById("show-result").innerHTML="Không được để trống dữ liệu.";
+        }
+        else if(isNaN(a)== true){
+            document.getElementById("show-result").innerHTML="dữ liệu nhập vào phải là số.";
+        }
+        else {
+            document.getElementById("show-result").innerHTML="a--: " +a;
+        }
+    }
+    function function4() {
+        var a=document.getElementById("so-thu-1").value;
+        var a1=--a;
+        if(a.length==0){
+            document.getElementById("show-result").innerHTML="Không được để trống dữ liệu.";
+        }
+        else if(isNaN(a)== true){
+            document.getElementById("show-result").innerHTML="dữ liệu nhập vào phải là số.";
+        }
+        else {
+            document.getElementById("show-result").innerHTML="a--: " +a1;
+        }
+    }
+</script>
+</body>
+</html>

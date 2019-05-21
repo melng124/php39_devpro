@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,
+     initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script type="text/javascript" src="../js/javaScript1.js"></script>
+    <link rel="stylesheet" href="../css/style1.css">
+</head>
+<body>
+<div class="container">
+    <h4>Thực hành toán tử số</h4>
+    <form>
+        <p id="thongBao"></p>
+        <div class="form-group">
+            <label>Nhập vào số a</label>
+            <input type="text" class="form-control" id="number1" placeholder="">
+        </div>
+        <div class="form-group">
+            <label>Nhập vào số b</label>
+            <input type="text" class="form-control" id="number2" placeholder="">
+        </div>
+        <br>
+        <button id="cong" type="button" class="btn btn-primary" onclick=" sum()" >a+b</button>
+        <button id="tru" type="button" class="btn btn-success" onclick=" trub()">a-b</button>
+        <button id="nhan" type="button" class="btn btn-danger" onclick=" sumNhan()">a*c</button>
+        <button id="chia" type="button" class="btn btn-warning" onclick=" chiaa()">a/b</button>
+        <button id="chiadu" type="button" class="btn btn-primary" onclick=" chiaDu()">a%b</button>
+        <button id="congcong" type="button" class="btn btn-success" onclick="congCong()">++a</button>
+        <button id="congconga" type="button" class="btn btn-danger"onclick="aCongCong()">a++</button>
+        <button id="trutrua" type="button" class="btn btn-warning" onclick="truTru()">--a</button>
+        <button id="atrutru" type="button" class="btn btn-primary" onclick="aTruTru()">a--</button>
+        <br>
+        <br>
+        <button type="submit" class="btn btn-warning">Reset dữ liễu</button>
+        <br>
+        <p id="ketqua"></p>
+    </form>
+</div>
+<script type="text/javascript">
+var a=5;
+var b= a++ +2;
+    console.log(b);
+    console.log(a)
+</script>
+</body>
+</html>

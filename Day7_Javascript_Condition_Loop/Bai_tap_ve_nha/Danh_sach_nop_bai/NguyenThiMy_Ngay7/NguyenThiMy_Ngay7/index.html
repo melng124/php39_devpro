@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 1</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width,inital-scale=1"/>
+    <script rel="stylesheet" type="text/javascript" src="js/javaScript.js"></script>
+    <style type="text/css">
+        body {
+            margin: 0px auto;
+        }
+
+        form {
+            width: 410px;
+            height: 500px;
+            border: 1px solid gray;
+            padding-bottom: 30px;
+            margin:auto;
+            margin-top: 50px;
+
+        }
+
+        #header {
+            height: 60px;
+            font-weight: bold;
+            text-align: center;
+            font-family: "Myriad Pro";
+            font-size: 20px;
+            background: #FEFFED;
+            line-height: 60px;
+            border-bottom:1px solid #ddd;
+            margin-bottom:20px;
+        }
+
+        .commit {
+            margin-top: 15px;
+        }
+
+        .data {
+            display: block;
+            margin-top: 15px;
+        }
+        #thongbao{
+            color: red;
+            font-weight: bold;
+        }
+        @media only screen and (max-width:900px){
+            form{
+                width:95%;
+                margin:auto;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+<form action="" method="" enctype="">
+    <div id="header">
+        <p>Thực hành toán tử số học</p>
+    </div>
+    <div class="container">
+        <div id="thongbao">
+
+        </div>
+        <div class="form-group">
+            <label>Nhập vào số a :</label>
+            <input type="text" class="form-control" id="number1" placeholder="" value="" required>
+        </div>
+        <div class="form-group">
+            <label>Nhập vào số b :</label>
+            <input type="text" class="form-control" id="number2" placeholder="" value="" required>
+        </div>
+        <button type="button" class="btn btn-primary" value="plus" onclick="Sum();">a + b</button>
+        <button type="button" class="btn btn-success" value="minus" onclick="Hieu();">a - b</button>
+        <button type="button" class="btn btn-danger" value="multiply" onclick="Tich();"> a * b</button>
+        <button type="button" class="btn btn-warning" value="share" onclick="Thuong();">a/b</button>
+        <button type="button" class="btn btn-info" value="balance" onclick="chiaLayDu();">a % b</button>
+        <button type="button" class="btn btn-success" value="increase" onclick="tangMotDonVi();">a++</button>
+        <button type="button" class="commit btn btn-info" value="increase1" onclick="tangMotDonViPostfix();">++a</button>
+        <button type="button" class=" commit btn btn-danger" value="reduction"onclick="giamMotDonVi();" >a--</button>
+        <button type="button" class=" commit btn btn-warning" value="reduction1" onclick="giamMotDonViPostfix();">--a</button>
+        <button type="reset" class=" data btn btn-warning" value="Reset">Reset dữ liệu</button>
+        <div id="ketqua">
+
+        </div>
+    </div>
+
+</form>
+</body>
+</html>

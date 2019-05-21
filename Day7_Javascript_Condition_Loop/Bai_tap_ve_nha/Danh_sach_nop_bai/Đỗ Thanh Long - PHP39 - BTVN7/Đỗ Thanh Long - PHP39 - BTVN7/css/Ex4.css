@@ -1,0 +1,27 @@
+#wrapper{
+    padding-left: 28%;
+    padding-right: 28%;
+
+}
+#header{
+    background-color: #feffed;
+
+}
+#header h2{
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+#main{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#output-equation{
+    color: blue;
+    font-weight: bold;
+
+}
+#output-x{
+    color: green;
+    font-weight: bold;
+}

@@ -1,0 +1,30 @@
+.container {
+    width: 50%;
+    background-color: #008000;
+}
+
+.dropDown {
+    display: none;
+}
+
+.container a {
+    color: #fff;
+    margin-left: 20px;
+}
+
+.container ul {
+    margin: auto;
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+
+    .container a {
+        color: #fff;
+        margin-left: 0;
+    }
+
+}
+

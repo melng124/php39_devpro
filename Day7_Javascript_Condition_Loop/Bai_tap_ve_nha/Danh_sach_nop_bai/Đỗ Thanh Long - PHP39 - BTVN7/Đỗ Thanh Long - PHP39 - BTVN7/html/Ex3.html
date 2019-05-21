@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex3</title>
+    <link rel="stylesheet" href="../css/Ex3.css">
+    <link rel="stylesheet" href="../css/bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <script type="text/javascript" src="../js/Ex3.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="wrapper">
+        <div id="header">
+            <h2>Giải phương trình bậc nhất ax+b=0</h2>
+        </div>
+        <div id="main">
+            <div id="input">
+                <form>
+                    <div>
+                        <label for="input-a">Nhập vào hệ số a:</label>
+                        <input type="text" id="input-a" class="form-control">
+                    </div>
+                    <div>
+                        <label for="input-b">Nhập vào hệ số b:</label>
+                        <input type="text" id="input-b" class="form-control">
+                    </div>
+                </form>
+            </div>
+            <p class="text">Phương trình bậc nhất của bạn đang có dạng: </p>
+            <p id="output-equation"></p>
+            <div>
+            <form>
+                <button type="button" class="btn btn-primary" style="margin-left: 10%" onclick="solution()">Tìm x</button>
+            </form>
+            </div>
+            <p id="output-x"></p>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

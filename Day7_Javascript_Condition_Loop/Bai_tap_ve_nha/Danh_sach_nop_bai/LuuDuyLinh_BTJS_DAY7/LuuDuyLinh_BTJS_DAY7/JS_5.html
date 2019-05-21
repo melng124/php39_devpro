@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BT_JS5</title>
+    <link rel="stylesheet"href="Style/bootstrap.min.css">
+    <link rel="stylesheet" href="Style/bt2.css">
+</head>
+<body>
+<div class="container">
+    <div id="bt2">
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Nhập vào số a :</label>
+                <input id="nhap" type="number" class="form-control">
+
+            </div>
+
+            <button onclick="testNguyenTo()" type="button" class="btn btn-primary">Kiểm Tra</button>
+        </form>
+        <p id="show"></p>
+    </div>
+</div>
+<script type="text/javascript">
+    function testNguyenTo() {
+        var a=document.getElementById('nhap').value;
+
+        if(a==''){
+            document.getElementById('show').innerHTML="Không được để trống"
+            return false;
+        }
+        else {
+            var i;
+            if(a<2){
+                document.getElementById('show').innerHTML=a+" không phải số nguyên tố";
+            }
+            if (a==2){
+                document.getElementById('show').innerHTML=a+"là số nguyên tố";
+            }
+            for(i=2;i<(a/2+1);i++)
+            {
+                if(a%i==0)
+                {
+                    document.getElementById('show').innerHTML=a+" không phải số nguyên tố";
+
+                }
+                else
+                {
+                    document.getElementById('show').innerHTML=a+" là số nguyên tố";
+                }
+            }
+        }
+
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bai1.css"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no"/>
+    <script type="text/javascript" src="js/bai1.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h3>Thực hành toán tử số học</h3>
+    </div>
+    <p id="error"></p>
+    <div class="content">
+        <form name="form1" id="form1" method="get">
+            <label for="inputA">Nhập vào số a:</label>
+            <input class="form-control" type="text" name="inputA" id="inputA" value="" placeholder="số a"/>
+            <label for="inputB">Nhập vào số b:</label>
+            <input class="form-control" type="text" name="inputB" id="inputB" value="" placeholder="số b"/>
+            <button type="button" class="btn btn-primary" onclick="fnc1()">a+b</button>
+            <button type="button" class="btn btn-success" onclick="fnc2()">a-b</button>
+            <button type="button" class="btn btn-danger" onclick="fnc3()">a*b</button>
+            <button type="button" class="btn btn-warning" onclick="fnc4()">a/b</button>
+            <button type="button" class="btn btn-info" onclick="fnc5()">a%b</button>
+            <button type="button" class="btn btn-success" onclick="fnc6()">a++</button>
+            <button type="button" class="btn btn-primary" onclick="fnc7()">++a</button>
+            <button type="button" class="btn btn-danger" onclick="fnc8()">a--</button>
+            <button type="button" class="btn btn-warning" onclick="fnc9()">--a</button><br/>
+            <button type="reset" class="btn btn-warning">Reset dữ liệu</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập 2</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .border {
+            margin: 0px auto;
+        }
+
+        .border2 {
+            padding: 5px 20px;
+        }
+
+        .button {
+            margin-left: 20px;
+        }
+
+        #show-text {
+            color: deepskyblue;
+            padding: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+
+        <form class="border">
+            <div class="border2">
+                <div class="form-group">
+                    <label>Nhập số a: </label>
+                    <input type="text" class="form-control" id="number" placeholder="  Nhập vào số a">
+                </div>
+            </div>
+            <button type="button" class="button btn btn-primary" onclick="SoSanh()">Kiểm tra</button>
+            <p id="show-text"></p>
+        </form>
+    </div>
+</div>
+<script type="text/javascript">
+    function SoSanh() {
+        var a = document.getElementById('number').value;
+        var Prsa = parseInt(a);
+        if (a == '') {
+            alert('Bạn không được để trống a');
+        }
+        else if (isNaN(Prsa) == true) {
+            alert('Bạn cần nhập dữ liệu là số');
+        }
+        else if (Prsa >= 1 && Prsa <= 10){
+            var show = document.getElementById('show-text');
+            show.innerHTML="Số a thuộc khoảng từ 1 - 10";
+        }
+        else if (Prsa >= 50 && Prsa <= 100) {
+            var show = document.getElementById('show-text');
+            show.innerHTML="Số a thuộc khoảng từ 50 - 100";
+        }
+        else  {
+            var show = document.getElementById('show-text');
+            show.innerHTML="Số a không thuộc khoảng từ 1 - 10 hoặc từ 50 - 100";
+        }
+
+    }
+</script>
+</body>
+</html>

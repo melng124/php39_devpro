@@ -1,0 +1,38 @@
+#menu-ctn>li {
+    background: #008000;
+    position: relative;
+
+}
+#menu-ctn>li:hover{
+
+    cursor: pointer;
+}
+#menu-ctn>li>a{
+    color: white;
+}
+#menu-ctn>li>a:hover{
+    color: #d0d232;
+}
+#dropmenu3{
+    z-index: 1;
+    background:#008000;
+}
+#dropmenu3>li>a{
+    color: white;
+    text-align: justify;
+}
+#dropmenu3>li{
+    padding-right: 10px;
+}
+ul{
+    list-style: none;
+}
+#dropmenu3{
+    text-align: center;
+    display: none;
+    position: absolute;
+}
+#dropmenu3.active{
+    display: block;
+    margin-left: 0px;
+}

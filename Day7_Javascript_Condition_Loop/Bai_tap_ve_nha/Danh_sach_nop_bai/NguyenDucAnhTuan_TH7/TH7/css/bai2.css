@@ -1,0 +1,11 @@
+.container{
+    width: 50%;
+}
+#showResult{
+    color: #005cbf;
+}
+@media (max-width: 576px) {
+    .container{
+        width: 100%;
+    }
+}

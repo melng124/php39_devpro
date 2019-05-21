@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bai3.css"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no"/>
+    <script type="text/javascript" src="js/bai3.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h3>Giải phương trình bậc nhất<br/> ax + b = 0</h3>
+    </div>
+    <div class="content">
+        <form onsubmit="return fnc()" name="form1" id="form1" method="get">
+            <div class="form-group">
+                <label for="inputA">Nhập vào hệ số a:</label>
+                <input class="form-control" type="text" name="inputA" id="inputA" value="" placeholder="hệ số a"/>
+                <label for="inputB">Nhập vào hệ số b:</label>
+                <input class="form-control" type="text" name="inputB" id="inputB" value="" placeholder="hệ số b"/>
+            </div>
+            <p id="showInfor">
+            </p>
+            <button type="submit" class="btn btn-primary">Tìm x</button>
+        </form>
+    </div>
+    <p id="showResult"></p>
+</div>
+</body>
+</html>

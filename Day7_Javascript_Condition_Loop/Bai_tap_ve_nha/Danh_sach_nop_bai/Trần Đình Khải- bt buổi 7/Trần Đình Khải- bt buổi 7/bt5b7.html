@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="bt1b7.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="GET" action="" onsubmit=" return sont()">
+        <div class="container frame">
+            <div class="row justify-content-md-center">
+                <div class="col-md-5 col-12 frame1">
+                    <div class="content">
+                        <h5>Kiểm tra số nguyên tố </h5>
+
+                    </div>
+                    <div class="main">
+                        <p id="canhbao"> </p>
+                        <p id="canhbao2"></p>
+
+                        <div class="form-group">
+                            <p id="khunghienthi"></p>
+                            <label for="soa">Nhập vào số a : </label>
+                            <input type="text" class="form-control" value="" id="soa" placeholder="Nhập số a">
+
+                        </div>
+
+
+                        <button type="submit" class="btn btn-primary">Kiểm tra </button>
+                        <p id="show"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <script type="text/javascript">
+        function sont() {
+            var show = document.getElementById('show');
+            var a = parseInt(document.getElementById('soa').value);
+            
+            if (a < 2) show.innerHTML = a + " không là số nguyen tố";
+            else {
+                var dem=0;
+                for (var i = 2; i <= Math.sqrt(a); i++)
+                {
+                    if (a % i == 0)dem++;                    
+                }
+            }
+            if(dem==0)show.innerHTML = a + "  là số nguyen tố";
+            else show.innerHTML = a + " không là số nguyen tố";
+            return false;
+        }
+    </script>
+</body>
+
+</html>
