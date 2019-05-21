@@ -32,7 +32,10 @@
         function myfunction() {
             var a = document.getElementById("number1").value;
             var b = document.getElementById("number2").value;
+            console.log(typeof a)
+            console.log(typeof b)
             var x = -b/a
+            console.log(typeof x)
             document.getElementById('info1').innerHTML = +a +"x +" +b +" = 0";
             document.getElementById('info2').innerHTML = "x = " +x;
 
