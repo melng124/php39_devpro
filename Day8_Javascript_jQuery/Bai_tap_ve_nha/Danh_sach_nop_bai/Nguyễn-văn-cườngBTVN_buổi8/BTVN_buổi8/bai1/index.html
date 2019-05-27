@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style1.css">
+</head>
+<body>
+<div class="container">
+    <form class="form-style-7" onsubmit="return hienThi()">
+        <h6>Fill The Form & Make a Booking</h6>
+        <div id="header">
+            <div class="row conten">
+                <div class="col-md-6 col-12 font-display">
+                    <h2>A No-Fuss New Year's Dinner Party</h2>
+                </div>
+                <div class="col-md-6 col-12 font-dosis">
+                    <h1>2016</h1>
+                </div>
+            </div>
+        </div>
+        <h5 id="show-error"></h5>
+        <div class=" conten-2">
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <fieldset>
+                        <legend><span>Your email address</span></legend>
+                        <input id="text-a" type="text" name="txtFName" size="" placeholder="nameemail@gmail.com"/>
+                    </fieldset>
+                    <fieldset>
+                        <legend><span>Name</span></legend>
+                        <input id="text-b" type="text" name="txtFName" size="" placeholder="Name"/>
+                    </fieldset>
+                </div>
+                <div class="col-md-6">
+                    <fieldset class="fiel-2">
+                        <legend><span>Notes</span></legend>
+                        <textarea id="text-c" name="" size="" placeholder="Your notes" rows="3"></textarea>
+                    </fieldset>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <fieldset>
+                        <legend><span>Telephone number</span></legend>
+                        <input id="text-d" type="text" name="" size="" placeholder="+032..."/>
+                    </fieldset>
+                </div>
+                <div class="col-md-6 guest">
+                    <span>No. of guests</span>
+                    <input id="text-e" type="text" name="" size="" placeholder=""/>
+                </div>
+
+            </div>
+            <div class="row"> <button type="submit" value="submit" ><span>RESERVE</span> your seat(s)</button></div>
+        </div>
+    </form>
+    <div id="footer">
+        <p>For further information call</p>
+        <h6>+314 541 154 15</h6>
+    </div>
+    <div id="show">
+    <p id="show-result"></p>
+    <p id="email"></p>
+    <p id="name"></p>
+    <p id="notes"></p>
+    <p id="telephone"></p>
+    <p id="guests"></p>
+    </div>
+</div>
+</body>
+<script rel="script" src="../js/javaScript1.js"></script>
+</html>

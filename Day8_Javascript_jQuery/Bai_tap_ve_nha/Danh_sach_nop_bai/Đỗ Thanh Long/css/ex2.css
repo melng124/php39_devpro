@@ -1,0 +1,28 @@
+#show-chat{
+    border: 1px solid black;
+    height: 500px;
+    width: 260px;
+    overflow: scroll;
+}
+textarea{
+    float: left;
+}
+button{
+
+    float: left;
+    padding: 9px;
+}
+#content{
+    background-color: #dff0d8;
+    color: #3b9fb4;
+    width: 260px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#content i{
+    color: #3c763d;
+
+}
+#show-chat{
+
+}

@@ -1,0 +1,46 @@
+.container{
+    /*padding-top: 0;*/
+    padding: unset;
+    border: 1px solid rgba(194, 194, 194, 0.67);
+    /*margin: 0 15% 0 15%;*/
+    max-width: 400px;
+}
+button{
+    margin-right: 1rem;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+p{
+    color: #007bff;
+    word-break: break-all;
+}
+.color{
+    color: #008000;
+}
+#ketqua{
+    color: #008000;
+}
+#ketqua2{
+    color: #008000;
+}
+#thongBao{
+    color: red;
+}
+h4{
+    background: rgba(249, 216, 145, 0.7);
+    padding: 1rem;
+    text-align: center;
+}
+form{
+    padding: 1rem;
+}
+@media (max-width: 576px) {
+    h4{
+        font-size: 1.5rem;
+
+    }
+    button{
+
+    }
+
+}

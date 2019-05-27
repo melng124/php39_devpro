@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai tap 1</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="container">
+    <!--Phan header-->
+    <div class="row">
+        <div class="col-md-12 col-12">
+            <h3>Fill the Form & Make a Booking</h3>
+            <img src="image/logo.jpg" height="131" width="404"/>
+        </div>
+    </div>
+    <!--Phan content-->
+    <form method="post" onsubmit="validateForm()" action="">
+        <div class="row" style="width: 43%">
+            <div class="col-md-6 col-12">
+                <fieldset>
+                    <legend>Your email address</legend>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email"
+                               placeholder="e.g john.@gmail.com">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Name</legend>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="name"
+                               placeholder="John Smith">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Telephone number</legend>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="phone"
+                               placeholder="+372...">
+                    </div>
+                </fieldset>
+            </div>
+            <div class="col-md-6 col-12">
+                <fieldset>
+                    <legend>Notes</legend>
+                    <textarea id="note" style="height: 136px;"></textarea>
+                </fieldset>
+                <div class="guest">No. of guest
+                    <input type="text" name="number" id="number" style="width: 30px">
+                </div>
+
+            </div>
+            <div class="btn1">
+                <input type="submit" class="btn btn-danger" value="RESERVE your seat(s)">
+            </div>
+        </div>
+    </form>
+
+</div>
+
+<script type="text/javascript">
+    function validateForm() {
+        var email = document.getElementById("email").value;
+        console.log(email);
+        var name = document.getElementById("name").value;
+        console.log(name);
+        var phone = document.getElementById("phone").value;
+        console.log(phone);
+        var note = document.getElementById("note").value;
+        console.log(note);
+        var number = document.getElementById("number").value;
+        if ((email == '' || name == ''||phone == '' || note == '' ||number=='')) {
+            alert("Cần nhập đủ các trường")
+        }
+        else if(isNaN(phone)){
+            alert("trường Telephone number cần nhập dữ liệu là số");
+        }
+        else {
+            alert("your email address: " + email + "\n name:" + name + "\n Telephone number: " + phone + "\n Notes: " + note + "\n No guest of: " + number);
+            return false;
+        }
+    }
+</script>
+</body>
+</html>

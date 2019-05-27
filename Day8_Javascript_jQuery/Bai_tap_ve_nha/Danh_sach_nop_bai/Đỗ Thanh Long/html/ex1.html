@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ex1</title>
+    <link rel="stylesheet" href="../css/ex1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="../js/ex1.js"></script>
+</head>
+<body>
+<div class="container">
+    <div id="wrapper">
+        <div id="header">
+            <div class="content">
+                <p class="content-text">
+                    Fill the Form & Make a Booking
+                </p>
+                <div class="content-image">
+                    <a href="#"><img src="../images/ex1.png"></a>
+                </div>
+            </div>
+        </div>
+        <div id="main">
+            <div class="infor-row">
+                <div class="infor-left">
+                    <form>
+                        <fieldset>
+                            <legend>Your email address</legend>
+                            <input type="text" id="email" class="input" placeholder="e.g john.smith@gmail.com">
+                        </fieldset>
+                    </form>
+                    <form>
+                        <fieldset>
+                            <legend>Name</legend>
+                            <input type="text" id="name" class="input" placeholder="eg John Smith">
+                        </fieldset>
+                    </form>
+                    <form>
+                        <fieldset>
+                            <legend>Telephone number</legend>
+                            <input type="text" id="number" class="input" placeholder="+372">
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="infor-right">
+                    <form>
+                        <fieldset class="notes">
+                            <legend>Notes</legend>
+                            <input type="text" id="notes" class="input" placeholder="Some special requests?">
+                        </fieldset>
+                    </form>
+                    <form>
+                        <p class="guest-number">No of guests <input type="text" class="input-number" id="numberofguest">
+                        </p>
+                    </form>
+                </div>
+
+            </div>
+            <div class="reserve">
+                <button type="submit" id="submit-button"><span class="reserve-uppercase">Reserve</span> your seat(s)
+                </button>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="contact-1">
+                <p class="contact">For further information call</p>
+                <p class="contact-number">+372 642 204 20</p>
+            </div>
+        </div>
+    </div>
+</div>
+        <p id="result"></p>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+ul {
+    list-style-type: none;
+    display: block;
+    width: 250px;
+    padding: 0;
+    background-color: white;
+
+}
+ul li {
+    border: 1px solid #dee2e6;
+    /*padding: 0;*/
+}
+.font-color{
+    color: #bfcdd5;
+}
+.dolar{
+    float: right;
+    padding-right: 15%;
+}
+
+.color-green{
+    color: forestgreen;
+}
+.container{
+    background-color: #f8f9fa;
+    width: 80%;
+}
+
+@media (max-width: 576px) {
+    ul{
+        width: 100%;
+    }
+}

@@ -1,0 +1,58 @@
+/*Bai tap 1*/
+
+/*Phan header*/
+
+h3{color: blue;}
+
+/*phan content*/
+fieldset{color: cornflowerblue}
+.guest{margin-top: 10%;
+        color: cornflowerblue;
+}
+
+.btn1{padding-left: 30%;}
+
+
+/*Bai tap 3*/
+
+
+ul{list-style-type: none;
+    display: block;
+    width: 250px;
+    background-color: #1b1e21;
+    padding: 0;
+    color: white;
+}
+
+ul li{
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #6c757d;
+    padding: 0;
+    position: relative;
+}
+.sub-menu {
+    position: absolute;
+    left: 250px;
+    top: 0;
+}
+
+ul li.selected .sub-menu{
+    display:block;
+}
+
+h5{color: white;
+    padding-left: 30%;
+}
+ul li a{
+    color: white;
+}
+
+ul li a:hover{
+    background-color: #333333;
+                color: white;
+}
+
+
+

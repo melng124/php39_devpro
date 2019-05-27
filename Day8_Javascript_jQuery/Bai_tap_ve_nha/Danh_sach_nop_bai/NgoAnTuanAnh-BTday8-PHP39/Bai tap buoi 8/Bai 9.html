@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai tap 9</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style_b9.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-7 col-12">
+            <form>
+                <h4>Billing address</h4>
+                <!--First, last name-->
+                <div class="row">
+                    <div class="col">
+                        <label>First name</label>
+                        <input type="text" class="form-control" placeholder="First name">
+                    </div>
+                    <div class="col">
+                        <label>Last name</label>
+                        <input type="text" class="form-control" placeholder="Last name">
+                    </div>
+                </div>
+
+                <!--user name-->
+                <label>User name</label>
+                <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">@</div>
+                    </div>
+                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+                </div>
+
+                <!--Email-->
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Email address<span class="font-color">(Optional)</span></label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                           placeholder="name@example.com">
+                </div>
+
+                <!--Address-->
+                <div class="form-group">
+                    <label for="inputAddress">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="form-group">
+                    <label for="inputAddress2">Address 2<span class="font-color">(Optional)</span></label>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment or suite">
+                </div>
+
+                <!--country, state, zip-->
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="country">Country</label>
+                        <select id="country" class="form-control">
+                            <option selected>Choose...</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="inputState">State</label>
+                        <select id="inputState" class="form-control">
+                            <option selected>Choose...</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="inputZip">Zip</label>
+                        <input type="text" class="form-control" id="inputZip">
+                    </div>
+                </div>
+                <hr>
+                <!--checkbox, radio-->
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                        Shipping address is the same as my billing address
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                        Save this information for next time
+                    </label>
+                </div>
+                <hr>
+                <h4>Payment</h4>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="Credit card" value="" checked>
+                    <label class="form-check-label" for="Credit card">
+                        Credit card
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="Debit card" value="">
+                    <label class="form-check-label" for="Debit card">
+                        Debit card
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="Paypal" value="">
+                    <label class="form-check-label" for="Paypal">
+                        Paypal
+                    </label>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <label>Name on card</label>
+                        <input type="text" class="form-control" placeholder="">
+                        <small id="Help" class="form-text text-muted">Full name as displayed on card</small>
+                    </div>
+                    <div class="col">
+                        <label>Credit card number</label>
+                        <input type="text" class="form-control" placeholder="">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-3">
+                        <label for="Expriation">Expriation</label>
+                        <input type="text" class="form-control" id="Expriation">
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="CVV">CVV</label>
+                        <input type="text" class="form-control" id="CVV">
+                    </div>
+                </div>
+                <hr>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Continue to checkout</button>
+            </form>
+        </div>
+        <div class="col-md-5 col-12">
+            <h4>Your cart</h4>
+                <ul>
+                    <li><p>Product name<span class="dolar">$12</span><br>Bief description</p></li>
+                    <li><p>Second product<span class="dolar">$8</span><br>Bief description</p></li>
+                    <li><p>Third item<span class="dolar">$5</span><br>Bief description</p></li>
+                    <li><p class="color-green">Product name<span class="dolar">-$5</span><br>EXAMPLE CODE</p></li>
+                    <li><p>Total (USD)<span class="dolar">$20</span><br>Bief description</p></li>
+                </ul>
+            <input type="text" name="promo-code" id="promo" placeholder="Promo code"><button type="button" class="btn btn-secondary">Redeem</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
