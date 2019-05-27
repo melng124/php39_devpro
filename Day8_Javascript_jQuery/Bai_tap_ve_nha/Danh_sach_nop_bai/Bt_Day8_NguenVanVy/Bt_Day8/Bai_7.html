@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 7</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .border {
+            margin: 0px auto;
+        }
+
+        .border2 {
+            padding: 5px 20px;
+        }
+
+        .text {
+            font-size: 24px;
+            text-align: center;
+            background-color: wheat;
+            padding: 30px 15px;
+        }
+
+        .button {
+            margin-top: 15px;
+        }
+
+        #show-text {
+            color: deepskyblue;
+            padding: 20px;
+            font-size: 26px;
+        }
+
+        #show-error {
+            font-size: 20px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+
+        <form class="border" onclick="validateForm">
+            <div class="form-group">
+                <p class="text col-md-12">Số nguyên tố</p>
+            </div>
+            <div class="border2">
+                <p id="show-error"></p>
+                <div class="form-group">
+                    <label>Nhập vào số a </label>
+                    <input type="text" class="form-control" id="number1" placeholder="  Số nguyên tố">
+                </div>
+
+                <button type="button" class="button btn btn-success" onclick="Tim()">Tìm số nguyên tố</button>
+            </div>
+            <p id="show-text"></p>
+        </form>
+    </div>
+</div>
+
+</body>
+<script type="text/javascript">
+    function validateForm(a) {
+        var error = document.getElementById('show-error');
+        var show = document.getElementById('show-text');
+
+        if (a == '') {
+
+            error.innerHTML = 'Không được để trống dữ liệu';
+            show.innerHTML = '';
+            return false;
+        }
+        else if (isNaN(a)) {
+            show.innerHTML = '';
+            error.innerHTML = "Cần nhập dữ liệu là số";
+            return false;
+        }
+
+        error.innerHTML = '';
+        return true;
+
+
+    }
+
+    function ktsnt(snt) {
+        var check = true;
+        if (snt < 2) {
+            check = false;
+        }
+        else {
+            for (var i = 2; i < snt; i++) {
+                if (snt % i == 0) {
+                    check = false;
+                    break;
+
+                }
+            }
+        }
+        return check;
+    }
+
+    function Tim() {
+
+        var a = document.getElementById('number1').value;
+
+        if (validateForm(a) == true) {
+            var nt = '';
+            for (var i = 1; i <= parseInt(a); i++) {
+                if (ktsnt(i)) {
+                    nt += i + ', ';
+                }
+            }
+            document.getElementById('show-text')
+                .innerHTML = "Các số nguyên tố từ 1 - " + a + " là: " + nt;
+
+        }
+    }
+</script>
+</html>

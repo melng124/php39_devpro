@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 6</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .border {
+            margin: 0px auto;
+        }
+
+        .border2 {
+            padding: 5px 20px;
+        }
+
+        .text {
+            font-size: 24px;
+            text-align: center;
+            background-color: wheat;
+            padding: 30px 15px;
+        }
+
+        .button {
+            margin-top: 15px;
+        }
+
+        #show-text {
+            color: deepskyblue;
+            padding: 20px;
+            font-size: 26px;
+        }
+
+        #show-error {
+            font-size: 20px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+
+        <form class="border" onclick="validateForm">
+            <div class="form-group">
+                <p class="text col-md-12">Chu vi và diện tích hình tròn</p>
+            </div>
+            <div class="border2">
+                <p id="show-error"></p>
+                <div class="form-group">
+                    <label>Nhập vào bán kính (đơn vị: met) </label>
+                    <input type="text" class="form-control" id="number1" placeholder="  bán kính">
+                </div>
+
+                <button type="button" class="button btn btn-success" onclick="Tinh()">Chu vi và diện tích</button>
+            </div>
+            <p id="show-text"></p>
+        </form>
+    </div>
+</div>
+
+</body>
+<script type="text/javascript">
+    function validateForm(a) {
+        var error = document.getElementById('show-error');
+        var show = document.getElementById('show-text');
+
+        if (a == '') {
+
+            error.innerHTML = 'Không được để trống dữ liệu';
+            show.innerHTML = '';
+            return false;
+        }
+        else if (isNaN(a)) {
+            show.innerHTML = '';
+            error.innerHTML = "Cần nhập dữ liệu là số";
+            return false;
+        }
+
+        error.innerHTML = '';
+        return true;
+
+
+    }
+
+    function Tinh() {
+
+        var a = document.getElementById('number1').value;
+
+        if (validateForm(a) == true) {
+            var chuvi = parseInt(a) * 2 * 3.14;
+            var dientich = parseInt(a) * parseInt(a) *3.14;
+            document.getElementById('show-text')
+                .innerHTML = "Chu vi = " + chuvi + "m" +  "<br>Diện tích = " + dientich + "m<sup>2</sup>";
+        }
+    }
+</script>
+</html>
