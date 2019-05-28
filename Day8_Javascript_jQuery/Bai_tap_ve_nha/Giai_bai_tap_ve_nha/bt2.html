@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BT2</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/all.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/script_bt2.js"></script>
+</head>
+<body>
+<div class="bt2 full-container">
+    <div class="chat">
+        <p class="title">
+            <i class="fas fa-comment-alt"></i> Ứng dụng chat độc thân:php39
+        </p>
+        <div class="container" id="messageContent">
+            <div class="wrap-content row" >
+                <div class="col-md-8 col-12">
+                    <span class="chat-icon">U</span>
+                    <div class="content-content">
+                        <h5 class="chat-username">php39</h5>
+                        <p class="chat-text">Xin chào</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="datetime-wrap">
+                        <i class="fas fa-certificate"></i> <span class="chat-datetime">22/4/2019 17:50</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrap-message">
+            <input type="text" class="form-control" id="message" placeholder="Nhập tin nhắn"
+                   aria-describedby="inputGroupPrepend" required>
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroupPrepend" onclick="return sendMessage()">Gửi</span>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -144,3 +144,63 @@
 .form-control::placeholder {
   color: #a29595;
 }
+
+
+/*BT2*/
+.bt2 .form-control{
+  width: 90%;
+  float: left;
+  border-radius: 0;
+}
+
+.bt2 .title{
+  padding: 15px;
+  background: #dff0d8;
+}
+
+.bt2 .chat-icon{
+  background: #55c1e7;
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+}
+
+.bt2 .chat-username{
+  color: #31708f;
+}
+
+.bt2 .datetime-wrap{
+  text-align: right;
+  font-size: 13px;
+}
+
+.bt2 .input-group-prepend{
+  display: block;
+  cursor: pointer;
+  float: left;
+  width: 10%;
+}
+.bt2 .input-group-text {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  color: #fff;
+  background: #f0ad4e;
+  border-radius: 0;
+}
+
+.bt2 .wrap-message{
+  margin-top: 150px;
+}
+
+.bt2 .chat{
+  border: 1px solid #ccc;
+  margin: auto;
+  max-width: 800px;
+}
+
+.bt2 .wrap-content {
+  border-bottom: 1px dashed #ccc;
+}
