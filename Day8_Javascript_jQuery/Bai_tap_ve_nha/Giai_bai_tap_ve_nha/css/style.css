@@ -28,6 +28,7 @@
 
 .bt1 textarea {
   border: none;
+  resize: none;
 }
 
 .bt1 input[type='number'] {
@@ -202,5 +203,12 @@
 }
 
 .bt2 .wrap-content {
+  padding-top: 15px;
   border-bottom: 1px dashed #ccc;
+}
+
+.bt2 input[type='submit'] {
+  background: inherit;
+  border: none;
+  color: #fff;
 }

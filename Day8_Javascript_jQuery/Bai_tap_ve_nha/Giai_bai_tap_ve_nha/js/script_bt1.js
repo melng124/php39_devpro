@@ -36,6 +36,8 @@ function displayForm() {
         text += "No. of guests: " + no + "<br />";
         document.getElementById("show-result").innerHTML = text;
     }
+
+
     return false;
 
 }

@@ -16,7 +16,7 @@
             <i class="fas fa-comment-alt"></i> Ứng dụng chat độc thân:php39
         </p>
         <div class="container" id="messageContent">
-            <div class="wrap-content row" >
+            <div class="wrap-content row">
                 <div class="col-md-8 col-12">
                     <span class="chat-icon">U</span>
                     <div class="content-content">
@@ -32,11 +32,15 @@
             </div>
         </div>
         <div class="wrap-message">
-            <input type="text" class="form-control" id="message" placeholder="Nhập tin nhắn"
-                   aria-describedby="inputGroupPrepend" required>
-            <div class="input-group-prepend">
-                <span class="input-group-text" id="inputGroupPrepend" onclick="return sendMessage()">Gửi</span>
-            </div>
+            <form onsubmit="return sendMessage()">
+                <input type="text" class="form-control" id="message" placeholder="Nhập tin nhắn"
+                       aria-describedby="inputGroupPrepend" required>
+                <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroupPrepend">
+                <input type="submit" value="Gửi"/>
+                </span>
+                </div>
+            </form>
         </div>
     </div>
 </div>
