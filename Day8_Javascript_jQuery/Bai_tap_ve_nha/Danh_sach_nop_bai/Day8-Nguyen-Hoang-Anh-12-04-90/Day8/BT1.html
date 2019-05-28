@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai Tap 1</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/mystyle-1.css" type="text/css">
+    <script type="text/javascript" src="jquery/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/myjavascript-1.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scales=1, shrink-to-fit=no">
+</head>
+<body>
+<div id="full-content">
+    <form onsubmit="validateForm()" action="" method="get">
+        <div class="container" id="main-content">
+            <div class="row" id="header">
+                <div class="col-12">
+                    <h1>Fill the Form & Make a Booking</h1>
+                </div>
+                <div class="col-12">
+                    <img src="images/banner.png" alt="banner">
+                </div>
+            </div>
+            <div class="row" id="your-form">
+                <div class="col-sm-6 col-md-6 col-12">
+                    <div class="small-input">
+                        <label for="email">Your email address</label>
+                        <input type="text" class="form-control" placeholder="e.g melnguyen@gmail.com" id="email"
+                               name="email">
+                    </div>
+                    <div class="small-input">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" placeholder="Mel Nguyen" id="name"
+                               name="name">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-12">
+                    <div class="big-input">
+                        <label for="notes">Note</label>
+                        <textarea name="notes" id="notes" cols="30" rows="5"
+                                  placeholder="Some special request"></textarea>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-12">
+                    <div class="small-input">
+                        <label for="phone">Telephone number</label>
+                        <input type="text" class="form-control" placeholder="+372..." id="phone"
+                               name="phone">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-12" id="guest-number">
+                    No. of guests <input type="text" name="guests" id="guests" placeholder="">
+                </div>
+            </div>
+        </div>
+
+        <div id="reserve">
+            <button type="submit" class="btn btn-danger"><b>RESERVE</b> your seat(s)</button>
+        </div>
+        <div id="info">
+            <p>For further information call</p>
+            <p>+372 642 204 20</p>
+        </div>
+    </form>
+</div>
+</body>
+</html>
