@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jquery Demo</title>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js">
+
+    </script>
+</head>
+<body>
+<!--Các module của jQuery-->
+
+<script type="text/javascript">
+
+    //trong js hoặc php, chấp nhận trường hợp
+    //mà gọi hàm trước rồi mới khai báo hàm
+    abc();
+
+    function abc() {
+        // alert("hello");
+    }
+
+    // function selectorJquery() {
+    //
+    // }
+    // $(document).ready(selectorJquery());
+    $(document).ready(function () {
+
+        //cách đặt tên biến phân biệt giữa các từ với nhau
+        // var selector_text = $('#selector-id').html();
+
+        <!-- 1 - jQuery Selector-->
+        var selectorText = $('#selector-id').html();
+        var selectorClass = $('.selector-class').html();
+        console.log(selectorClass);
+        console.log("Text lấy theo class =" + selectorClass);
+
+        // 2 - jQuery Attribute
+        //xóa id của thẻ strong bên dưới
+        // $('#selector-id').removeAttr('id');
+
+        //kiểm tra xem thẻ strong có class selector-class
+        console.log($('#selector-id').hasClass('selector-class'));
+
+        // 3 - jQuery DOM
+        //xóa thẻ strong
+        // $('#selector-id').remove();
+
+        //sử dụng hàm after(element) để thêm element vào sau selector,
+        // và ngang hàng với selector đó
+        //vd: thêm 1 link vào sau thẻ strong, ngang hàng với thẻ strong
+        $('strong').after("<a href='#'>Link</a>");
+        //thao tác với append
+        $('strong').append('<a href="#">Link append</a>');
+
+        // 4 - jQuery Event
+        //tên các event giống hệt javascript
+        //vd: JS là onclick => jQuery là click
+        $('strong').click(function () {
+            alert("click thẻ strong");
+        })
+
+        //5 - jQuery Effect
+        // liên quan đến các hiệu ứng
+        // click nút cuộn lên cuối trang thì lên đầu trang
+        $('#scroll-to-bottom').click(function () {
+            $("html, body").animate({ scrollTop: $(document).height() }, 5000);
+        });
+
+        // 6 // jQuery Ajax
+        //khi click thẻ p với id = load-ajax
+        //sẽ hiển thị nội dung của file
+        // jquery_ajax_load.html
+        $('#load-ajax').click(function () {
+           $('#load-ajax-result').load('jquery_ajax_load.html');
+        });
+    });
+</script>
+<p id="load-ajax">
+    click để load file jquery_ajax_load.html
+</p>
+<p id="load-ajax-result">
+    <!--hiển thị nội dung của file load ajax ở đây-->
+</p>
+<strong id="selector-id" class="selector-class">
+    Strong
+</strong>
+<br />
+<a href="#" style="color: red;" id="scroll-to-bottom">click để cuộn xuống cuối trang</a>
+<div style="height: 800px"></div>
+</body>
+</html>

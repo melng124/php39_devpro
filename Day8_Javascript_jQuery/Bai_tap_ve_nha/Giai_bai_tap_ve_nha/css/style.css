@@ -1,4 +1,7 @@
 /*css BT1*/
+body {
+  word-break: break-all;
+}
 .bt1 {
   background: #4cc3fc;
   padding: 25px 0;
