@@ -1,0 +1,148 @@
+#bt1{
+    margin-left: auto;
+    margin-right: auto;
+}
+#a{
+    background-color: #4cc3fc;
+}
+#header{
+    background-color: #fffef7;
+    position: relative;
+    top: 15px;
+    line-height: 25px;
+}
+#banner{
+    background-color: #120059;
+    color: #4cc2fa;
+}
+#main{
+    background-color: #fffef7;
+    background-color: #fffef7;
+}
+#form1{
+    padding-left: 20px;
+}
+#form2{
+    padding-left: 20px;
+}
+#form{
+    width: 100%;
+}
+#pra1{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 30px;
+}
+#pra2{
+    font-weight: bold;
+    font-size: 170px;
+    line-height: 170px;
+}
+#p1{
+    padding-top: 10px;
+    padding-left: 40px;
+    color: #0972a4;
+    font-weight: bold;
+}
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+    box-shadow:  0px 0px 0px 0px #000;
+    height: 70px;
+}
+fieldset.scheduler-border1 {
+    border: 1px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+    box-shadow:  0px 0px 0px 0px #000;
+    height: 165px;
+    width: 90%;
+}
+
+legend.scheduler-border {
+    font-size: 16px !important;
+    font-weight: normal !important;
+    text-align: left !important;
+    border:none;
+    width:150px;
+}
+legend.scheduler-border1{
+    font-size: 16px !important;
+    font-weight: normal !important;
+    text-align: left !important;
+    border:none;
+    width:50px;
+}
+legend.scheduler-border2{
+    font-size: 16px !important;
+    font-weight: normal !important;
+    text-align: left !important;
+    border:none;
+    width:150px;
+}
+legend.scheduler-border3{
+    font-size: 16px !important;
+    font-weight: normal !important;
+    text-align: left !important;
+    border:none;
+    width:50px;
+
+}
+#email{
+    border: none;
+    width: 100%;
+    line-height: 30px;
+}
+#phone{
+    border: none;
+    width: 100%;
+    line-height: 30px;
+}
+#Name1{
+    border: none;
+    width: 100%;
+    line-height: 30px;
+}
+#note{
+    border: none;
+    width: 100%;
+}
+#guests{
+    margin-top: 40px;
+}
+#no{
+    margin-left: 20px;
+    height: 50px;
+    width: 15%;
+}
+#bttt1{
+    text-align: center;
+
+
+}
+#btt1{
+    background-color: #ff2e47;
+    height:65px ;
+    border-radius: 5px;
+    border: none;
+    color: #ff8485;
+    font-size: 20px;
+    position: relative;
+    bottom: -30px;
+}
+#r{
+    font-weight: bold;
+    color:#fffeff ;
+    font-size: 25px;
+    padding-left: 40px;
+    padding-right: 10px;
+}
+#footer{
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    font-size: 16px;
+}

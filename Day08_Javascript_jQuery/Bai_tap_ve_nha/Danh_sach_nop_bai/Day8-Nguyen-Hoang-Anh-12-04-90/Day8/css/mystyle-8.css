@@ -1,0 +1,45 @@
+.container {
+    border: 1px solid #c6c8ca;
+    width: 35%;
+    margin: 10px auto;
+}
+
+#showError {
+    color: red;
+}
+
+#header {
+    text-align: center;
+    background-color: #feffed;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #c6c8ca;
+}
+
+#main-content {
+    padding: 10px 10px 80px 10px;
+}
+
+#main-content button {
+    margin-top: 20px;
+}
+
+#even-text, #odd-text, #even-number, #odd-number {
+    color: #52a6ff;
+    margin-top: 10px;
+    display: inline-block;
+    margin-right: 5%;
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+}

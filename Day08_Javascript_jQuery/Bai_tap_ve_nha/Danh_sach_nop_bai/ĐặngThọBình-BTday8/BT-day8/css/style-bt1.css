@@ -1,0 +1,72 @@
+.container{
+    background-color: #4cc3fc;
+}
+.container-fluid{
+    width: 80%;
+    background-color: #fff;
+    padding: 0px;
+}
+.p1{
+    padding-left: 20px;
+    font-weight: bold;
+    color: #0d75ab;
+}
+.content input{
+    border: none;
+}
+fieldset.scheduler-border {
+    border: 2px solid #5bc8fc !important;
+    padding: 0 0.4em 0em 0.4em !important;
+    margin:20px 0px 0px 20px;
+}
+legend.scheduler-border {
+    font-size: 18px;
+    color: #0d75ab;
+    width:auto;
+    padding:0 10px;
+    border-bottom:none;
+    margin-bottom:0;
+}
+fieldset.notes{
+    padding-bottom: 101px !important;
+    margin-right: 20px;
+}
+.tel-number-field{
+    width: 40px;
+    text-align: center;
+    border: 2px solid #5bc8fc !important;
+}
+.guests{
+    margin: 55px;
+}
+.btn_sub{
+    text-align: center;
+    position: relative;
+    top:20px;
+}
+.footer{
+    background-color: #4cc3fc;
+    text-align: center;
+}
+.p2{
+    padding: 35px 0px 75px 0px;
+    color: #fff;
+}
+#error{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+#showResult{
+    color: #1e7e34;
+    font-weight: bold;
+    margin-left: 20px;
+}
+@media (max-width: 576px) {
+    .container-fluid{
+        width: 100%;
+    }
+    fieldset.scheduler-border {
+        margin:20px 20px 0px 20px;
+    }
+}

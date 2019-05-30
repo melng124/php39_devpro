@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:#F8F9FA ;
+    margin: 0px auto;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+}
+.content{
+    margin-top: 30px;
+}
+.content-left{
+    float: left;
+    width: 65%;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+.content-right{
+    float: left;
+    width: 30%;
+    padding-left: 20px;
+}
+.menu{
+    list-style-type: none;
+    height: 280px;
+    width: 300px;
+    padding: 0;
+    border: 1px solid gray;
+    margin-top: 40px;
+}
+.menu li{
+    width: auto;
+    border-bottom: 1px solid gray;
+    height: 60px;
+    padding:5px 1em;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+.money{
+    float: right;
+}
+.promo{
+    background: #F8F9FA;
+    color:  #6BBE96;
+
+}
+
+.number{
+    float: right;
+    height: 30px;
+    width: 30px;
+    background: gray;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    margin-right: 50px;
+    padding-top: 2px;
+}
+.input-group{
+    width: 300px;
+    padding: 5px 1em;
+}
+.rdm{
+    height: 50px;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+@media only screen and (max-width:900px){
+    form{
+        width:100%;
+        margin:auto;
+    }
+}

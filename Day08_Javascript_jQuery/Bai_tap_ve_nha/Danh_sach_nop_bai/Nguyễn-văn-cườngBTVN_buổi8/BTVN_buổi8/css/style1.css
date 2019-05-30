@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: 'font-dosis';
+    src: url("../font/dosis.light.ttf");
+}
+@font-face {
+    font-family: 'font-display';
+    src: url("../font/playfair-display.black.ttf");
+}
+.container{
+    background: #4cc3fc;
+    padding: 1rem 3rem;
+    max-width: 44em;
+    margin: auto;
+}
+.row{
+    margin: auto;
+}
+.form-style-7{
+    background: #fffef7;
+}
+.form-style-7 h6{
+    padding-top: 7px;
+    padding-left: 60px;
+    color: #0770a3;
+}
+#header{
+
+}
+
+.conten{
+    background: #0e0045;
+    color: white;
+    margin: auto;
+    position: relative;
+    padding: 1rem 0 1rem 0;
+    color: #4cc3fc;
+}
+.font-display {
+    font-family: 'font-display';
+    padding-left: 4em;
+}
+.font-dosis{
+    font-family: 'font-dosis' ;
+    padding-left: 0px;
+}
+
+.font-dosis h1{
+    font-size: 130px;
+    margin-top: -21px;
+    margin-bottom: auto;
+}
+
+.conten-2{
+    color: #3590bc;
+    padding: 1rem;
+}
+fieldset {
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove #4fc4fc;
+    position: relative;
+    height: 60px;
+}
+fieldset input{
+    border: none;
+    position: absolute;
+    bottom: 2px;
+    width: 80%;
+    outline: none;
+    background-color: #fffef7;
+    margin-bottom: 6px;
+}
+legend{
+    width: unset;
+    padding: 0 5px;
+    margin-bottom: 10px;
+    font-size: unset;
+}
+.fiel-2{
+    max-height: unset;
+    height: 100%;
+}
+textarea{
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 23px;
+    width: 90%;
+    background-color: #fffef7;
+}
+
+.guest{
+    margin: auto;
+    padding: 5px 0 0 33px;
+}
+.guest input{
+    width: 46px;
+    height: 46px;
+    outline: none;
+    background-color: #fffef7;
+    border: 2px groove #4fc4fc;
+    padding: 15px;
+}
+
+button{
+    margin: auto;
+    background-color: #ff2e47;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 40px;
+    color: #ffafae;
+    position: relative;
+    top: 35px;
+}
+button span{
+    font-weight: 500;
+    margin-right: 5px;
+    color: #ffffff;
+}
+
+#footer{
+    margin: 2rem;
+    text-align: center;
+    color: #fff;
+}
+#footer p {
+    margin-bottom: unset;
+    color: #a1e0fd;
+}
+#footer h6{
+    color: #effcff;
+}
+#show-error{
+    color: red;
+    padding:10px 0 0 10px;
+}
+#show p{
+    color: white;
+}
+@media (max-width: 576px) {
+    .container{
+        padding: 0 0 1rem 0;
+    }
+    .form-style-7 h6{
+        padding: unset;
+        text-align: center;
+    }
+    #header{
+        text-align: center;
+    }
+    .font-display{
+        padding: unset;
+    }
+    #header h2{
+        font-size: 1.5rem;
+    }
+    #header h1{
+        font-size: 66px;
+        margin-top: -16px;
+        margin-bottom: 0;
+    }
+    .conten-2{
+        padding: 1rem 0;
+    }
+    fieldset{
+        margin-top: 10px;
+    }
+    textarea{
+        position: unset;
+    }
+}

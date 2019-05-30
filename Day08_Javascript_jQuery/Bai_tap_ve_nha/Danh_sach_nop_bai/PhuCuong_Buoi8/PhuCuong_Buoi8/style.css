@@ -1,0 +1,87 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.wrapper{
+	width: 600px;
+	background: #5ac7fb;
+	height: 490px;
+	margin: auto;
+}
+.form{
+	margin-top: 20px;
+	width: 400px;
+	height: 400px;
+	margin: auto;
+	background: white;
+}
+.top{
+	background: #5ac7fb;
+	height: 20px;
+}
+.top-text{
+	height: 40px;
+	font-weight: bold;
+	color: #7482af;
+	padding-top: 10px;
+    padding-left: 40px;
+}
+.logo{
+    color: blue;
+    /* font-weight: bold; */
+    /* font-family: fantasy; */
+    width: 400px;
+    height: 100px;
+    background: #222669;
+}
+.logo > .logo-text{
+	float: left;
+    width: 150px;
+    padding-left: 37px;
+    font-size: 28px;
+}
+.logo > .logo-number{
+    width: 200px;
+    float: left;
+    font-size: 85px;
+}
+.body{
+	height: 300px;
+	color: #5ac7fb;
+	width: 400px;
+	padding-top: 20px;
+}
+.body-1{
+	width: 180px;
+	float: left;
+	padding-left: 15px;
+
+}
+.body-1 > fieldset{
+	height: 40px;
+	 float: none;
+}
+.body-2{
+	float: left;
+	width: 180px;
+	padding-left: 20px;
+}
+.body-2 > fieldset{
+	height: 90px;
+	float: none;
+}
+.submit{
+    width: 0;
+    height: 40px;
+    position: relative;
+    top: 189px;
+    /* left: -80px; */
+    right: 281px;
+    float: none;
+}
+.body-text{
+	text-align: center;
+}
+.body-number{
+	text-align: center;
+}

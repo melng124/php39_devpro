@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài Tập 8</title>
+    <link rel="stylesheet" href="css/all.min.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/mystyle-8.css" type="text/css">
+    <script type="text/javascript" src="jquery/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/myjavascript-8.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scales=1, shrink-to-fit=no">
+</head>
+<body>
+<div class="container">
+    <form onsubmit="return calculation()" action="" method="get">
+        <div class="row" id="header">
+            <div class="col-12">
+                <h1>Số chẵn lẻ</h1>
+            </div>
+        </div>
+        <div class="row" id="main-content">
+            <div class="col-12">
+                <p id="showError"></p>
+            </div>
+            <div class="col-12">
+                <p>Nhập số a</p>
+            </div>
+            <div class="col-12">
+                <input onchange="clear()" type="text" class="form-control" name="number" id="number">
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Kết quả</button>
+            </div>
+            <div class="col-12">
+                <p id="even-text"></p><p id="even-number"></p>
+                <br>
+                <p id="odd-text"></p><p id="odd-number"></p>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Bai_1.css">
+    <script type="text/javascript" src="Js/Js_1.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="website col-md-8 col-12">
+
+            <h2 class="text-header">Fill the Form & Make a Booking</h2>
+            <img src="Images/banner.png"/>
+
+            <form onclick="Validateform()">
+                <div class="main container">
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <fieldset>
+                                <legend>Your email address</legend>
+                                <input type="email" id="email" placeholder="  jhonsmith@gmail.com">
+                            </fieldset>
+                            <fieldset>
+                                <legend>Name</legend>
+                                <input type="text" id="name" placeholder="  John Smith">
+                            </fieldset>
+                            <fieldset>
+                                <legend>Telephone number</legend>
+                                <input type="text" id="phone" placeholder="  098765...">
+                            </fieldset>
+                        </div>
+
+                        <div class="col-md-6 col-12">
+                            <fieldset>
+                                <legend>Note</legend>
+                                <input type="text" id="note" placeholder="  Some special request?">
+                            </fieldset>
+                            <div class="col-md-12 col-12">
+                                <label class="col-md-6 col-6">No. of guests</label>
+                                <input type="text" id="guests" class="col-md-4 col-5">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="footer col-md-12 col-12">
+                <div align="center">
+                    <button type="button" class="btn-re" onclick="Hienthi()"><p><b>RESERVE</b> your seat(s)</p></button>
+                    <br>
+                    <p id="content">For futher information call
+                        <br><b>+398 742 648 98</b>
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<p id="show-information"></p>
+</body>
+</html>

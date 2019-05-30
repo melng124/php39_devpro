@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>BT1</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/script_bt1.js"></script>
+</head>
+<body>
+<div class="bt1">
+    <div class="wrap-content">
+        <form action="" method="get" onsubmit="return displayForm()">
+            <h4 class="padding-common header-text color-common">Fill the Form & Make a Booking</h4>
+            <img class="banner" src="images/bt1-img1.png"/>
+            <div class="padding-common container">
+                <div class="row">
+                    <div class="col-md-6 col-12">
+                        <fieldset>
+                            <legend class="color-common">Your email address</legend>
+                            <div class="form-group">
+                                <input type="email" class="form-control" type="text" id="email"
+                                       placeholder="e.g abc@gmail.com"/>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend class="color-common">Name</legend>
+                            <div class="form-group">
+                                <input type="text" class="form-control" type="text" id="name"
+                                       placeholder="Your name"/>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend class="color-common">Telephone Number</legend>
+                            <div class="form-group">
+                                <input type="text" class="form-control" type="text" id="phone"
+                                       placeholder="+372..."/>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <fieldset>
+                            <legend class="color-common">Notes</legend>
+                            <div class="form-group">
+                                <textarea rows="5" class="form-control" id="notes"
+                                          placeholder="Some specials requests?"></textarea>
+                            </div>
+                        </fieldset>
+                        <div class="form-group">
+                            <span class="color-common">No. of guests</span>
+                            <input type="number" class="form-control" id="no" value="1"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn-submit btn btn-danger">RESERVE <span class="your-seat">your seat(s)</span></button>
+            <p id="show-result" class="show-common padding-common"></p>
+            <p id="show-error" class="show-common padding-common"></p>
+        </form>
+    </div>
+    <div class="info">
+        For further information call <br />
+        <b>+372 642 204 20</b>
+    </div>
+</div>
+</body>
+</html>
