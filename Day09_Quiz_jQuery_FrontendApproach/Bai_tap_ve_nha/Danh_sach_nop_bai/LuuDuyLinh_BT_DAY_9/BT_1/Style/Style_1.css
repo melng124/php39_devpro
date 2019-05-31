@@ -1,0 +1,195 @@
+@font-face {
+    font-family: Lato-Black;
+    src: url("../font/Lato-Black.ttf");
+}
+@font-face {
+    font-family: Lato-Italic;
+    src: url("../font/Lato-Italic.ttf");
+}
+@font-face {
+    font-family: Lato-Light;
+    src: url("../font/Lato-Light.ttf");
+}
+@font-face {
+    font-family: Lato-LightItalic;
+    src: url("../font/Lato-LightItalic.ttf");
+}
+@font-face {
+    font-family: Lato-Regular;
+    src: url("../font/Lato-Regular.ttf");
+}
+@font-face {
+    font-family: ReklameScript-Regular_DEMO;
+    src: url("../font/ReklameScript-Regular_DEMO.otf");
+}
+
+#header{
+    background-color: #262626;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+#logo{
+    font-family: ReklameScript-Regular_DEMO;
+    font-size: 28px;
+    color: #d9d9d9;
+    padding-left: 10%;
+}
+#home{
+    color: #ff6760;
+}
+.menu_ul{
+    color: #9b9b9b;
+}
+#menu1{
+    float: right;
+    padding-right: 15%;
+}
+#menu{
+
+    font-family: Lato-Black;
+    font-size: 13px;
+    font-weight: bold;
+}
+#banner{
+    text-align: center;
+    background-color: #2a2a2a;
+    color: #d9d9d9;
+    font-family: Lato-Light;
+    padding-bottom: 60px;
+
+
+}
+#we{
+
+    font-size: 40px;
+    padding-top: 15px;
+}
+#web{
+    font-family: Lato-Black;
+}
+#pra1{
+    font-size: 18px;
+}
+#bt{
+    background-color: #ff6760;
+    color: #ffdfde;
+    width: 200px;
+    height: 50px;
+    font-size: 14px;
+    font-family: Lato-Black;
+
+}
+#banner1,#banner2,#banner3,#banner4{
+    background-color:#f8f8f8;
+    padding-bottom: 80px;
+    padding-top: 85px;
+}
+#main{
+
+    text-align: center;
+}
+.banner{
+    font-family: Lato-Black;
+    font-size: 18px;
+    color: #616161;
+}
+.pra{
+    font-size: 14px;
+    font-family: Lato-Regular;
+    color: #909090;
+}
+.our1{
+    padding-top: 60px;
+}
+#our{
+    font-family: Lato-Black;
+    font-size: 30px;
+    color: #a7a7a7;
+}
+#cu{
+    font-size: 20px;
+    font-family:Lato-Light ;
+    margin-bottom: 50px;
+}
+#bt1{
+    background-color: #595959;
+    width: 65px;margin-bottom: 30px;
+
+}
+.bt{
+    background-color: #ff6760;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+#picture-row-1{
+    margin-bottom: 20px;
+}
+#picture-row-2{
+    margin-bottom: 20px;
+}
+#picture-row-3{
+    padding-bottom: 80px;
+}
+#footer{
+    text-align: center;
+}
+#footer-1{
+    background-color: #313131;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #e0e0e0;
+}
+#footer-1-1{
+    font-size: 30px;
+    font-family: Lato-Black;
+}
+#footer-1-2{
+    font-family: Lato-Light;
+    font-size: 20px;
+}
+#local{
+    font-family: "Myriad Pro Light";
+    font-size: 14px;
+    text-align: right;
+    padding-bottom: 30px;
+    padding-left: 36%;
+    float: left;
+}
+#img{
+    clear: both;
+}
+#contact{
+    float: left;
+    font-family: "Myriad Pro Light";
+    font-size: 14px;
+    /* padding-bottom: 30%; */
+    margin-left: 40px;
+
+}
+#footer-2{
+    background-color: #2c2c2c;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-family: "Myriad Pro Light";
+    font-size: 14px;
+    color: #e0e0e0;
+}
+@media only screen and (max-width:480px) {
+    #logo{
+        padding-left: 10%;
+    }
+    #contact{
+        padding-left: 90px;
+        margin-bottom: 20px;
+    }
+    #local{
+        padding-left: 55px;
+        padding-top: 20px;
+
+    }
+    #main1{
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

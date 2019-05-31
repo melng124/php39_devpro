@@ -1,0 +1,136 @@
+@font-face {
+    font-family: reklame;
+    src: url("../font/reklame_script_demo/ReklameScript-Regular_DEMO.otf");
+}
+@font-face {
+    font-family: latolight;
+    src: url("../font/Lato2OFL/Lato2OFL/Lato-Light.ttf");
+}
+@font-face {
+    font-family: latoblack;
+    src: url("../font/Lato2OFL/Lato2OFL/Lato-Black.ttf");
+}
+@font-face {
+    font-family: latolightitalic;
+    src: url("../font/Lato2OFL/Lato2OFL/Lato-LightItalic.ttf");
+}
+@font-face {
+    font-family: latoregular;
+    src: url("../font/Lato2OFL/Lato2OFL/Lato-Regular.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+#logo-menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #262626;
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.menu-list li{
+    display: inline-block;
+    font-size: 13px;
+    padding-left: 30px;
+}
+.logo{
+    font-family: reklame;
+    font-size: 28px;
+    color: white;
+}
+.logo i{
+    color: #ea6660;
+}
+.menu-list{
+    color: white;
+
+    margin-bottom: 1%;
+}
+.banner{
+    font-family: latolight;
+    text-align: center;
+    padding-left: 17%;
+    padding-right: 17%;
+    color: white;
+    background-color: #2a2a2a;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.latoblack{
+    font-family: latoblack;
+}
+.latoitalic{
+    font-family: latolightitalic;
+}
+#main{
+
+    text-align: center;
+}
+.see-pro{
+    margin-top: 3%;
+}
+.orange-button{
+    background-color: #ff6760;
+    border: 1px solid #ff6760;
+}
+.options{
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    background-color: #f8f8f8;
+}
+.option-row-icon{
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #616161;
+}
+.icon-name{
+    padding-top: 15%;
+    font-family: latoblack;
+}
+.icon-description{
+    font-family: latoregular;
+}
+.option-row{
+    padding-bottom: 2%;
+}
+.main-introduce-hightlight{
+    font-family: latoblack;
+    padding-top: 4%;
+    color: #616161;
+}
+.main-introduce-text{
+    font-family: latolight;
+    color: #616161;
+}
+#footer{
+    color: white;
+    background-color: #313131;
+    text-align: center;
+}
+.get-in-touch{
+    font-family: latoblack;
+    padding-top: 3%;
+}
+.get-in-touch-text{
+    color: #b5b5b5;
+    font-family: latolight;
+}
+.get-in-touch-information{
+    font-family: latoregular;
+
+}
+.get-in-touch-information i{
+    color: #ff6760;
+}
+.last{
+    background-color: #2c2c2c;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: latoregular;
+    color: #b5b5b5;
+}

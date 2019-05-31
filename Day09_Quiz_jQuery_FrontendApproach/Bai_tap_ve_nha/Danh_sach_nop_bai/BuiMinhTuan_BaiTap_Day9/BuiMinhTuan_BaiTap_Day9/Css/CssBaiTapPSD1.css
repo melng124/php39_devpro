@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.full-container{
+    width: 100%;
+    background-color: #282828;
+}
+/*--------------------*/
+.layout-1{
+    width: 100%;
+    background-color:#2a2a2a;
+    color: white;
+}
+.header-1{
+    background-color:#262626;
+    height: 120px;
+}
+.banner-1{
+    text-align: center;
+    color: #d9d9d9;
+}
+.heading-1{
+    font-size: 28px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.text-heading-1{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.menu-layout-1{
+    padding-bottom: 30px;
+}
+.button-1{
+     margin-left: 45%;
+    padding-bottom: 40px;
+ }
+.logo-layout-1{
+    margin-left: 50px;
+}
+/*--------------------*/
+.layout-2{
+    width: 100%;
+    background-color:#f8f8f8;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.logo-2{
+    font-size: 70px;
+    color: #616161;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.heading-2{
+    color: #616161;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.text-heading-2{
+    color: #616161;
+    font-size: 12px;
+}
+/*--------------------*/
+.layout-3{
+    text-align: center;
+    width: 100%;
+    padding-top: 50px;
+    background-color: #ffffff;
+    color: #616161;
+}
+.heading-3{
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.text-heading-3{
+    font-size: 18px ;
+    margin-bottom: 30px;
+}
+.banner-3{
+    padding-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.mn3 {
+    background-color: #ff6760;
+    border-radius: 5px;
+    margin: 10px;
+}
+.menu-layout-3{
+    margin-bottom: 30px;
+}
+.txtmn3{
+    color: white;
+}
+/*--------------------*/
+.layout-4{
+    width: 100%;
+    text-align: center;
+    color: #bebebe;
+    background-color: #313131;
+    padding-top: 50px;
+}
+.heading-4{
+    color: #e0e0e0;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.text-4-big{
+    font-size: 22px;
+}
+.logo-layout-4{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.logo-4{
+    color: #ff6760;
+}
+.footer{
+    padding-top: 20px;
+    background-color: #2c2c2c;
+    padding-bottom: 30px;
+}
+/*--------------------*/
+@media (max-width: 768px) {
+
+    .header-1{
+        background-color:#262626;
+        height: 100px;
+    }
+    .banner-1{
+        text-align: center;
+        color: #d9d9d9;
+    }
+    .heading-1{
+        font-size: 18px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .text-heading-1{
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .menu-layout-1{
+        padding-bottom: 30px;
+        font-size: 50%;
+    }
+    .button-1{
+        margin-left: 45%;
+        padding-bottom: 40px;
+    }
+    .btn{
+        font-size: 50%;
+    }
+    .logo-layout-1{
+        margin-left: 50px;
+    }
+    img {
+        vertical-align: middle;
+        border-style: none;
+        height: 50px;
+        width: 70px;
+        margin-top: 20px;
+    }
+
+    /*--------------------*/
+    .layout-2{
+        width: 100%;
+        background-color:#f8f8f8;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .logo-2{
+        font-size: 30px;
+        color: #616161;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .heading-2{
+        color: #616161;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    .col-md-3{
+        width: 25%;
+    }
+    .text-heading-2{
+        color: #616161;
+        font-size: 6px;
+    }
+    /*--------------------*/
+    .layout-3{
+        text-align: center;
+        width: 100%;
+        padding-top: 20px;
+        background-color: #ffffff;
+        color: #616161;
+    }
+    .heading-3{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .text-heading-3{
+        font-size: 10px ;
+        margin-bottom: 10px;
+    }
+    .banner-3{
+        padding-bottom: 30px;
+    }
+    .mn3 {
+        background-color: #ff6760;
+        border-radius: 5px;
+        margin: 5px;
+    }
+    .menu-layout-3{
+        margin-bottom: 10px;
+        font-size: 35%;
+    }
+    .txtmn3{
+        color: white;
+    }
+    /*--------------------*/
+    .layout-4{
+        width: 100%;
+        text-align: center;
+        color: #bebebe;
+        background-color: #313131;
+        padding-top: 50px;
+    }
+    .heading-4{
+        color: #e0e0e0;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .text-4-big{
+        font-size: 10px;
+    }
+    .text-4-mall{
+        font-size: 8px;
+    }
+    .logo-layout-4{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .logo-4{
+        color: #ff6760;
+    }
+    .footer{
+        padding-top: 10px;
+        background-color: #2c2c2c;
+        padding-bottom: 10px;
+    }
+    .text-footer{
+        font-size: 10px;
+    }
+}
