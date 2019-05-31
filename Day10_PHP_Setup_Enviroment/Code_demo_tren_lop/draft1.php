@@ -8,10 +8,11 @@
 <body>
     <div style="width: 120%">
         <?php
-        $abc = '12a';
-        echo $abc / 0;
+//        $abc = '12a';
+//        echo $abc / 0;
+        echo "Hello World";
         ?>
-        dsadas
+<!--        dsadas-->
     </div>
 </body>
 </html>
