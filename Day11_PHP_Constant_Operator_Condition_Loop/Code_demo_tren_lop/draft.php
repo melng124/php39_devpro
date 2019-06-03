@@ -30,7 +30,6 @@ echo __FILE__;
 echo "<br />";
 echo __DIR__;
 
-
 //2 - Comment
 
 #comment one line
