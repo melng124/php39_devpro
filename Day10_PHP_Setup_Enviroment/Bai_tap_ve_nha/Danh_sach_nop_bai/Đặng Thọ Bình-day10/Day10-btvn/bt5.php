@@ -8,26 +8,26 @@
 </head>
 <body>
 <?php
-$name = "Nguyễn Thanh Tình";
-$email = "tinh1604@gmail.com";
-$phone = "0916840699";
+$name = "Đặng Thọ Bình";
+$email = "dangthobinh1@gmail.com";
+$phone = "0962977580";
 ?>
 <form style="margin-top: 2%">
     <div class="container" style="width: 50%">
-    <div class="row">
-        <div class="col">
-            Name*
-            <input id="nameinput" type="text" class="form-control" placeholder="Your name" value="<?php echo($name) ?>">
-        </div>
-        <div class="col">
-            Email*
-            <input id="emailinput" type="email" class="form-control" placeholder="Your email" value="<?php echo($email) ?>">
-        </div>
-        <djiv class="col">
-            Phone*
-            <input id="phoneinput" type="number" class="form-control" placeholder="Phone number" value="<?php echo($phone) ?>">
-        </djiv>
-    </div> <br/>
+        <div class="row">
+            <div class="col">
+                Name*
+                <input id="nameinput" type="text" class="form-control" placeholder="Your name" value="<?php echo($name) ?>">
+            </div>
+            <div class="col">
+                Email*
+                <input id="emailinput" type="email" class="form-control" placeholder="Your email" value="<?php echo($email) ?>">
+            </div>
+            <div class="col">
+                Phone*
+                <input id="phoneinput" type="number" class="form-control" placeholder="Phone number" value="<?php echo($phone) ?>">
+            </div>
+        </div> <br/>
         Message*
         <textarea id="messinput" rows="3" cols="87%" placeholder="This is a messager" value=""></textarea> <br/>
         <button type="button" class="btn btn-warning" onclick="return myfunction()">Send Message</button> <br/>
@@ -43,7 +43,7 @@ $phone = "0916840699";
         var messip = document.getElementById("messinput").value;
         document.getElementById('show').innerHTML = "Name: " +nameip +"<br/>"
             +"Email: "+emailip +"<br/>" +"Phone: "+phoneip +"<br/>" +"Message: " +messip;
-            return false;
+        return false;
     }
 </script>
 </body>

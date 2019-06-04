@@ -1,0 +1,23 @@
+.full_container{
+    max-width: 50%;
+    background: #86cfda;
+}
+.content{
+    border: solid 1px red;
+    height: 200px;
+}
+form{
+    padding: 30px;
+    padding-top: 10px;
+}
+.form-group{
+    float: left;
+    padding-right: 20px;
+}
+#note{
+    width: 650px;
+    height: 100px;
+}
+#info{
+    clear: both;
+}

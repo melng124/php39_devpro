@@ -1,0 +1,26 @@
+.container {
+    width: 80%;
+    margin: 25px auto;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.form-control {
+    margin-bottom: 30px;
+}
+
+.btn {
+    margin-bottom: 20px;
+}
+
+textarea {
+    resize: none;
+}
+
+#notice {
+    color: #ff0000;
+}
+
+#showName, #showEmail, #showPhone, #showMessage {
+    color: #6465fd;
+}
