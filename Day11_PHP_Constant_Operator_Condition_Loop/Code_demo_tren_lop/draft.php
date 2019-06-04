@@ -53,3 +53,14 @@ function sum($num1, $num2) {
 
 
 //3 - OPERATOR
+
+$variable5 = (float)-123;
+
+$arr = [];
+//từ version 5.3 -5.4 trở xuống thì bắt
+//buộc phải sử dụng từ khóa aray
+$arr2 = array();
+
+$string = 'Today I \\\'ll learn PHP - "Variable"';
+echo "<br />";
+echo $string;
