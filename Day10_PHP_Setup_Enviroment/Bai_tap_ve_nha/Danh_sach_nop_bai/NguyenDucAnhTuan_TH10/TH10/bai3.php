@@ -1,0 +1,31 @@
+<?php
+$variable1 = '123abc';
+echo 'Biến <b>$variable1</b> sau khi ép kiểu sang <b>int</b> có giá trị = 123<br/>';
+echo 'Biến <b>$variable1</b> sau khi ép kiểu sang <b>float</b> có giá trị = 123<br/>';
+echo 'Biến <b>$variable1</b> sau khi ép kiểu sang <b>string</b> có giá trị = "123abc"<br/>';
+echo 'Biến <b>$variable1</b> sau khi ép kiểu sang <b>boolean</b> có giá trị = true<br/>';
+echo '-------------------------------------------------------------------------------<br/>';
+$variable2 = null;
+echo 'Biến <b>$variable2</b> sau khi ép kiểu sang <b>int</b> có giá trị = 0<br/>';
+echo 'Biến <b>$variable2</b> sau khi ép kiểu sang <b>float</b> có giá trị = 0<br/>';
+echo 'Biến <b>$variable2</b> sau khi ép kiểu sang <b>string</b> có giá trị = ""<br/>';
+echo 'Biến <b>$variable2</b> sau khi ép kiểu sang <b>boolean</b> có giá trị = false<br/>';
+echo '-------------------------------------------------------------------------------<br/>';
+$variable3 = '';
+echo 'Biến <b>$variable3</b> sau khi ép kiểu sang <b>int</b> có giá trị = 0<br/>';
+echo 'Biến <b>$variable3</b> sau khi ép kiểu sang <b>float</b> có giá trị = 0<br/>';
+echo 'Biến <b>$variable3</b> sau khi ép kiểu sang <b>string</b> có giá trị = ""<br/>';
+echo 'Biến <b>$variable3</b> sau khi ép kiểu sang <b>boolean</b> có giá trị = false<br/>';
+echo '-------------------------------------------------------------------------------<br/>';
+$variable4 = 'abc123';
+echo 'Biến <b>$variable4</b> sau khi ép kiểu sang <b>int</b> có giá trị = 0<br/>';
+echo 'Biến <b>$variable4</b> sau khi ép kiểu sang <b>float</b> có giá trị = 0<br/>';
+echo 'Biến <b>$variable4</b> sau khi ép kiểu sang <b>string</b> có giá trị = "abc123"<br/>';
+echo 'Biến <b>$variable4</b> sau khi ép kiểu sang <b>boolean</b> có giá trị = true<br/>';
+echo '-------------------------------------------------------------------------------<br/>';
+$variable5 = 'null';
+echo 'Biến <b>$variable5</b> sau khi ép kiểu sang <b>int</b> có giá trị = 0<br/>';
+echo 'Biến <b>$variable5</b> sau khi ép kiểu sang <b>float</b> có giá trị = 0<br/>';
+echo 'Biến <b>$variable5</b> sau khi ép kiểu sang <b>string</b> có giá trị = "null"<br/>';
+echo 'Biến <b>$variable5</b> sau khi ép kiểu sang <b>boolean</b> có giá trị = true<br/>';
+?>
