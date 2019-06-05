@@ -8,6 +8,7 @@
 </head>
 <body>
 <?php
+
 $name = "Đặng Thọ Bình";
 $email = "dangthobinh1@gmail.com";
 $phone = "0962977580";
