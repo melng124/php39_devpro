@@ -58,9 +58,6 @@ echo '<br />';
 echo "Phép trừ = " . sub();
 
 
-/*
- * Sử dụng hàm viết chương trình tính chu vi, diện tích của hình chữ nhật có chiều rộng = 5cm, chiều dài 10cm
- */
 $width = 10;
 $height = 5;
 /**
@@ -86,3 +83,15 @@ function areaRectangle($width, $height) {
 
 echo '<br />';
 echo 'DT = ' . areaRectangle($width, $height);
+
+//include. require
+echo '<br />';
+
+include 'import.php';
+include 'import.php';
+
+//require 'import.php';
+require 'import1.php';
+require_once 'import.php';
+
+echo '<p style=color:red>Đoạn code chạy sau cùng</p>';
