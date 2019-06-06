@@ -90,8 +90,71 @@ echo '<br />';
 include 'import.php';
 include 'import.php';
 
-//require 'import.php';
-require 'import1.php';
+require 'import.php';
+//require 'import1.php';
 require_once 'import.php';
 
 echo '<p style=color:red>Đoạn code chạy sau cùng</p>';
+
+
+//scope variable
+//local variable
+$localVariable = 6;
+
+function changeVariable() {
+    //thực hiện gán lại giá trị biến
+    $localVariable = 0; //là biến cục bộ
+//    echo 'Biên $localVariable bên trong hàm đang có giá trị = ' . $localVariable;
+}
+echo '<br />';
+echo 'Biên $localVariable trước khi gọi hàm đang có giá trị = ' . $localVariable;
+//gọi hàm
+changeVariable();
+echo '<br />';
+echo 'Biên $localVariable sau khi gọi hàm đang có giá trị = ' . $localVariable;
+//theo lý thuyết suy nghĩ của các bạn mới thì 2 biến trùng tên sẽ là 1 biến duy nhât
+//nên nghĩ rằng sau khi đi qua hàm thì giá trị biến đó đã bị thay đổi, tức là sẽ có giá trị mới = 0
+
+//global variable
+$globalVariable = 6;
+function changeVariableGlobal() {
+    //sử dụng từ khóa global
+    global $globalVariable;
+    //thực hiện gán lại giá trị biến
+    $globalVariable = 9;
+}
+echo '<br />';
+echo 'Biên $globalVariable trước khi gọi hàm đang có giá trị = ' . $globalVariable;
+//gọi hàm
+changeVariableGlobal();
+echo '<br />';
+echo 'Biên $globalVariable sau khi gọi hàm đang có giá trị = ' . $globalVariable;
+
+
+//static variable
+function changeVariableStatic() {
+    static $staticVariable = 0;
+    $staticVariable++;
+    echo '<br />';
+    echo 'Biến $staticVariable sau mỗi lần gọi hàm đang có giá trị = ' . $staticVariable;
+}
+
+//gọi hàm
+changeVariableStatic();
+changeVariableStatic();
+changeVariableStatic();
+?>
+<form action="" method="post" enctype="multipart/form-data">
+    Select image to upload:
+    <input type="file" value="txtAnh" name="txtAnh" id="fileToUpload">
+    <input type="submit" value="Upload Image" name="submit">
+</form>
+<?php
+if(isset($_POST['submit'])) {
+    echo "<pre><br />";
+    print_r($_POST);
+    echo "</pre>";
+    die;
+}
+
+?>
