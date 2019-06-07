@@ -1,3 +1,12 @@
+<iframe src="https://manual.wingarc-support.com/ja/manual/svf/wc92/index.html" onload="this.contentDocument.location.hash=location.hash" width="100%" height="1200" frameborder="0" scrolling="auto" transparency="0" title="" style="
+    width: 100%;
+
+"></iframe>
+<script type="text/javascript">
+    window.onload = function () {
+
+    }
+</script>
 <?php
 /**
  * Created by PhpStorm.
