@@ -14,7 +14,8 @@
  * @return mixed
  */
 echo display("abc");
-function display($message) {
+function display($message)
+{
   return $message;
 }
 
@@ -26,7 +27,8 @@ myFunction();
 $a = 5;
 echo "a = $a";
 
-function addNumber($number1, $number2) {
+function addNumber($number1, $number2)
+{
   return $number1 + $number2;
 
   //mac dinh neu khong khai bao return, thi ham dang tra ve null
@@ -37,11 +39,13 @@ echo '<br />';
 //var_dump(addNumber(1.2, 2.2));
 
 //cơ chế tham chiếu
-function changeNumber(&$number1) {
+function changeNumber(&$number1)
+{
   return $number1++;
 
   //mac dinh neu khong khai bao return, thi ham dang tra ve null
 }
+
 $number = 5;
 echo '<br />';
 echo "number trươc khi goi ham = $number";
@@ -50,7 +54,8 @@ echo '<br />';
 echo "number sau khi goi ham = $number";
 
 //ham có tham số với giá trị khởi tạo
-function sub($number1 = 1, $number2 = 3) {
+function sub($number1 = 1, $number2 = 3)
+{
   return $number1 - $number2;
 }
 
@@ -65,7 +70,8 @@ $height = 5;
  * @param $height int height rectangle
  * @return float|int circum rectangle
  */
-function circumRectangle($width, $height) {
+function circumRectangle($width, $height)
+{
   return ($width + $height) * 2;
 }
 
@@ -77,7 +83,8 @@ echo 'CV = ' . circumRectangle($width, $height);
  * @param $height int height rectangle
  * @return float|int area rectangle
  */
-function areaRectangle($width, $height) {
+function areaRectangle($width, $height)
+{
   return $width * $height;
 }
 
@@ -101,11 +108,13 @@ echo '<p style=color:red>Đoạn code chạy sau cùng</p>';
 //local variable
 $localVariable = 6;
 
-function changeVariable() {
-    //thực hiện gán lại giá trị biến
-    $localVariable = 0; //là biến cục bộ
+function changeVariable()
+{
+  //thực hiện gán lại giá trị biến
+  $localVariable = 0; //là biến cục bộ
 //    echo 'Biên $localVariable bên trong hàm đang có giá trị = ' . $localVariable;
 }
+
 echo '<br />';
 echo 'Biên $localVariable trước khi gọi hàm đang có giá trị = ' . $localVariable;
 //gọi hàm
@@ -117,12 +126,14 @@ echo 'Biên $localVariable sau khi gọi hàm đang có giá trị = ' . $localV
 
 //global variable
 $globalVariable = 6;
-function changeVariableGlobal() {
-    //sử dụng từ khóa global
-    global $globalVariable;
-    //thực hiện gán lại giá trị biến
-    $globalVariable = 9;
+function changeVariableGlobal()
+{
+  //sử dụng từ khóa global
+  global $globalVariable;
+  //thực hiện gán lại giá trị biến
+  $globalVariable = 9;
 }
+
 echo '<br />';
 echo 'Biên $globalVariable trước khi gọi hàm đang có giá trị = ' . $globalVariable;
 //gọi hàm
@@ -132,11 +143,12 @@ echo 'Biên $globalVariable sau khi gọi hàm đang có giá trị = ' . $globa
 
 
 //static variable
-function changeVariableStatic() {
-    static $staticVariable = 0;
-    $staticVariable++;
-    echo '<br />';
-    echo 'Biến $staticVariable sau mỗi lần gọi hàm đang có giá trị = ' . $staticVariable;
+function changeVariableStatic()
+{
+  static $staticVariable = 0;
+  $staticVariable++;
+  echo '<br />';
+  echo 'Biến $staticVariable sau mỗi lần gọi hàm đang có giá trị = ' . $staticVariable;
 }
 
 //gọi hàm
@@ -144,17 +156,47 @@ changeVariableStatic();
 changeVariableStatic();
 changeVariableStatic();
 ?>
-<form action="" method="post" enctype="multipart/form-data">
-    Select image to upload:
-    <input type="file" value="txtAnh" name="txtAnh" id="fileToUpload">
-    <input type="submit" value="Upload Image" name="submit">
-</form>
+    <form action="" method="post" enctype="multipart/form-data">
+        Select image to upload:
+        <input type="file" value="txtAnh" name="txtAnh" id="fileToUpload">
+        <input type="submit" value="Upload Image" name="submit">
+    </form>
 <?php
-if(isset($_POST['submit'])) {
-    echo "<pre><br />";
-    print_r($_POST);
-    echo "</pre>";
-    die;
+if (isset($_POST['submit'])) {
+  echo "<pre><br />";
+  print_r($_POST);
+  echo "</pre>";
+  die;
 }
 
+class Demo
+{
+
+}
+
+//array
+$arr = ['NV A', 'NV B', 'NV C', 'NV D'];
+$arr_demo = [
+  1, new Demo(), null, true,
+
+];
+
+$arr2 = array(1, 2);
+
+$staffs = ['Nhân viên A', 'Nhân viên B', 'Nhân viên C', 'Nhân viên D', 'Nhân viên E'];
+echo '<p>Mảng ban đầu</p>';
+echo '<pre>';
+print_r(var_dump($staffs));
+//foreach
+foreach ($staffs as $key => $value) {
+  echo "Vị trí $key : $value";
+  echo '<br />';
+
+}
+
+echo '<p>sử dụng vòng lặp for để lặp mảng</p>';
+for ($i = 0; $i < count($staffs); $i++) {
+  echo "Vị trí $i : $staffs[$i]";
+  echo '<br />';
+}
 ?>
