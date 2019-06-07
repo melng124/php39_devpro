@@ -1,8 +1,3 @@
-<iframe src="https://manual.wingarc-support.com/ja/manual/svf/wc92/index.html" width="100%" height="1200" frameborder="0" scrolling="auto" transparency="0" title="" style="
-    width: 100%;
-
-">Your browser does not support iframes, but you can use the following link: <a href="https://manual.wingarc-support.com/ja/manual/svf/wc92/index.html" title="">Link</a></iframe>
-
 <?php
 /**
  * Created by PhpStorm.
