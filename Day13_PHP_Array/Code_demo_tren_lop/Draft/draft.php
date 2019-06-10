@@ -75,6 +75,30 @@ print_r(array_merge($arr1, [2, 22, 22]));
 
 echo '<br />';
 var_dump(array_search('4avx', $arr1));
+
+function sum($n)
+{
+    $sum = 0;
+    for ($i = 1; $i <= $n; $i++) {
+        $sum += 1 / $i;
+    }
+    return $sum;
+}
+
+$n = 3;
+function checkValidate($n)
+{
+    if ($n < 0) {
+        echo "Không cho phép tính với số âm";
+    } else if ($n == 0) {
+        echo "Không thực hiện xử lý";
+    }
+}
+
+{
+    echo "sum = " . sum($n);
+}
+
 ?>
 
 

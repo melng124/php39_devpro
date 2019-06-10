@@ -1,7 +1,17 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: nvmanh
- * Date: 6/10/2019
- * Time: 5:27 PM
+/*
+ * Hiển thị cấu trúc sau sử dụng PHP
+*
+* *
+* * *
+* * * *
+* * * * *
+
  */
+$n = 9;
+for ($i = 1; $i <= $n; $i++) {
+    for ($j = 1; $j <= $i; $j++) {
+        echo ' * ';
+    }
+    echo "<br />";
+}
