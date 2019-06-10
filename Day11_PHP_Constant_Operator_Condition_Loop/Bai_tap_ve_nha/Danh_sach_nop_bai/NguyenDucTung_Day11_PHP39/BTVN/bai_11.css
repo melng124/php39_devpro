@@ -1,0 +1,20 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.content{
+	width: 417px;
+	margin: 0px auto;
+}
+
+.o-co{
+	width: 50px;
+	height: 50px;
+	border: 1px solid #333;
+	float: left;
+}
+
+.o-le{
+	background-color: #000;
+}
