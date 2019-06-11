@@ -15,3 +15,6 @@ for ($i = 1; $i <= $n; $i++) {
     }
     echo "<br />";
 }
+
+$string = '11abc 12345 123 432';
+echo preg_replace('/[0-9]+/', '', $string);
