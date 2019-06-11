@@ -1,0 +1,14 @@
+table {
+    width: 70%;
+    height: 500px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+td {
+    width: 50px;
+}
+
+#prime {
+    background-color: greenyellow;
+}

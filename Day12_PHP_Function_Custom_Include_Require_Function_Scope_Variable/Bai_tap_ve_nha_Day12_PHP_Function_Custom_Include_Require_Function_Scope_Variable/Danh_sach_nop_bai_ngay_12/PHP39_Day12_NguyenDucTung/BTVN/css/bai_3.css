@@ -1,0 +1,24 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+.content{
+	width: 540px;
+	margin: 0px auto;
+}
+h1{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.prime,
+.non-prime{
+	border: 1px solid #333;
+	float: left;
+	width: 50px;
+	text-align: center;
+}
+
+.prime{
+	background-color: #fdcb6e;
+}
