@@ -17,9 +17,23 @@ function myfunction ($arr){
         }
 
     }
-    return "Tổng các phần tử = $sum <br/> Tích các phần tử $product <br/> Hiệu các phần tử $minus <br/> Thương các phần tử $share";
+    $arrResult = [];
+    $arrResult['sum'] = $sum;
+    $arrResult['product'] = $product;
+    $arrResult['minus'] = $minus;
+    $arrResult['share'] = $share;
+    return $arrResult;
+//    return "Tổng các phần tử = $sum <br/>
+//Tích các phần tử $product <br/>
+// Hiệu các phần tử $minus <br/>
+// Thương các phần tử $share";
 }
 $arr1 = [2, 5, 6, 9, 2, 5, 6, 12, 5];
+echo
+    "Tổng các phần tử = " . $arr1['sum'] . " <br/> 
+Tích các phần tử $product <br/>
+ Hiệu các phần tử $minus <br/> 
+ Thương các phần tử $share";
 echo '<pre>';
 print_r($arr1);
 echo myfunction ($arr1); echo'<br/>';

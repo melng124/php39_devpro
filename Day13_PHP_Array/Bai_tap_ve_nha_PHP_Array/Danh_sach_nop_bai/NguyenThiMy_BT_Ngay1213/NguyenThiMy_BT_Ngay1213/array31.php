@@ -1,6 +1,8 @@
 <!--$arrs = ['PHP', 'HTML', 'CSS', 'JS'];-->
 <!--Hãy viết code hiển thị nội dung như hình sau:-->
+
 <?php
+array_pro
 $arrs = ['PHP', 'HTML', 'CSS', 'JS'];
 echo "<pre>";
 var_dump($arrs);

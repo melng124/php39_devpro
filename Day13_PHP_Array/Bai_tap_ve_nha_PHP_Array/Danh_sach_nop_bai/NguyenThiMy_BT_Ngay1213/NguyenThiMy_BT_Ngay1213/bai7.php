@@ -17,6 +17,15 @@
 <!---	n = 5-->
 <!---	n = 10-->
 <?php
+$arr = [1, 2, 3];
+$arrResult = [];
+foreach ($arr as $key => $value) {
+    $arrResult[] = $value;
+    if ($key == 2) {
+        $arrResult['abc'] = "def";
+    }
+}
+print_r($arrResult);
 function disPlay($n)
 {
     if ($n < 0) {
