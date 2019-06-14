@@ -158,4 +158,4 @@ print_r($arr3);
 $var = 'abc';
 $var = array('abc');
 var_dump(is_array($var));
-?>
+?>s
