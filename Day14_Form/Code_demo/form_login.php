@@ -3,15 +3,46 @@
                      value="<?php echo isset($_POST['username']) ? $_POST['username'] : '' ?>" /> <br />
     Password: <input type="password" name="password"
                      value="" /> <br />
+    <input type="radio" name="gender" value="1" /> Male
+    <input type="radio" name="gender" value="2" /> Female
+
+    <input type="checkbox" name="checkbox[]" value="1" /> Check1
+    <input type="checkbox" name="checkbox[]" value="2" /> Check2
+    <input type="checkbox" name="checkbox[]" value="3" /> Check3
+    <br />
+    <select name="select">
+        <option value="1">Option 1</option>
+        <option value="2">Option 2</option>
+        <option value="3">Option 3</option>
+    </select>
     <input type="submit" name="ok" value="Login">
     <input type="reset" name="reset" value="Reset form">
 </form>
 
 <?php
+//$checkboxArr = $_POST['checkbox'];
+//foreach ($checkboxArr as $checkbox) {
+//    if ($checkbox == 1) {
+//        echo 'Check1';
+//    }
+//    else if ($checkbox == 2) {
+//        echo 'Check2';
+//    }
+//    else {
+//        echo 'Check3';
+//    }
+//}
+//$gender = $_POST['gender'];
+//if ($gender == 1) {
+//    echo 'Male';
+//}
+//else {
+//    echo 'Female';
+//}
 //nếu user click submit thì mới xử lý
 if (isset($_POST['ok'])) {
     echo '<pre>';
-//    print_r($_POST);
+    print_r($_POST);
     $username = $_POST['username'];
     $password = $_POST['password'];
     //kiểm tra validate dữ liệu
