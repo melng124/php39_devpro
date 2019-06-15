@@ -16,6 +16,9 @@
         <option value="3">Option 3</option>
     </select>
     <input type="submit" name="ok" value="Login">
+    <input type="submit" name="ok1" value="Login1">
+    <input type="submit" name="ok2" value="Login2">
+    <input type="submit" name="ok3" value="Login3">
     <input type="reset" name="reset" value="Reset form">
 </form>
 
@@ -39,6 +42,8 @@
 //else {
 //    echo 'Female';
 //}
+echo '<pre>';
+print_r($_POST);
 //nếu user click submit thì mới xử lý
 if (isset($_POST['ok'])) {
     echo '<pre>';

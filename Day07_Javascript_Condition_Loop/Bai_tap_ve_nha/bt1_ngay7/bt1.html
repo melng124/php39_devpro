@@ -11,7 +11,7 @@
 <body>
 <div class="bt1 container">
     <div class="wrap-content">
-        <h3>Số chẵn lẻ <br/>
+        <h3>Thực hành toán tử <br/>
             <!--ax<span>2</span> + bx + c = 0-->
         </h3>
         <form method="post" action="" enctype="multipart/form-data">
@@ -22,7 +22,13 @@
             <div class="form-group">
                 <label for="number-a">Nhập số a </label>
                 <input type="text" class="form-control" id="number-a" aria-describedby="nameHelp"
-                       placeholder="" value="10">
+                       placeholder="" value="2">
+
+            </div>
+            <div class="form-group">
+                <label for="number-a">Nhập số b </label>
+                <input type="text" class="form-control" id="number-a" aria-describedby="nameHelp"
+                       placeholder="" value="2">
 
             </div>
             <!--<div class="form-group">-->
@@ -33,11 +39,11 @@
             <!--</div>-->
 
 
-            <a href="#" class="btn btn-success" onclick="return add()">Kết quả</a>
+            <a href="#" class="btn btn-success" onclick="return add()">a + b</a>
             <!--<a href="#" class="btn btn-success" onclick="return add()">Tính diện tích</a>-->
-            <!--<a href="#" class="btn btn-success" onclick="sub()">a - b</a>-->
-            <!--<a href="#" class="btn btn-danger" onclick="multi()">a * b</a>-->
-            <!--<a href="#" class="btn btn-warning" onclick="divide()">a / b</a>-->
+            <a href="#" class="btn btn-info" onclick="sub()">a - b</a>
+            <a href="#" class="btn btn-danger" onclick="multi()">a * b</a>
+            <a href="#" class="btn btn-warning" onclick="divide()">a / b</a>
             <!--<a href="#" class="btn btn-info" onclick="remain()">a % b</a>-->
             <!--<a href="#" class="btn btn-success" onclick="incre_after()">a++</a>-->
             <!--<a href="#" class="btn btn-primary" onclick="incre_before()">++a</a>-->
@@ -46,11 +52,10 @@
             <!--<br/>-->
             <!--<button type="reset" class="btn btn-warning">Reset dữ liệu</button>-->
             <p id="show-result">
-                Các số chẵn từ 1 - 10 là: 2, 4, 6, 8, 10 <br />
-                Các số lẻ từ 1 - 10 là: 1, 3, 5, 7, 9
+                a + b = 4
             </p>
         </form>
-        <P STYLE="FONT-WEIGHT: BOLD;">DSADSADSA</P>
+        <!--<P STYLE="FONT-WEIGHT: BOLD;">DSADSADSA</P>-->
     </div>
 </div>
 </body>
