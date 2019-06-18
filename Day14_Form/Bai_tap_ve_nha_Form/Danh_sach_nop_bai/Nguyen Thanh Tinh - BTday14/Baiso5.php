@@ -28,7 +28,7 @@ if (isset($_POST['submit'])) {
     $password = $_POST['password'];
     $ComfirmPassword = $_POST['ComfirmPassword'];
     if (empty($FirstName)) {
-        $error1 = "<p class='content1'>Please enter your Firstname</p>";
+        $error1 = "<p class='content1' >Please enter your Firstname</p>";
     } elseif (empty($LastName)) {
         $error2 = "<p class='content1'>Please enter your Lastname</p>";
     } elseif (empty($UserName)) {
@@ -56,7 +56,7 @@ if (isset($_POST['submit'])) {
         <tr>
             <td>Firstname:</td>
             <td>
-                <input type="text" name="FirstName"
+                <input type="text" class="<?php echo isset($error1) ? 'error1' : '' ?>"  name="FirstName"
                        value="<?php echo isset($_POST['FirstName']) ? $_POST['FirstName'] : '' ?>"/> <br/>
                 <?php echo isset($error1) ? $error1 : '' ?>
             </td>
