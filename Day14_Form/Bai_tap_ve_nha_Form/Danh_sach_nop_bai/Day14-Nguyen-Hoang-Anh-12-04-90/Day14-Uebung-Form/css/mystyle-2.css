@@ -1,0 +1,32 @@
+table {
+    color: white;
+    width: 70%;
+    margin: 20px auto !important;
+}
+
+th {
+    text-align: center;
+    padding: 10px;
+    background-color: #95bee6;
+}
+
+td {
+    border: 1px solid white;
+    padding: 5px 20px 5px 20px;
+    background-color: #a7d6f1;
+}
+
+#info {
+    text-align: center;
+    color: #007bff;
+}
+
+.notice {
+    color: red;
+    text-align: center;
+}
+
+#submit {
+    text-align: center;
+    background-color: #95bee6;
+}

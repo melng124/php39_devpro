@@ -1,0 +1,23 @@
+.container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+textarea {
+    width: 100%;
+}
+
+.notice {
+    color: red;
+}
+
+#info {
+    text-align: center;
+    color: #007bff;
+}

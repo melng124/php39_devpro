@@ -1,0 +1,26 @@
+.container {
+    background-color: #dfdfdf;
+    width: 35%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+textarea {
+    resize: none;
+}
+
+.btn {
+    width: 100%;
+}
+
+.notice {
+    color: red;
+}
+
+.result {
+    color: #007bff;
+}
