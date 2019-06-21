@@ -49,10 +49,12 @@ if (isset($_POST['submit'])) {
     $error = "File chưa được upload hoặc Upload file thất bại";
   } else {
     //lấy phần mở rộng của file dựa vào tên file, chuyển tất cả sang chữ thường
-    $extension = strtolower(pathinfo($files['name'], PATHINFO_EXTENSION));
+    $extension =
+        strtolower(pathinfo($files['name'], PATHINFO_EXTENSION));
     //bắt validate upload không phải định dạng ảnh
     if (!in_array($extension, ['jpg', 'jpeg', 'png', 'gif'])) {
-      $error = 'Cần upload file có định dạng ảnh (jpg, png, gif, jpeg)';
+      $error =
+          'Cần upload file có định dạng ảnh (jpg, png, gif, jpeg)';
       //bắt validate upload ảnh dung lượng > 1MB
     } else if ($files['size'] > 1024 * 1024) {
       $error = 'File upload dung lượng không được lớn hơn 1MB';
@@ -63,7 +65,10 @@ if (isset($_POST['submit'])) {
       if (!file_exists($dirUploads)) {
         mkdir($dirUploads);
       }
-      $isUploadSusscess = move_uploaded_file($files['tmp_name'], $dirUploads . '/' . $files['name']);
+      $isUploadSusscess =
+          move_uploaded_file
+          ($files['tmp_name'],
+              $dirUploads . '/' . $files['name']);
       if ($isUploadSusscess) {
         $pathImage = UPLOAD_FOLDER . '/' . $files['name'];
         $result = "Ảnh vừa upload: <img width='50' src='$pathImage' /> <br />";
