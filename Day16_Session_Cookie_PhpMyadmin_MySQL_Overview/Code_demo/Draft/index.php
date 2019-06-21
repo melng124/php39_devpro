@@ -1,7 +1,10 @@
+<html>
+
+</html>
 <?php
-/**
- * Created by PhpStorm.
- * User: nvmanh
- * Date: 6/21/2019
- * Time: 8:39 AM
- */
+echo 'abc';
+//session_start();
+$_SESSION['abc'] = '1';
+echo $_SESSION['abc'];
+
+setcookie('abc', 123,  time() + 10);
