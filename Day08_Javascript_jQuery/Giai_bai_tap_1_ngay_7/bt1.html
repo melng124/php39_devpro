@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BT1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+<div class="bt1 container">
+    <div class="wrap-content">
+        <h3>Bài tập cộng 2 số <br/>
+        </h3>
+        <form method="post" action="" enctype="multipart/form-data">
+            <h5 id="show-error">
+                <!--nơi show thông báo lỗi-->
+            </h5>
+            <div class="form-group">
+                <label for="number-a">Nhập số a </label>
+                <input type="text" class="form-control" id="number-a" aria-describedby="nameHelp"
+                       placeholder="" value="">
+
+            </div>
+            <div class="form-group">
+                <label for="number-b">Nhập số b </label>
+                <input type="text" class="form-control" id="number-b" aria-describedby="nameHelp"
+                       placeholder="" value="">
+
+            </div>
+            <a href="#" class="btn btn-success" onclick="return add()">Kết quả</a>
+            <p id="show-result">
+            </p>
+        </form>
+    </div>
+</div>
+</body>
+</html>

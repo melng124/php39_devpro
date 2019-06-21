@@ -1,0 +1,79 @@
+#p4{
+    /*height: 500px;*/
+   /*background-color: yellow;*/
+    /*background-image: url("/htmlcss/image.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+    /*background: red url("/htmlcss/image.jpg") no-repeat center;*/
+    /*background-size: 100px 100px;*/
+
+    font-family: "Adobe Devanagari";
+    font-style: italic;
+    font-size: 24px;
+    font-weight: bold;
+    /*font: Ari;*/
+}
+#a4{
+    /*background-color: yellow;*/
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: black;
+}
+
+#border {
+    border-style: dashed;
+    border-color: red;
+    border-radius: 5px;
+    border-width: 10px;
+}
+
+#margin2{
+    margin-top: 62px;
+    margin-bottom: 62px;
+    /*margin-: 62px;*/
+    /*color: red;*/
+    background: red;
+    padding-top: 50px;
+
+}
+
+#width-height{
+    width: 500px;
+    height: 500px;
+    background: yellow;
+}
+
+/*#width-height{*/
+    /*position: relative;*/
+/*}*/
+#position{
+    position: fixed;
+    top: 0;
+    background: red;
+
+    /*left:*/
+    /*right:*/
+    /*bottom:*/
+}
+
+@media(max-width: 768px) {
+    #position{
+        background: blue;
+    }
+}
+#float-1{
+    background: red;
+}
+#float-2{
+    background: yellow;
+}
+
+#float-1{
+    width: 50%;
+    float: right;
+}
+#float-2{
+    width: 50%;
+    float: right;
+}

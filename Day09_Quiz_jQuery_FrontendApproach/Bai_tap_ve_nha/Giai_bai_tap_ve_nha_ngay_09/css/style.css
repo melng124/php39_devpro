@@ -1,0 +1,20 @@
+@font-face {
+  src: url("../fonts/Lato-Black.ttf");
+  font-family: Lato-Black;
+}
+@font-face {
+  src: url("../fonts/Lato-Light.ttf");
+  font-family: Lato-Light;
+}
+@font-face {
+  src: url("../fonts/Lato-LightItalic.ttf");
+  font-family: Lato-LightItalic;
+}
+@font-face {
+  src: url("../fonts/Lato-Regular.ttf");
+  font-family: Lato-Regular;
+}
+@font-face {
+  src: url("../fonts/ReklameScript-Regular_DEMO.otf");
+  font-family: ReklameScript-Regular;
+}

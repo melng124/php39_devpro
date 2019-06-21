@@ -1,0 +1,35 @@
+.box-left,.box-right{
+	padding:0px 0px;
+	border: 1px solid #eee;
+}
+
+h1{
+	background-color: #dfe6e9;
+	border-bottom: 1px solid #eee;
+	margin: 0px;
+	padding: 20px;
+}
+
+.form-group{
+	padding: 0px 20px;
+}
+
+ul li{
+ 	list-style: none;
+ 	text-align: center;
+ 	padding: 13px 0px;
+ 	background-color: #0984e3;
+ 	margin-top: 5px;
+ 	color: #fff;
+ 	cursor: pointer;
+}
+
+ul{
+	padding: 0px 20px;
+}
+
+.error{
+	color: red;
+	font-style: italic;
+}
+

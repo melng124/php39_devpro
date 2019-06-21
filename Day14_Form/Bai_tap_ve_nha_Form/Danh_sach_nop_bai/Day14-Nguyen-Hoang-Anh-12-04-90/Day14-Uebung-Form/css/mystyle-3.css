@@ -1,0 +1,60 @@
+.container {
+    width: 60%;
+    margin: 20px auto;
+    background-color: #ddeedd;
+    padding: 20px;
+}
+
+#mid-1 {
+    position: relative;
+    top: 53px;
+}
+
+#mid-2 {
+    position: relative;
+    top: 25px;
+}
+
+input, textarea {
+    margin-bottom: 8px;
+}
+
+#button {
+    text-align: center;
+}
+
+#info {
+    text-align: center;
+}
+
+.notice {
+    color: red;
+}
+
+.result {
+    color: #0056b3;
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        margin: 0px auto;
+        background-color: #ddeedd;
+        padding: 5px;
+        text-align: center;
+    }
+
+    select {
+        margin-bottom: 10px;
+    }
+
+    #mid-1 {
+        position: relative;
+        top: 0px;
+    }
+
+    #mid-2 {
+        position: relative;
+        top: 0px;
+    }
+}

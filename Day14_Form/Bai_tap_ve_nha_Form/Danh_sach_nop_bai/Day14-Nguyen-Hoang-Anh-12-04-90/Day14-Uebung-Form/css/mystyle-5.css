@@ -1,0 +1,30 @@
+.container {
+    width: 70%;
+}
+
+#header {
+    border-bottom: 1px solid #b9bbbe;
+    margin-bottom: 20px;
+}
+
+#content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+.notice-lastname, .notice-password, .notice-confirm {
+    color: red;
+    margin-bottom: 10px;
+}
+
+#info {
+    text-align: center;
+}
+
+.result {
+    color: #007bff;
+}

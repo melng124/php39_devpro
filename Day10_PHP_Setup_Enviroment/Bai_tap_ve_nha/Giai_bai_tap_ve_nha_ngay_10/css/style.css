@@ -1,0 +1,19 @@
+.bt5 .btn{
+    margin-top: 10px;
+    background: #FF5722;
+}
+.bt5 .container{
+    background: #f1ebeb;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.bt5 .note{
+    margin-top: 10px;
+}
+.bt5 #show-error{
+    color: red;
+}
+.bt5 #show-result{
+    color: blue;
+}

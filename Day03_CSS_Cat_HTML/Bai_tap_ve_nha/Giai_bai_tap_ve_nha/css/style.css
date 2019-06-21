@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+@font-face {
+    font-family: 'QlassikBold_TB';
+    src: url("../fonts/QlassikBold_TB.ttf");
+}
+
+body{
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 80%;
+    margin: auto;
+}
+#header{
+    background: #d9e9ea;
+}
+.slogan-heading{
+    color: #3a6669;
+    font-family: 'QlassikBold_TB', sans-serif;
+    padding: 30px 0;
+}
+#main{
+    position: relative;
+}
+#main-top{
+    background: #523d30;
+    height: 180px;
+}
+#main-bottom{
+    background: #b1a38d;
+    min-height: 600px;
+}
+#main-content{
+    position: absolute;
+    top: 30px;
+    background: #fefae8;
+    right: 0;
+    left: 0;
+    padding: 20px;
+}
+.header-menu li{
+    display: inline-block;
+}

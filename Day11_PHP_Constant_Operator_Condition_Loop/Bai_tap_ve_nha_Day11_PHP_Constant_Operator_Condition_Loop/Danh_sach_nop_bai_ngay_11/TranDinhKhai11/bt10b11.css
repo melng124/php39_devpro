@@ -1,0 +1,8 @@
+tr>td{
+    width: 150px;
+    text-align: center;
+}
+.title>td{
+    color: red;
+    background: rgb(0, 238, 255);
+}
