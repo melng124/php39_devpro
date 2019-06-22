@@ -45,5 +45,7 @@ $_SESSION['cart'] = [
 //lệnh session_destroy sẽ unset tất cả các session hiện tại
 //sẽ được áp dụng với các nơi khác gọi nó
 //thường sử dụng với trường hợp logout khỏi hệ thống
-session_destroy();
+//session_destroy();
 print_r($_SESSION);
+
+header("Location: cookie.php");

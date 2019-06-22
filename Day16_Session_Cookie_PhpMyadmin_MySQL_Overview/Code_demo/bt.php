@@ -15,6 +15,7 @@ session_start();
 <?php
 if (isset($_COOKIE['username']) && isset($_COOKIE['password'])) {
     echo 'Đăng nhập thành công';
+    header("Location: session.php");
     return;
 }
 $success = '';
