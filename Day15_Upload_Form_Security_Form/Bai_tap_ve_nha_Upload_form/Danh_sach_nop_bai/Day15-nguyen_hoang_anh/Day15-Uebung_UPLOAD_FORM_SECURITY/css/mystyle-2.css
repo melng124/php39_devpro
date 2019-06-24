@@ -1,0 +1,12 @@
+form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #5a6268;
+    color: white;
+}
+
+#info {
+    color: #007bff !important;
+    text-align: center;
+}

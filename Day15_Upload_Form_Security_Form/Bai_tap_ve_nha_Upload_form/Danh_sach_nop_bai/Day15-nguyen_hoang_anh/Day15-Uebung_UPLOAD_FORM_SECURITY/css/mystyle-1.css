@@ -1,0 +1,14 @@
+form {
+    width: 70%;
+    background-color: #f8f9fa;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+p {
+    color: #c6c8ca;
+}
+
+#info {
+    text-align: center;
+}

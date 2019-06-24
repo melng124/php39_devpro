@@ -1,0 +1,27 @@
+.formb3{
+    padding: 70px 100px;
+    background: linear-gradient(to right top , #48819e, #10293f);
+}
+.ipb3{
+    background: #091a24;
+    color: white;
+    margin-bottom: 20px;
+}
+.p1{
+    color: white;
+    font-size: xx-large;
+}
+p{
+    color: white;
+}
+.btb3{
+    width: 100%;
+    margin-top:20px;
+}
+span{
+    color: white;
+}
+.file{
+    color: white;
+    margin-top:20px;
+}

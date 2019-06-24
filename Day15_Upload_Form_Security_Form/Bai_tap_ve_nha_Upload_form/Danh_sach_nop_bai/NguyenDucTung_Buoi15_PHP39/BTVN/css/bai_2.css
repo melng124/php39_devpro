@@ -1,0 +1,43 @@
+*{
+	padding: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+
+.main{
+	width: 600px;
+	margin: 30px auto;
+	padding: 20px;
+	background-color: #f5f6fa;
+}
+
+.myForm{
+	width: 100%;
+	padding: 5px 10px;
+	box-sizing: border-box;
+	/*margin-top: 5px;*/
+}
+
+span{
+	color: red;
+	font-style: italic;
+	margin-top: 5px;
+	display: block;
+	font-size: 12px;
+	margin-left: 5px;
+}
+
+button{
+	width: 100%;
+	text-align: center;
+	padding: 5px 0px;
+	margin-top: 10px;
+	/*border: 1px solid transparent;*/
+}
+
+.result{
+	width: 600px;
+	margin: 30px auto;
+	padding: 20px;
+	background-color: #f5f6fa;
+}

@@ -1,0 +1,22 @@
+*{
+	padding: 0px;
+	padding: 0px;
+}
+
+.main{
+	width: 600px;
+	margin: 30px auto;
+	padding: 10px;
+	background-color: #ecf0f1;
+}
+
+button{
+	padding: 6px 12px;
+	background-color: #3498db;
+	text-align: center;
+	border: 1px solid transparent;
+	font-size: 14px;
+	border-radius: 4px;
+	color: #fff;
+	cursor: pointer;
+}

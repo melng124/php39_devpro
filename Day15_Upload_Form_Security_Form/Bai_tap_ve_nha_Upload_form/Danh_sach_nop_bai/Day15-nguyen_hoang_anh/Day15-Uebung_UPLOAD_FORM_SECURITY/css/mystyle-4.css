@@ -1,0 +1,25 @@
+form {
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f4f4f5;
+    line-height: 1.75;
+}
+
+textarea {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+button {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#info {
+    text-align: center;
+    color: #007bff;
+}

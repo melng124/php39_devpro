@@ -1,0 +1,103 @@
+
+table{
+    border: 1px solid white;
+}
+.white{
+    color: white;
+}
+span{color: white;}
+.td1{
+    padding: 10px;
+    width: 200px;
+    text-align: right;
+    background: #a7d6f1;
+}
+.td2{
+    padding: 10px;
+    width: 500px;
+    background: #a7d6f1;
+}
+.td3{
+    padding: 20px;
+    text-align: center;
+    background: #95bee6;
+}
+.head{
+    padding: 20px;
+    text-align: center;
+    background: #95bee6;
+}
+.tableb3{
+    background: #ddeedd;
+}
+.td1b3{
+    text-align: right;
+    padding: 10px;
+}
+.td2b3{
+    padding: 10px 20px 10px 20px;
+}
+.ip1{
+    width: 350px;
+}
+#area{
+    margin-left: 60px;
+}
+
+.td3b3{
+    padding: 20px;
+    text-align: center;
+}
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+.td1b5{
+    text-align: right;
+    padding: 15px;
+
+}
+.td2b5{
+    width: 500px;
+    padding: 15px;
+}
+.mainb5{
+    width: 700px;
+    border: 1px solid #bdc3c7;
+}
+.headb5{
+    text-align: center;
+    border: 1px solid #bdc3c7; 
+}
+.tableb5{
+    border: 1px solid #bdc3c7;
+}
+.b6{
+    margin: 20px;
+    border: 1px solid #bdc3c7;
+}
+.headb6{
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #bdc3c7;
+}
+.formb6{
+    padding: 20px;
+}
+.formb7{
+    background: #dfdfdf;
+    padding: 30px;
+}
+.ipb7{
+    margin-bottom: 20px;
+}
+.b1b7{
+    width: 100%;
+}
+#masage{
+    height: 120px;
+}
+
