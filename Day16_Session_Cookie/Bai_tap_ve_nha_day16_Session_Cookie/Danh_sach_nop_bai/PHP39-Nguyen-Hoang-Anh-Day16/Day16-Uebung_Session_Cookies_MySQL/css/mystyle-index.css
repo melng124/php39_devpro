@@ -1,0 +1,11 @@
+form {
+    width: 30%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #7abaff;
+    line-height: 2.5;
+}
+
+#info {
+    text-align: center;
+}

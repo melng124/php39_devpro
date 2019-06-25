@@ -1,0 +1,16 @@
+#form{
+
+}
+.form1{
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0c5460;
+    text-align: center;
+}
+#user{
+    border-radius: 5px;
+}
+#pass{
+    border-radius: 5px;
+}
