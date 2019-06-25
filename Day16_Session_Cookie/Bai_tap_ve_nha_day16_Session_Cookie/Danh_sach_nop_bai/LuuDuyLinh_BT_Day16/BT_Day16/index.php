@@ -37,14 +37,14 @@ session_start();
 <?php
 
 if (isset($_COOKIE['username'])) {
-    header('Location:http://localhost/BT_Day16/Login.php');
+    header('Location:Login.php');
 }
 
 if (isset($_POST['submit'])) {
     $erorr = '';
     if ($_POST['user'] == 'admin' && $_POST['pass'] == '123456') {
         $_SESSION['user'] = $_POST['user'];
-        header('Location:http://localhost/BT_Day16/Login.php');
+        header('Location: Login.php');
         if ($_POST['check'] == 1) {
             setcookie('username', $_SESSION['user'], time() + 3600);
         }
