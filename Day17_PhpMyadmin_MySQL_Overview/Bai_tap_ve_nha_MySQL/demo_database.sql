@@ -43,8 +43,7 @@ CREATE TABLE `customers` (
   `salesRepEmployeeNumber` int(11) DEFAULT NULL,
   `creditLimit` decimal(10,2) DEFAULT NULL,
   PRIMARY KEY (`customerNumber`),
-  KEY `salesRepEmployeeNumber` (`salesRepEmployeeNumber`),
-  CONSTRAINT `customers_ibfk_1` FOREIGN KEY (`salesRepEmployeeNumber`) REFERENCES `employees` (`employeeNumber`)
+  KEY `salesRepEmployeeNumber` (`salesRepEmployeeNumber`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 /*Data for the table `customers` */
@@ -310,9 +309,7 @@ CREATE TABLE `employees` (
   `jobTitle` varchar(50) NOT NULL,
   PRIMARY KEY (`employeeNumber`),
   KEY `reportsTo` (`reportsTo`),
-  KEY `officeCode` (`officeCode`),
-  CONSTRAINT `employees_ibfk_1` FOREIGN KEY (`reportsTo`) REFERENCES `employees` (`employeeNumber`),
-  CONSTRAINT `employees_ibfk_2` FOREIGN KEY (`officeCode`) REFERENCES `offices` (`officeCode`)
+  KEY `officeCode` (`officeCode`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 /*Data for the table `employees` */
@@ -411,9 +408,7 @@ CREATE TABLE `orderdetails` (
   `priceEach` decimal(10,2) NOT NULL,
   `orderLineNumber` smallint(6) NOT NULL,
   PRIMARY KEY (`orderNumber`,`productCode`),
-  KEY `productCode` (`productCode`),
-  CONSTRAINT `orderdetails_ibfk_1` FOREIGN KEY (`orderNumber`) REFERENCES `orders` (`orderNumber`),
-  CONSTRAINT `orderdetails_ibfk_2` FOREIGN KEY (`productCode`) REFERENCES `products` (`productCode`)
+  KEY `productCode` (`productCode`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 /*Data for the table `orderdetails` */
@@ -6424,9 +6419,7 @@ CREATE TABLE `orders` (
   `status` varchar(15) NOT NULL,
   `comments` text,
   `customerNumber` int(11) NOT NULL,
-  PRIMARY KEY (`orderNumber`),
-  KEY `customerNumber` (`customerNumber`),
-  CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`customerNumber`) REFERENCES `customers` (`customerNumber`)
+  PRIMARY KEY (`orderNumber`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 /*Data for the table `orders` */
@@ -7094,8 +7087,7 @@ CREATE TABLE `payments` (
   `checkNumber` varchar(50) NOT NULL,
   `paymentDate` date NOT NULL,
   `amount` decimal(10,2) NOT NULL,
-  PRIMARY KEY (`customerNumber`,`checkNumber`),
-  CONSTRAINT `payments_ibfk_1` FOREIGN KEY (`customerNumber`) REFERENCES `customers` (`customerNumber`)
+  PRIMARY KEY (`customerNumber`,`checkNumber`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 /*Data for the table `payments` */
@@ -7693,8 +7685,7 @@ CREATE TABLE `products` (
   `buyPrice` decimal(10,2) NOT NULL,
   `MSRP` decimal(10,2) NOT NULL,
   PRIMARY KEY (`productCode`),
-  KEY `productLine` (`productLine`),
-  CONSTRAINT `products_ibfk_1` FOREIGN KEY (`productLine`) REFERENCES `productlines` (`productLine`)
+  KEY `productLine` (`productLine`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 /*Data for the table `products` */
